@@ -7,9 +7,31 @@ from django.views import generic
 
 from .models import Choice,Question
 
-def imag(request):
-    with open('/root/Django/khalid/polls/templates/polls/back.jpg','rb') as f:
-        return HttpResponse(f)
+def home(request):
+    return render(request,'polls/home.html',{})
+
+def media(request,media_id):
+    media_list=['/root/Django/khalid/polls/file/',media_id]
+    media_file=''.join(media_list)
+    with open(media_file,'rb') as med:
+        return HttpResponse(med,content_type="")
+
+def show(request,imag_id="back.jpg"):
+    imag=''.join(['http://106.15.179.96:8000/polls/media/',imag_id,'/'])
+    return render(request,'polls/show.html',{'imag':imag})
+
+def show2(request):
+    return render(request,'polls/show2.html')
+
+def show3(request):
+    return render(request,'polls/show3.html')
+
+def show4(request,imag_id="back.jpg"):
+    imag=''.join(['http://106.15.179.96:8000/polls/media/',imag_id,'/'])
+    return render(request,'polls/show4.html',{'imag':imag})
+
+def show5(request):
+    return render(request,'polls/show5.html',{})
 
 class IndexView(generic.ListView):
     template_name='polls/index.html'
@@ -25,9 +47,6 @@ class DetailView(generic.DetailView):
 class ResultsView(generic.DetailView):
     model=Question
     template_name='polls/results.html'
-
-def show(request):
-    return render(request,'polls/show.html',{'shabi':"shabi"})
 
 def vote(request,question_id):
     question=get_object_or_404(Question,pk=question_id)

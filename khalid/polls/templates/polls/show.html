@@ -1,29 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<style type="text/css">
+body {background-color:#66ffff}
+.cities{
+    background-color:black;
+    color:white;
+    margin:20px;
+    padding:20px;
+}
+.lost{
+    background-color:white;
+    color:blue;
+    margin:30px;
+    padding:30px;
+}
+span.red {color:red;}
+</style>
 <meta charset="UTF-8"><meta />
 <title>khalid</title>
 </head>
-<!-- head tab end-->
+<!-- head tab eand-->
 <!--body tag start-->
-<body style="background-color:#66ffff">
-<h1 style="font-family:verdana;color:red;text-align:center">khalid</h1>
+<body>
+<h1 style="font-family:verdana;color:red;text-align:center" class="top">khalid</h1>
 <hr size="1">
 <h2 style="font-family:arial">阅读量排行</h2>
 <p><pre style="font-size:20px"><b>关于"搭建这个网站的初衷，可能是无聊，可能是想搞点事情</b><br /><i>    看看能不能有什么发展</i></pre></p>
 <bdo dir="rtl">别顺着看</bdo>
 <blockquote cite="">一个可笑的网站，尽是落魄的灵魂</blockquote>
-<a href="http://www.google.com" target="_blank" name="tips">open your mind</a>
-or <a href="http://www.baidu.com" target="_blank">dangerous</a>
+<div class="cities">
+<a href="http://www.google.com" name="tips">open your mind</a>
+or <a href="http://www.baidu.com">dangerous</a>
 or <a href="#tips">go to google</a>
-or <a href="#1">top</a>
+or <a href="#top">top</a>
 <p><cite> The Khalid </cite>belongs to me</p>
 <address>
         Hey sb!<br />
         You're who i speak<br />
         Look at me<br />
 </address>
-<p>to open a file:<br /><kbd>open('file-diretory','mode') as f:<br /> TAB ...</kbd></p>
+</div>
+<div class="cities">
+<p class="lost"><span class="red">to open a file:</span><br /><kbd>open('file-diretory','mode') as f:<br /> TAB ...</kbd></p>
 <p>this is coomputer's output:<br/><samp>www.khalid.com<br />a great idea</samp></p>
 <p>
 code example:
@@ -34,12 +53,52 @@ var={
 }
 </pre></code>
 </p>
+/div>
 <!-- <pre>how did you work?</pre> -->
 <!--[if Chrome]>
 <code>is this different from pre</code>
 <![endif]-->
 <p><var>E</var> = <var>m</var> <var>c</var><sup>2</sup></p>
-<img src="http://106.15.179.96:8000/polls/imag" alt="无法显示图片" width="104" height="142" />
+<img src={{imag}} alt="无法显示图片" width="104" height="142" />
+<table border="1">
+        <tr>
+                <th>first line</th>
+                <th>second line</th>
+                <th>amazing</th>
+        </tr>
+        <tr>
+                <td>
+                <ul>
+                        <li>apple</li>
+                        <li>meizu</li>
+                        <li>xiaomi</li>
+                </ul>
+                </td>
+                <td>row1,cell2</td>
+                <td>lock</td>
+        </tr>
+        <tr>
+                <td>row2,cell1</td>
+                <td>row2,cell2</td>
+                <td>row2,cell3</td>
+        </tr>
+</table>
+<table frame="box">
+        <caption>On Sale</caption>
+        <tr>
+                <th>$2.50</th>
+                <th>/mo</th>
+        </tr>
+        <tr>
+                <td>$0.004</td>
+                <td>/h</td>
+        </tr>
+</table>
+<dl>
+        <dt>coffee</dt>
+        <dd>just for zhuanbi</dd>
+        <dt>666</dt>
+</dl>
 </body>
-<!-- 图片暂时无法显示 -->
+<!-- body部分结束 -->
 </html>

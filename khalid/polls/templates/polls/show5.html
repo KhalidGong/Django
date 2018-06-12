@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en" manifest="show5.appcache">
+<head>
+        <meta charset="UTF-8">
+        <title>棕帽子</title>
+               <script>
+                       function clickcounter(){
+                               if(typeof(Storage)!=="undefined"){
+                                       if(localStorage.clickcount){
+                                       localStorage.clickcount=Number(localStorage.clickcount)+1;
+                                       }
+                                       else {
+                                       localStorage.clickcount=1;
+                                       }
+                                       document.getElementById("result").innerHTML="您已点击"+localStorage.clickcount+"次。";
+                               }
+                               else{
+                               documtn.getElementById("result").innerHTML="抱歉，您的浏览器不支持localStorage";
+                               }
+                       } 
+               </script>
+</head>
+<body>
+       <div>
+               <a href="http://106.15.179.96:8000/polls/home/">ZMZ</a>
+               <svg xmlns="http://106.15.179.96:8000/polls/media/back.jpg/" version="1.1" height="190" >
+                       <polygon points="100,10 40,180,190,60 10,60 160,180"
+                       sytle="fill:lime;stroke:purple;stroke-width:5;fill-rule:evenodd;">
+               </svg>
+               <canvas id="logo" width="300" height="200" sytle="border: 1px solid #c3c3c3;"></canvas>
+               <button>denglu/zhuce/touxiang</button>
+               <script type="text/javascript">
+                        var c=document.getElementById("logo");
+                        var cxt=c.getContext("2d"); 
+                        var img=new Image()
+                        img.src="http://106.15.179.96:8000/polls/media/back.jpg/"
+                        cxt.drawImage(img,0,0);
+               </script>
+       </div>
+       <div>
+               <audio controls="controls"> 
+                       <source src="http://106.15.179.96:8000/polls/media/qifengle.mp3/" type="audio/mp3" />
+                       <source src="http://106.15.179.96:8000/polls/media/qifengle.mp3/" type="audio/ogg" />
+                       your browser does not support the audio element.
+               </audio>
+               <video width="300" height="300" controls="controls">
+               <source src="http://106.15.179.96:8000/polls/media/movie.ogg/" type="video/ogg"></source>
+               </video>
+       </div>
+               <canvas id="avatar" width="200" height="100" style="border: 1px solid #c3c3c3;">your brosert does not support canvas</canvas>
+               <script type="text/javascript">
+                        var c=document.getElementById("avatar");
+                        var cxt=c.getContext("2d"); 
+                        cxt.fillStyle="#000000";
+                        cxt.beginPath();
+                        cxt.arc(70,18,15,0,Math.PI*2,true);
+                        cxt.closePath();
+                        cxt.fill();
+               </script>
+               <p><button onclick="clickcounter()" type="button">请点击！</button></p>
+               <div id="result"></div>
+               <p>点击计数</p>
+               <footer>
+               <p>Design by Khalid</p>
+               <p>Contact Me: khalidgong@outlook.com</p>
+               </footer>
+</body>
+</html>
