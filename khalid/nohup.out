@@ -8254,3 +8254,955 @@ Invalid HTTP_HOST header: 'www.baidu.com'. You may need to add 'www.baidu.com' t
 [12/Jun/2018 17:48:04] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 400 59039
 Invalid HTTP_HOST header: 'www.baidu.com'. You may need to add 'www.baidu.com' to ALLOWED_HOSTS.
 [12/Jun/2018 19:26:54] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 400 59038
+Invalid HTTP_HOST header: '47.93.62.206:8000'. You may need to add '47.93.62.206' to ALLOWED_HOSTS.
+[13/Jun/2018 01:10:05] "GET / HTTP/1.1" 400 58576
+Invalid HTTP_HOST header: 'www.baidu.com'. You may need to add 'www.baidu.com' to ALLOWED_HOSTS.
+[13/Jun/2018 03:06:14] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 400 59039
+Invalid HTTP_HOST header: '47.89.6.25:8000'. You may need to add '47.89.6.25' to ALLOWED_HOSTS.
+[13/Jun/2018 08:57:23] "GET / HTTP/1.1" 400 58542
+Invalid HTTP_HOST header: 'www.baidu.com'. You may need to add 'www.baidu.com' to ALLOWED_HOSTS.
+[13/Jun/2018 12:06:12] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 400 59039
+Invalid HTTP_HOST header: '47.89.6.182:8000'. You may need to add '47.89.6.182' to ALLOWED_HOSTS.
+[13/Jun/2018 16:58:17] "GET / HTTP/1.1" 400 58557
+Invalid HTTP_HOST header: 'iZuf6640ra8ceyqgctyqibZ:8000'. You may need to add 'izuf6640ra8ceyqgctyqibz' to ALLOWED_HOSTS.
+[13/Jun/2018 17:19:58] "GET / HTTP/1.0" 400 58330
+Invalid HTTP_HOST header: 'www.baidu.com'. You may need to add 'www.baidu.com' to ALLOWED_HOSTS.
+[13/Jun/2018 17:25:13] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 400 59038
+[13/Jun/2018 19:40:51] "GET /polls/ HTTP/1.1" 200 144
+Not Found: /favicon.ico
+[13/Jun/2018 19:40:51] "GET /favicon.ico HTTP/1.1" 404 2082
+----------------------------------------
+Exception happened during processing of request from ('188.138.125.155', 41464)
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/socketserver.py", line 639, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/local/lib/python3.6/socketserver.py", line 361, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/local/lib/python3.6/socketserver.py", line 696, in __init__
+    self.handle()
+  File "/usr/local/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 139, in handle
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/local/lib/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+[13/Jun/2018 21:15:12] code 400, message Bad request syntax ('\x00\x00\x00TZ\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x10\x04\x01.\x05\x00\x00\x00\x00\x81I¨À\x00\x0c)\x83z»\x01\x00zÚf\x00\x8d\x16Ò~\x9dU\x05ñ\x1fi»©\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00ÃÐ¢|¦v½ó\x1eOÑËÜ®Ëd')
+[13/Jun/2018 21:15:12] "   TZ         .    I¨À )z» zÚf Ò~Uñi»©                ÃÐ¢|¦v½óOÑËÜ®Ëd" 400 -
+Invalid HTTP_HOST header: 'www.baidu.com'. You may need to add 'www.baidu.com' to ALLOWED_HOSTS.
+[13/Jun/2018 21:24:25] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 400 59039
+Invalid HTTP_HOST header: '47.90.61.32:8000'. You may need to add '47.90.61.32' to ALLOWED_HOSTS.
+[14/Jun/2018 01:00:47] "GET / HTTP/1.1" 400 58557
+Not Found: /manager/html
+[14/Jun/2018 02:40:15] "GET /manager/html HTTP/1.1" 404 2085
+[14/Jun/2018 02:40:15] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00A\x01\x00\x00=\x03\x01[!e\x19\x81;rûØgÌ>\x10¶ÿË¼ÐæÀ"\x7f<\x978ÇÈ©½')
+[14/Jun/2018 02:40:15] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[14/Jun/2018 02:40:15] code 400, message Bad request syntax ('\x16\x03\x01\x00A\x01\x00\x00=\x03\x01[!e\x1aïß£\x12\x06ÔêfAÛ\x02ä@£Çg\x11ßµ#\x8dw\x94ÖÌìý¯\x00\x00\x16\x00\x04\x00\x05\x00')
+[14/Jun/2018 02:40:15] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+Invalid HTTP_HOST header: 'iZuf6640ra8ceyqgctyqibZ:8000'. You may need to add 'izuf6640ra8ceyqgctyqibz' to ALLOWED_HOSTS.
+[14/Jun/2018 03:50:26] "GET / HTTP/1.0" 400 58334
+Invalid HTTP_HOST header: 'iZuf6640ra8ceyqgctyqibZ:8000'. You may need to add 'izuf6640ra8ceyqgctyqibz' to ALLOWED_HOSTS.
+[14/Jun/2018 06:20:31] "GET / HTTP/1.0" 400 58332
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/wsgiref/handlers.py", line 138, in run
+    self.finish_response()
+  File "/usr/local/lib/python3.6/wsgiref/handlers.py", line 180, in finish_response
+    self.write(data)
+  File "/usr/local/lib/python3.6/wsgiref/handlers.py", line 279, in write
+    self._write(data)
+  File "/usr/local/lib/python3.6/wsgiref/handlers.py", line 453, in _write
+    result = self.stdout.write(data)
+  File "/usr/local/lib/python3.6/socketserver.py", line 775, in write
+    self._sock.sendall(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+[14/Jun/2018 06:20:31] "GET / HTTP/1.0" 500 59
+----------------------------------------
+Exception happened during processing of request from ('86.120.54.211', 42294)
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/wsgiref/handlers.py", line 138, in run
+    self.finish_response()
+  File "/usr/local/lib/python3.6/wsgiref/handlers.py", line 180, in finish_response
+    self.write(data)
+  File "/usr/local/lib/python3.6/wsgiref/handlers.py", line 279, in write
+    self._write(data)
+  File "/usr/local/lib/python3.6/wsgiref/handlers.py", line 453, in _write
+    result = self.stdout.write(data)
+  File "/usr/local/lib/python3.6/socketserver.py", line 775, in write
+    self._sock.sendall(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/wsgiref/handlers.py", line 141, in run
+    self.handle_error()
+  File "/usr/local/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 86, in handle_error
+    super().handle_error()
+  File "/usr/local/lib/python3.6/wsgiref/handlers.py", line 368, in handle_error
+    self.finish_response()
+  File "/usr/local/lib/python3.6/wsgiref/handlers.py", line 180, in finish_response
+    self.write(data)
+  File "/usr/local/lib/python3.6/wsgiref/handlers.py", line 274, in write
+    self.send_headers()
+  File "/usr/local/lib/python3.6/wsgiref/handlers.py", line 331, in send_headers
+    if not self.origin_server or self.client_is_modern():
+  File "/usr/local/lib/python3.6/wsgiref/handlers.py", line 344, in client_is_modern
+    return self.environ['SERVER_PROTOCOL'].upper() != 'HTTP/0.9'
+TypeError: 'NoneType' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/socketserver.py", line 639, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/local/lib/python3.6/socketserver.py", line 361, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/local/lib/python3.6/socketserver.py", line 696, in __init__
+    self.handle()
+  File "/usr/local/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 154, in handle
+    handler.run(self.server.get_app())
+  File "/usr/local/lib/python3.6/wsgiref/handlers.py", line 144, in run
+    self.close()
+  File "/usr/local/lib/python3.6/wsgiref/simple_server.py", line 35, in close
+    self.status.split(' ',1)[0], self.bytes_sent
+AttributeError: 'NoneType' object has no attribute 'split'
+----------------------------------------
+Invalid HTTP_HOST header: 'www.baidu.com'. You may need to add 'www.baidu.com' to ALLOWED_HOSTS.
+[14/Jun/2018 06:41:25] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 400 59039
+Invalid HTTP_HOST header: 'iZuf6640ra8ceyqgctyqibZ:8000'. You may need to add 'izuf6640ra8ceyqgctyqibz' to ALLOWED_HOSTS.
+[14/Jun/2018 07:45:42] "HEAD / HTTP/1.0" 400 58339
+Invalid HTTP_HOST header: '47.89.6.152:8000'. You may need to add '47.89.6.152' to ALLOWED_HOSTS.
+[14/Jun/2018 08:55:19] "GET / HTTP/1.1" 400 58557
+Invalid HTTP_HOST header: 'iZuf6640ra8ceyqgctyqibZ:8000'. You may need to add 'izuf6640ra8ceyqgctyqibz' to ALLOWED_HOSTS.
+[14/Jun/2018 09:20:10] "HEAD / HTTP/1.0" 400 58337
+Invalid HTTP_HOST header: 'iZuf6640ra8ceyqgctyqibZ:8000'. You may need to add 'izuf6640ra8ceyqgctyqibz' to ALLOWED_HOSTS.
+[14/Jun/2018 09:37:30] "HEAD / HTTP/1.0" 400 58340
+[14/Jun/2018 10:54:35] "GET /polls/home/ HTTP/1.1" 200 138
+Not Found: /favicon.ico
+[14/Jun/2018 10:54:35] "GET /favicon.ico HTTP/1.1" 404 2082
+[14/Jun/2018 11:00:05] "GET /polls/home/ HTTP/1.1" 200 198
+[14/Jun/2018 11:25:40] "GET /polls/home/ HTTP/1.1" 200 192
+Not Found: /polls/media/
+[14/Jun/2018 11:28:00] "GET /polls/media/ HTTP/1.1" 404 3940
+Internal Server Error: /polls/media/badkground.jpb/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/root/Django/khalid/polls/views.py", line 16, in media
+    with open(media_file,'rb') as med:
+FileNotFoundError: [Errno 2] No such file or directory: '/root/Django/khalid/polls/file/badkground.jpb'
+[14/Jun/2018 11:28:12] "GET /polls/media/badkground.jpb/ HTTP/1.1" 500 63217
+Internal Server Error: /polls/media/badkground.jpg/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/root/Django/khalid/polls/views.py", line 16, in media
+    with open(media_file,'rb') as med:
+FileNotFoundError: [Errno 2] No such file or directory: '/root/Django/khalid/polls/file/badkground.jpg'
+[14/Jun/2018 11:28:15] "GET /polls/media/badkground.jpg/ HTTP/1.1" 500 63217
+Internal Server Error: /polls/media/background.jpg/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/root/Django/khalid/polls/views.py", line 16, in media
+    with open(media_file,'rb') as med:
+FileNotFoundError: [Errno 2] No such file or directory: '/root/Django/khalid/polls/file/background.jpg'
+[14/Jun/2018 11:28:27] "GET /polls/media/background.jpg/ HTTP/1.1" 500 63217
+[14/Jun/2018 11:29:34] "GET /polls/media/back.jpg/ HTTP/1.1" 200 127569
+[14/Jun/2018 11:30:16] "GET /polls/media/back2.jpg/ HTTP/1.1" 200 9482
+[14/Jun/2018 11:31:35] "GET /polls/media/back.jpg/ HTTP/1.1" 200 127569
+[14/Jun/2018 11:32:03] "GET /polls/home HTTP/1.1" 301 0
+[14/Jun/2018 11:32:03] "GET /polls/home/ HTTP/1.1" 200 316
+[14/Jun/2018 11:32:53] "GET /polls/home/ HTTP/1.1" 200 321
+[14/Jun/2018 11:33:25] "GET /polls/home/ HTTP/1.1" 200 314
+Internal Server Error: /polls/media/back,jpg/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/root/Django/khalid/polls/views.py", line 16, in media
+    with open(media_file,'rb') as med:
+FileNotFoundError: [Errno 2] No such file or directory: '/root/Django/khalid/polls/file/back,jpg'
+[14/Jun/2018 11:33:25] "GET /polls/media/back,jpg/ HTTP/1.1" 500 63063
+[14/Jun/2018 11:33:52] "GET /polls/home/ HTTP/1.1" 200 314
+[14/Jun/2018 11:33:52] "GET /polls/media/back.jpg/ HTTP/1.1" 200 127569
+Invalid HTTP_HOST header: 'iZuf6640ra8ceyqgctyqibZ:8000'. You may need to add 'izuf6640ra8ceyqgctyqibz' to ALLOWED_HOSTS.
+[14/Jun/2018 11:36:46] "HEAD / HTTP/1.0" 400 58339
+[14/Jun/2018 11:40:26] "GET /polls/home/ HTTP/1.1" 200 335
+[14/Jun/2018 11:40:26] "GET /polls/media/back.jpg/ HTTP/1.1" 200 127569
+Invalid HTTP_HOST header: 'iZuf6640ra8ceyqgctyqibZ:8000'. You may need to add 'izuf6640ra8ceyqgctyqibz' to ALLOWED_HOSTS.
+[14/Jun/2018 11:45:21] "HEAD / HTTP/1.0" 400 58340
+[14/Jun/2018 11:48:07] "GET /polls/home/ HTTP/1.1" 200 549
+[14/Jun/2018 11:48:08] "GET /polls/media/back.jpg/ HTTP/1.1" 200 127569
+[14/Jun/2018 11:48:28] "GET /polls/media/back.jpg/ HTTP/1.1" 200 127569
+[14/Jun/2018 11:49:10] "GET /polls/home/ HTTP/1.1" 200 603
+[14/Jun/2018 11:49:10] "GET /polls/media/back.jpg/ HTTP/1.1" 200 127569
+[14/Jun/2018 11:52:21] "GET /polls/home/ HTTP/1.1" 200 621
+[14/Jun/2018 11:52:21] "GET /polls/media/back.jpg/ HTTP/1.1" 200 127569
+[14/Jun/2018 11:54:34] "GET /polls/home/ HTTP/1.1" 200 693
+[14/Jun/2018 11:54:39] "GET /polls/media/back.jpg/ HTTP/1.1" 200 127569
+Invalid HTTP_HOST header: 'iZuf6640ra8ceyqgctyqibZ:8000'. You may need to add 'izuf6640ra8ceyqgctyqibz' to ALLOWED_HOSTS.
+[14/Jun/2018 12:00:08] "HEAD / HTTP/1.0" 400 58341
+Invalid HTTP_HOST header: 'iZuf6640ra8ceyqgctyqibZ:8000'. You may need to add 'izuf6640ra8ceyqgctyqibz' to ALLOWED_HOSTS.
+[14/Jun/2018 12:03:32] "HEAD / HTTP/1.0" 400 58338
+Invalid HTTP_HOST header: 'iZuf6640ra8ceyqgctyqibZ:8000'. You may need to add 'izuf6640ra8ceyqgctyqibz' to ALLOWED_HOSTS.
+[14/Jun/2018 12:27:06] "HEAD / HTTP/1.0" 400 58339
+Invalid HTTP_HOST header: 'iZuf6640ra8ceyqgctyqibZ:8000'. You may need to add 'izuf6640ra8ceyqgctyqibz' to ALLOWED_HOSTS.
+[14/Jun/2018 12:49:06] "HEAD / HTTP/1.0" 400 58340
+Invalid HTTP_HOST header: 'iZuf6640ra8ceyqgctyqibZ:8000'. You may need to add 'izuf6640ra8ceyqgctyqibz' to ALLOWED_HOSTS.
+[14/Jun/2018 13:19:24] "HEAD / HTTP/1.0" 400 58341
+[14/Jun/2018 13:26:43] "GET /polls/home/ HTTP/1.1" 200 740
+[14/Jun/2018 13:26:43] "GET /polls/media/back.jpg/ HTTP/1.1" 200 127569
+[14/Jun/2018 13:26:45] "GET /polls/home/ HTTP/1.1" 200 740
+[14/Jun/2018 13:26:45] "GET /polls/media/back.jpg/ HTTP/1.1" 200 127569
+[14/Jun/2018 13:26:45] "GET /polls/home/ HTTP/1.1" 200 740
+[14/Jun/2018 13:26:45] "GET /polls/media/back.jpg/ HTTP/1.1" 200 127569
+[14/Jun/2018 13:26:47] "GET /polls/home/ HTTP/1.1" 200 740
+[14/Jun/2018 13:26:47] "GET /polls/media/back.jpg/ HTTP/1.1" 200 127569
+[14/Jun/2018 13:26:47] "GET /polls/home/ HTTP/1.1" 200 740
+[14/Jun/2018 13:26:47] "GET /polls/media/back.jpg/ HTTP/1.1" 200 127569
+[14/Jun/2018 13:26:48] "GET /polls/home/ HTTP/1.1" 200 740
+[14/Jun/2018 13:26:48] "GET /polls/media/back.jpg/ HTTP/1.1" 200 127569
+Invalid HTTP_HOST header: 'iZuf6640ra8ceyqgctyqibZ:8000'. You may need to add 'izuf6640ra8ceyqgctyqibz' to ALLOWED_HOSTS.
+[14/Jun/2018 13:28:48] "HEAD / HTTP/1.0" 400 58340
+Invalid HTTP_HOST header: 'iZuf6640ra8ceyqgctyqibZ:8000'. You may need to add 'izuf6640ra8ceyqgctyqibz' to ALLOWED_HOSTS.
+[14/Jun/2018 13:46:44] "HEAD / HTTP/1.0" 400 58340
+[14/Jun/2018 13:51:09] "GET /polls/home/ HTTP/1.1" 200 925
+[14/Jun/2018 13:51:09] "GET /polls/media/back.jpg/ HTTP/1.1" 200 127569
+[14/Jun/2018 14:04:31] "GET /polls/home/ HTTP/1.1" 200 985
+[14/Jun/2018 14:04:31] "GET /polls/media/back.jpg/ HTTP/1.1" 200 127569
+[14/Jun/2018 14:07:41] "GET /polls/home/ HTTP/1.1" 200 983
+[14/Jun/2018 14:07:41] "GET /polls/media/back.jpg/ HTTP/1.1" 200 127569
+[14/Jun/2018 14:08:20] "GET /polls/home/?searchtext=23423 HTTP/1.1" 200 983
+[14/Jun/2018 14:08:21] "GET /polls/media/back.jpg/ HTTP/1.1" 200 127569
+[14/Jun/2018 14:09:11] "GET /polls/home/?searchtext=23423 HTTP/1.1" 200 1081
+[14/Jun/2018 14:09:11] "GET /polls/media/back.jpg/ HTTP/1.1" 200 127569
+[14/Jun/2018 14:09:32] "GET /polls/home/?searchtext=23423 HTTP/1.1" 200 1087
+[14/Jun/2018 14:09:32] "GET /polls/media/back.jpg/ HTTP/1.1" 200 127569
+[14/Jun/2018 14:10:32] "GET /polls/home/?searchtext=2423234&searchtext=4234423234 HTTP/1.1" 200 1087
+[14/Jun/2018 14:10:32] "GET /polls/media/back.jpg/ HTTP/1.1" 200 127569
+[14/Jun/2018 14:11:00] "GET /polls/home/?searchtext=%E5%8F%AF%E7%9C%8B%E5%88%B0&searchtext=123 HTTP/1.1" 200 1087
+[14/Jun/2018 14:11:00] "GET /polls/media/back.jpg/ HTTP/1.1" 200 127569
+[14/Jun/2018 14:11:23] "GET /polls/home/?searchtext=%E5%8F%AF%E7%9C%8B%E5%88%B0&searchtext=123 HTTP/1.1" 200 985
+[14/Jun/2018 14:11:23] "GET /polls/media/back.jpg/ HTTP/1.1" 200 127569
+[14/Jun/2018 14:11:45] "GET /polls/home/?searchtext=%E5%8F%AF%E7%9C%8B%E5%88%B0&searchtext=123 HTTP/1.1" 200 985
+[14/Jun/2018 14:11:45] "GET /polls/media/back.jpg/ HTTP/1.1" 200 127569
+Invalid HTTP_HOST header: 'iZuf6640ra8ceyqgctyqibZ:8000'. You may need to add 'izuf6640ra8ceyqgctyqibz' to ALLOWED_HOSTS.
+[14/Jun/2018 14:14:08] "HEAD / HTTP/1.0" 400 58341
+Invalid HTTP_HOST header: 'iZuf6640ra8ceyqgctyqibZ:8000'. You may need to add 'izuf6640ra8ceyqgctyqibz' to ALLOWED_HOSTS.
+[14/Jun/2018 14:14:10] "HEAD / HTTP/1.0" 400 58341
+[14/Jun/2018 14:16:57] "GET /polls/home/?searchtext=%E5%8F%AF%E7%9C%8B%E5%88%B0&searchtext=123 HTTP/1.1" 200 1064
+[14/Jun/2018 14:16:58] "GET /polls/media/back.jpg/ HTTP/1.1" 200 127569
+[14/Jun/2018 14:17:01] "GET /polls/home/?searchtext=%E5%8F%AF%E7%9C%8B%E5%88%B0&searchtext=123 HTTP/1.1" 200 1064
+[14/Jun/2018 14:17:01] "GET /polls/media/back.jpg/ HTTP/1.1" 200 127569
+[14/Jun/2018 14:20:57] "GET /polls/home/?searchtext=%E5%8F%AF%E7%9C%8B%E5%88%B0&searchtext=123 HTTP/1.1" 200 1096
+[14/Jun/2018 14:20:57] "GET /polls/media/back.jpg/ HTTP/1.1" 200 127569
+[14/Jun/2018 14:23:30] "GET /polls/home/?searchtext=%E5%8F%AF%E7%9C%8B%E5%88%B0&searchtext=123 HTTP/1.1" 200 1148
+[14/Jun/2018 14:23:30] "GET /polls/media/back.jpg/ HTTP/1.1" 200 127569
+[14/Jun/2018 14:25:45] "GET /polls/home/?searchtext=%E5%8F%AF%E7%9C%8B%E5%88%B0&searchtext=123 HTTP/1.1" 200 1276
+[14/Jun/2018 14:25:45] "GET /polls/media/back.jpg/ HTTP/1.1" 200 127569
+[14/Jun/2018 14:26:57] "GET /polls/home/?searchtext=%E5%8F%AF%E7%9C%8B%E5%88%B0&searchtext=123 HTTP/1.1" 200 1323
+Internal Server Error: /polls/media/back,jpg/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/root/Django/khalid/polls/views.py", line 16, in media
+    with open(media_file,'rb') as med:
+FileNotFoundError: [Errno 2] No such file or directory: '/root/Django/khalid/polls/file/back,jpg'
+[14/Jun/2018 14:26:58] "GET /polls/media/back.jpg/ HTTP/1.1" 200 127569
+[14/Jun/2018 14:26:58] "GET /polls/media/back,jpg/ HTTP/1.1" 500 63121
+[14/Jun/2018 14:27:12] "GET /polls/home/?searchtext=%E5%8F%AF%E7%9C%8B%E5%88%B0&searchtext=123 HTTP/1.1" 200 1323
+[14/Jun/2018 14:27:12] "GET /polls/media/back.jpg/ HTTP/1.1" 200 127569
+[14/Jun/2018 14:27:36] "GET /polls/home/?searchtext=%E5%8F%AF%E7%9C%8B%E5%88%B0&searchtext=123 HTTP/1.1" 200 1346
+[14/Jun/2018 14:27:36] "GET /polls/media/back.jpg/ HTTP/1.1" 200 127569
+[14/Jun/2018 14:27:37] "GET /polls/home/?searchtext=%E5%8F%AF%E7%9C%8B%E5%88%B0&searchtext=123 HTTP/1.1" 200 1346
+[14/Jun/2018 14:27:37] "GET /polls/media/back.jpg/ HTTP/1.1" 200 127569
+Invalid HTTP_HOST header: 'iZuf6640ra8ceyqgctyqibZ:8000'. You may need to add 'izuf6640ra8ceyqgctyqibz' to ALLOWED_HOSTS.
+[14/Jun/2018 14:27:49] "HEAD / HTTP/1.0" 400 58338
+[14/Jun/2018 14:31:56] "GET /polls/home/?searchtext=%E5%8F%AF%E7%9C%8B%E5%88%B0&searchtext=123 HTTP/1.1" 200 1435
+[14/Jun/2018 14:31:56] "GET /polls/media/back.jpg/ HTTP/1.1" 200 127569
+Invalid HTTP_HOST header: 'iZuf6640ra8ceyqgctyqibZ:8000'. You may need to add 'izuf6640ra8ceyqgctyqibz' to ALLOWED_HOSTS.
+[14/Jun/2018 14:52:05] "HEAD / HTTP/1.0" 400 58340
+Invalid HTTP_HOST header: 'iZuf6640ra8ceyqgctyqibZ:8000'. You may need to add 'izuf6640ra8ceyqgctyqibz' to ALLOWED_HOSTS.
+[14/Jun/2018 14:52:22] "HEAD / HTTP/1.0" 400 58340
+Invalid HTTP_HOST header: 'iZuf6640ra8ceyqgctyqibZ:8000'. You may need to add 'izuf6640ra8ceyqgctyqibz' to ALLOWED_HOSTS.
+[14/Jun/2018 14:53:04] "HEAD / HTTP/1.0" 400 58337
+Invalid HTTP_HOST header: 'iZuf6640ra8ceyqgctyqibZ:8000'. You may need to add 'izuf6640ra8ceyqgctyqibz' to ALLOWED_HOSTS.
+[14/Jun/2018 14:53:29] "HEAD / HTTP/1.0" 400 58340
+Invalid HTTP_HOST header: 'www.baidu.com'. You may need to add 'www.baidu.com' to ALLOWED_HOSTS.
+[14/Jun/2018 14:55:16] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 400 59038
+Invalid HTTP_HOST header: 'iZuf6640ra8ceyqgctyqibZ:8000'. You may need to add 'izuf6640ra8ceyqgctyqibz' to ALLOWED_HOSTS.
+[14/Jun/2018 15:11:03] "HEAD / HTTP/1.0" 400 58340
+Invalid HTTP_HOST header: 'iZuf6640ra8ceyqgctyqibZ:8000'. You may need to add 'izuf6640ra8ceyqgctyqibz' to ALLOWED_HOSTS.
+[14/Jun/2018 15:28:36] "HEAD / HTTP/1.0" 400 58341
+Invalid HTTP_HOST header: 'iZuf6640ra8ceyqgctyqibZ:8000'. You may need to add 'izuf6640ra8ceyqgctyqibz' to ALLOWED_HOSTS.
+[14/Jun/2018 15:41:19] "HEAD / HTTP/1.0" 400 58339
+Invalid HTTP_HOST header: 'iZuf6640ra8ceyqgctyqibZ:8000'. You may need to add 'izuf6640ra8ceyqgctyqibz' to ALLOWED_HOSTS.
+[14/Jun/2018 15:49:00] "HEAD / HTTP/1.0" 400 58340
+Invalid HTTP_HOST header: 'iZuf6640ra8ceyqgctyqibZ:8000'. You may need to add 'izuf6640ra8ceyqgctyqibz' to ALLOWED_HOSTS.
+[14/Jun/2018 15:50:39] "HEAD / HTTP/1.0" 400 58341
+Invalid HTTP_HOST header: 'iZuf6640ra8ceyqgctyqibZ:8000'. You may need to add 'izuf6640ra8ceyqgctyqibz' to ALLOWED_HOSTS.
+[14/Jun/2018 15:58:39] "HEAD / HTTP/1.0" 400 58341
+Invalid HTTP_HOST header: 'www.baidu.com'. You may need to add 'www.baidu.com' to ALLOWED_HOSTS.
+[14/Jun/2018 16:00:04] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 400 59039
+Invalid HTTP_HOST header: 'iZuf6640ra8ceyqgctyqibZ:8000'. You may need to add 'izuf6640ra8ceyqgctyqibz' to ALLOWED_HOSTS.
+[14/Jun/2018 16:05:45] "HEAD / HTTP/1.0" 400 58339
+Invalid HTTP_HOST header: 'iZuf6640ra8ceyqgctyqibZ:8000'. You may need to add 'izuf6640ra8ceyqgctyqibz' to ALLOWED_HOSTS.
+[14/Jun/2018 16:07:52] "HEAD / HTTP/1.0" 400 58339
+Invalid HTTP_HOST header: 'iZuf6640ra8ceyqgctyqibZ:8000'. You may need to add 'izuf6640ra8ceyqgctyqibz' to ALLOWED_HOSTS.
+[14/Jun/2018 16:08:26] "HEAD / HTTP/1.0" 400 58340
+Invalid HTTP_HOST header: 'iZuf6640ra8ceyqgctyqibZ:8000'. You may need to add 'izuf6640ra8ceyqgctyqibz' to ALLOWED_HOSTS.
+[14/Jun/2018 16:17:36] "HEAD / HTTP/1.0" 400 58340
+Invalid HTTP_HOST header: 'iZuf6640ra8ceyqgctyqibZ:8000'. You may need to add 'izuf6640ra8ceyqgctyqibz' to ALLOWED_HOSTS.
+[14/Jun/2018 16:31:37] "HEAD / HTTP/1.0" 400 58339
+[14/Jun/2018 16:45:24] "GET /polls/home/ HTTP/1.1" 200 1435
+[14/Jun/2018 16:45:24] "GET /polls/media/back.jpg/ HTTP/1.1" 200 127569
+Invalid HTTP_HOST header: 'iZuf6640ra8ceyqgctyqibZ:8000'. You may need to add 'izuf6640ra8ceyqgctyqibz' to ALLOWED_HOSTS.
+Invalid HTTP_HOST header: 'iZuf6640ra8ceyqgctyqibZ:8000'. You may need to add 'izuf6640ra8ceyqgctyqibz' to ALLOWED_HOSTS.
+[14/Jun/2018 16:45:30] "HEAD / HTTP/1.0" 400 58341
+[14/Jun/2018 16:45:30] "HEAD / HTTP/1.0" 400 58341
+Invalid HTTP_HOST header: 'iZuf6640ra8ceyqgctyqibZ:8000'. You may need to add 'izuf6640ra8ceyqgctyqibz' to ALLOWED_HOSTS.
+[14/Jun/2018 16:45:33] "HEAD / HTTP/1.0" 400 58341
+[14/Jun/2018 16:53:10] "GET /polls/home/ HTTP/1.1" 200 1854
+[14/Jun/2018 16:53:10] "GET /polls/media/back.jpg/ HTTP/1.1" 200 127569
+[14/Jun/2018 16:54:03] "GET /polls/home/ HTTP/1.1" 200 2065
+[14/Jun/2018 16:54:03] "GET /polls/media/back.jpg/ HTTP/1.1" 200 127569
+[14/Jun/2018 16:58:26] "GET /polls/home/ HTTP/1.1" 200 2060
+[14/Jun/2018 16:58:26] "GET /polls/media/back.jpg/ HTTP/1.1" 200 127569
+Invalid HTTP_HOST header: 'iZuf6640ra8ceyqgctyqibZ:8000'. You may need to add 'izuf6640ra8ceyqgctyqibz' to ALLOWED_HOSTS.
+[14/Jun/2018 17:10:32] "HEAD / HTTP/1.0" 400 58341
+Invalid HTTP_HOST header: 'iZuf6640ra8ceyqgctyqibZ:8000'. You may need to add 'izuf6640ra8ceyqgctyqibz' to ALLOWED_HOSTS.
+[14/Jun/2018 17:30:23] "HEAD / HTTP/1.0" 400 58338
+Invalid HTTP_HOST header: 'iZuf6640ra8ceyqgctyqibZ:8000'. You may need to add 'izuf6640ra8ceyqgctyqibz' to ALLOWED_HOSTS.
+[14/Jun/2018 17:30:24] "HEAD / HTTP/1.0" 400 58338
+Invalid HTTP_HOST header: 'iZuf6640ra8ceyqgctyqibZ:8000'. You may need to add 'izuf6640ra8ceyqgctyqibz' to ALLOWED_HOSTS.
+[14/Jun/2018 17:40:37] "HEAD / HTTP/1.0" 400 58339
+Invalid HTTP_HOST header: 'iZuf6640ra8ceyqgctyqibZ:8000'. You may need to add 'izuf6640ra8ceyqgctyqibz' to ALLOWED_HOSTS.
+[14/Jun/2018 17:44:02] "HEAD / HTTP/1.0" 400 58339
+Invalid HTTP_HOST header: 'iZuf6640ra8ceyqgctyqibZ:8000'. You may need to add 'izuf6640ra8ceyqgctyqibz' to ALLOWED_HOSTS.
+[14/Jun/2018 17:50:38] "HEAD / HTTP/1.0" 400 58336
+Invalid HTTP_HOST header: 'iZuf6640ra8ceyqgctyqibZ:8000'. You may need to add 'izuf6640ra8ceyqgctyqibz' to ALLOWED_HOSTS.
+[14/Jun/2018 18:00:46] "HEAD / HTTP/1.0" 400 58340
+Invalid HTTP_HOST header: 'iZuf6640ra8ceyqgctyqibZ:8000'. You may need to add 'izuf6640ra8ceyqgctyqibz' to ALLOWED_HOSTS.
+[14/Jun/2018 18:09:19] "HEAD / HTTP/1.0" 400 58338
+Invalid HTTP_HOST header: 'iZuf6640ra8ceyqgctyqibZ:8000'. You may need to add 'izuf6640ra8ceyqgctyqibz' to ALLOWED_HOSTS.
+[14/Jun/2018 18:19:53] "HEAD / HTTP/1.0" 400 58338
+Invalid HTTP_HOST header: 'iZuf6640ra8ceyqgctyqibZ:8000'. You may need to add 'izuf6640ra8ceyqgctyqibz' to ALLOWED_HOSTS.
+[14/Jun/2018 18:31:53] "HEAD / HTTP/1.0" 400 58338
+Invalid HTTP_HOST header: '47.93.93.196:8000'. You may need to add '47.93.93.196' to ALLOWED_HOSTS.
+[14/Jun/2018 18:38:32] "GET / HTTP/1.1" 400 58575
+Invalid HTTP_HOST header: 'iZuf6640ra8ceyqgctyqibZ:8000'. You may need to add 'izuf6640ra8ceyqgctyqibz' to ALLOWED_HOSTS.
+[14/Jun/2018 18:44:43] "HEAD / HTTP/1.0" 400 58339
+Invalid HTTP_HOST header: 'iZuf6640ra8ceyqgctyqibZ:8000'. You may need to add 'izuf6640ra8ceyqgctyqibz' to ALLOWED_HOSTS.
+[14/Jun/2018 18:56:45] "HEAD / HTTP/1.0" 400 58340
+Invalid HTTP_HOST header: 'iZuf6640ra8ceyqgctyqibZ:8000'. You may need to add 'izuf6640ra8ceyqgctyqibz' to ALLOWED_HOSTS.
+[14/Jun/2018 18:57:11] "HEAD / HTTP/1.0" 400 58341
+Invalid HTTP_HOST header: 'iZuf6640ra8ceyqgctyqibZ:8000'. You may need to add 'izuf6640ra8ceyqgctyqibz' to ALLOWED_HOSTS.
+[14/Jun/2018 19:10:53] "HEAD / HTTP/1.0" 400 58338
+Invalid HTTP_HOST header: 'iZuf6640ra8ceyqgctyqibZ:8000'. You may need to add 'izuf6640ra8ceyqgctyqibz' to ALLOWED_HOSTS.
+[14/Jun/2018 19:11:45] "HEAD / HTTP/1.0" 400 58339
+[14/Jun/2018 19:42:48] "GET /polls/ HTTP/1.1" 200 144
+Not Found: /favicon.ico
+[14/Jun/2018 19:42:49] "GET /favicon.ico HTTP/1.1" 404 2082
+[14/Jun/2018 19:43:43] "GET /polls/home HTTP/1.1" 301 0
+[14/Jun/2018 19:43:43] "GET /polls/home/ HTTP/1.1" 200 2060
+[14/Jun/2018 19:43:44] "GET /polls/media/back.jpg/ HTTP/1.1" 200 127569
+Not Found: /favicon.ico
+[14/Jun/2018 19:43:44] "GET /favicon.ico HTTP/1.1" 404 2082
+Invalid HTTP_HOST header: 'iZuf6640ra8ceyqgctyqibZ:8000'. You may need to add 'izuf6640ra8ceyqgctyqibz' to ALLOWED_HOSTS.
+[14/Jun/2018 19:47:33] "HEAD / HTTP/1.0" 400 58341
+Invalid HTTP_HOST header: 'iZuf6640ra8ceyqgctyqibZ:8000'. You may need to add 'izuf6640ra8ceyqgctyqibz' to ALLOWED_HOSTS.
+[14/Jun/2018 19:47:52] "HEAD / HTTP/1.0" 400 58337
+Invalid HTTP_HOST header: 'iZuf6640ra8ceyqgctyqibZ:8000'. You may need to add 'izuf6640ra8ceyqgctyqibz' to ALLOWED_HOSTS.
+[14/Jun/2018 19:48:11] "HEAD / HTTP/1.0" 400 58336
+Invalid HTTP_HOST header: 'iZuf6640ra8ceyqgctyqibZ:8000'. You may need to add 'izuf6640ra8ceyqgctyqibz' to ALLOWED_HOSTS.
+[14/Jun/2018 19:48:15] "HEAD / HTTP/1.0" 400 58340
+Invalid HTTP_HOST header: 'iZuf6640ra8ceyqgctyqibZ:8000'. You may need to add 'izuf6640ra8ceyqgctyqibz' to ALLOWED_HOSTS.
+[14/Jun/2018 19:52:31] "HEAD / HTTP/1.0" 400 58339
+Invalid HTTP_HOST header: 'iZuf6640ra8ceyqgctyqibZ:8000'. You may need to add 'izuf6640ra8ceyqgctyqibz' to ALLOWED_HOSTS.
+[14/Jun/2018 19:56:32] "HEAD / HTTP/1.0" 400 58339
+Invalid HTTP_HOST header: 'iZuf6640ra8ceyqgctyqibZ:8000'. You may need to add 'izuf6640ra8ceyqgctyqibz' to ALLOWED_HOSTS.
+[14/Jun/2018 20:00:20] "HEAD / HTTP/1.0" 400 58339
+Invalid HTTP_HOST header: 'iZuf6640ra8ceyqgctyqibZ:8000'. You may need to add 'izuf6640ra8ceyqgctyqibz' to ALLOWED_HOSTS.
+[14/Jun/2018 20:01:33] "HEAD / HTTP/1.0" 400 58340
+Invalid HTTP_HOST header: 'iZuf6640ra8ceyqgctyqibZ:8000'. You may need to add 'izuf6640ra8ceyqgctyqibz' to ALLOWED_HOSTS.
+[14/Jun/2018 20:16:39] "HEAD / HTTP/1.0" 400 58338
+Invalid HTTP_HOST header: 'iZuf6640ra8ceyqgctyqibZ:8000'. You may need to add 'izuf6640ra8ceyqgctyqibz' to ALLOWED_HOSTS.
+[14/Jun/2018 20:23:25] "HEAD / HTTP/1.0" 400 58339
+Invalid HTTP_HOST header: 'iZuf6640ra8ceyqgctyqibZ:8000'. You may need to add 'izuf6640ra8ceyqgctyqibz' to ALLOWED_HOSTS.
+[14/Jun/2018 20:36:15] "HEAD / HTTP/1.0" 400 58340
+[14/Jun/2018 20:37:19] "GET /polls/home/ HTTP/1.1" 200 2060
+[14/Jun/2018 20:37:19] "GET /polls/media/back.jpg/ HTTP/1.1" 200 127569
+[14/Jun/2018 20:38:43] "GET /polls/media/back.jpg/ HTTP/1.1" 200 127569
+[14/Jun/2018 20:39:28] "GET /polls/media/back.jpg/ HTTP/1.1" 200 127569
+[14/Jun/2018 20:43:08] "GET /polls/media/back.jpg/ HTTP/1.1" 200 127569
+Invalid HTTP_HOST header: 'iZuf6640ra8ceyqgctyqibZ:8000'. You may need to add 'izuf6640ra8ceyqgctyqibz' to ALLOWED_HOSTS.
+[14/Jun/2018 20:46:09] "HEAD / HTTP/1.0" 400 58340
+Invalid HTTP_HOST header: 'iZuf6640ra8ceyqgctyqibZ:8000'. You may need to add 'izuf6640ra8ceyqgctyqibz' to ALLOWED_HOSTS.
+[14/Jun/2018 20:48:33] "HEAD / HTTP/1.0" 400 58340
+Invalid HTTP_HOST header: 'iZuf6640ra8ceyqgctyqibZ:8000'. You may need to add 'izuf6640ra8ceyqgctyqibz' to ALLOWED_HOSTS.
+[14/Jun/2018 20:53:51] "HEAD / HTTP/1.0" 400 58339
+Invalid HTTP_HOST header: 'iZuf6640ra8ceyqgctyqibZ:8000'. You may need to add 'izuf6640ra8ceyqgctyqibz' to ALLOWED_HOSTS.
+[14/Jun/2018 21:02:03] "HEAD / HTTP/1.0" 400 58338
+----------------------------------------
+Exception happened during processing of request from ('77.72.83.21', 53298)
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/socketserver.py", line 639, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/local/lib/python3.6/socketserver.py", line 361, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/local/lib/python3.6/socketserver.py", line 696, in __init__
+    self.handle()
+  File "/usr/local/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 139, in handle
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/local/lib/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+[14/Jun/2018 21:05:59] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00*%à\x00\x00\x00\x00\x00Cookie:')
+[14/Jun/2018 21:05:59] "  *%à     Cookie: mstshash=Test" 400 -
+[14/Jun/2018 21:05:59] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00*%à\x00\x00\x00\x00\x00Cookie:')
+[14/Jun/2018 21:05:59] "  *%à     Cookie: mstshash=Test" 400 -
+Invalid HTTP_HOST header: 'iZuf6640ra8ceyqgctyqibZ:8000'. You may need to add 'izuf6640ra8ceyqgctyqibz' to ALLOWED_HOSTS.
+[14/Jun/2018 21:30:06] "HEAD / HTTP/1.0" 400 58339
+[14/Jun/2018 21:34:32] "GET /polls/home/ HTTP/1.1" 200 2060
+[14/Jun/2018 21:34:33] "GET /polls/media/back.jpg/ HTTP/1.1" 200 127569
+Invalid HTTP_HOST header: 'iZuf6640ra8ceyqgctyqibZ:8000'. You may need to add 'izuf6640ra8ceyqgctyqibz' to ALLOWED_HOSTS.
+[14/Jun/2018 21:49:02] "HEAD / HTTP/1.0" 400 58339
+Invalid HTTP_HOST header: 'iZuf6640ra8ceyqgctyqibZ:8000'. You may need to add 'izuf6640ra8ceyqgctyqibz' to ALLOWED_HOSTS.
+[14/Jun/2018 21:49:14] "HEAD / HTTP/1.0" 400 58339
+Invalid HTTP_HOST header: 'iZuf6640ra8ceyqgctyqibZ:8000'. You may need to add 'izuf6640ra8ceyqgctyqibz' to ALLOWED_HOSTS.
+[14/Jun/2018 22:09:13] "HEAD / HTTP/1.0" 400 58340
+Invalid HTTP_HOST header: 'iZuf6640ra8ceyqgctyqibZ:8000'. You may need to add 'izuf6640ra8ceyqgctyqibz' to ALLOWED_HOSTS.
+[14/Jun/2018 22:23:07] "HEAD / HTTP/1.0" 400 58339
+Invalid HTTP_HOST header: 'iZuf6640ra8ceyqgctyqibZ:8000'. You may need to add 'izuf6640ra8ceyqgctyqibz' to ALLOWED_HOSTS.
+[14/Jun/2018 23:14:51] "HEAD / HTTP/1.0" 400 58339
+Invalid HTTP_HOST header: 'iZuf6640ra8ceyqgctyqibZ:8000'. You may need to add 'izuf6640ra8ceyqgctyqibz' to ALLOWED_HOSTS.
+[14/Jun/2018 23:49:02] "HEAD / HTTP/1.0" 400 58340
+Invalid HTTP_HOST header: 'iZuf6640ra8ceyqgctyqibZ:8000'. You may need to add 'izuf6640ra8ceyqgctyqibz' to ALLOWED_HOSTS.
+[14/Jun/2018 23:57:22] "HEAD / HTTP/1.0" 400 58340
+Invalid HTTP_HOST header: 'iZuf6640ra8ceyqgctyqibZ:8000'. You may need to add 'izuf6640ra8ceyqgctyqibz' to ALLOWED_HOSTS.
+[15/Jun/2018 00:02:38] "HEAD / HTTP/1.0" 400 58339
+Invalid HTTP_HOST header: 'www.baidu.com'. You may need to add 'www.baidu.com' to ALLOWED_HOSTS.
+[15/Jun/2018 00:12:44] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 400 59041
+Invalid HTTP_HOST header: 'iZuf6640ra8ceyqgctyqibZ:8000'. You may need to add 'izuf6640ra8ceyqgctyqibz' to ALLOWED_HOSTS.
+[15/Jun/2018 00:13:48] "HEAD / HTTP/1.0" 400 58341
+Invalid HTTP_HOST header: 'iZuf6640ra8ceyqgctyqibZ:8000'. You may need to add 'izuf6640ra8ceyqgctyqibz' to ALLOWED_HOSTS.
+[15/Jun/2018 00:32:22] "HEAD / HTTP/1.0" 400 58339
+Invalid HTTP_HOST header: 'iZuf6640ra8ceyqgctyqibZ:8000'. You may need to add 'izuf6640ra8ceyqgctyqibz' to ALLOWED_HOSTS.
+[15/Jun/2018 00:40:24] "HEAD / HTTP/1.0" 400 58339
+Invalid HTTP_HOST header: 'iZuf6640ra8ceyqgctyqibZ:8000'. You may need to add 'izuf6640ra8ceyqgctyqibz' to ALLOWED_HOSTS.
+[15/Jun/2018 00:56:24] "HEAD / HTTP/1.0" 400 58339
+Invalid HTTP_HOST header: 'iZuf6640ra8ceyqgctyqibZ:8000'. You may need to add 'izuf6640ra8ceyqgctyqibz' to ALLOWED_HOSTS.
+[15/Jun/2018 00:56:27] "HEAD / HTTP/1.0" 400 58339
+Not Found: /WEB_VMS/LEVEL15/
+[15/Jun/2018 01:04:57] "POST /WEB_VMS/LEVEL15/ HTTP/1.1" 404 2098
+Not Found: /WEB_VMS/LEVEL15/
+[15/Jun/2018 01:04:57] "POST /WEB_VMS/LEVEL15/ HTTP/1.1" 404 2098
+Invalid HTTP_HOST header: '47.89.6.252:8000'. You may need to add '47.89.6.252' to ALLOWED_HOSTS.
+[15/Jun/2018 01:04:58] "GET / HTTP/1.1" 400 58557
+Invalid HTTP_HOST header: 'www.baidu.com'. You may need to add 'www.baidu.com' to ALLOWED_HOSTS.
+[15/Jun/2018 01:09:59] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 400 59039
+Invalid HTTP_HOST header: 'iZuf6640ra8ceyqgctyqibZ:8000'. You may need to add 'izuf6640ra8ceyqgctyqibz' to ALLOWED_HOSTS.
+[15/Jun/2018 01:25:28] "HEAD / HTTP/1.0" 400 58341
+Invalid HTTP_HOST header: 'iZuf6640ra8ceyqgctyqibZ:8000'. You may need to add 'izuf6640ra8ceyqgctyqibz' to ALLOWED_HOSTS.
+[15/Jun/2018 01:35:07] "HEAD / HTTP/1.0" 400 58339
+Invalid HTTP_HOST header: 'iZuf6640ra8ceyqgctyqibZ:8000'. You may need to add 'izuf6640ra8ceyqgctyqibz' to ALLOWED_HOSTS.
+[15/Jun/2018 01:59:09] "HEAD / HTTP/1.0" 400 58338
+Invalid HTTP_HOST header: 'iZuf6640ra8ceyqgctyqibZ:8000'. You may need to add 'izuf6640ra8ceyqgctyqibz' to ALLOWED_HOSTS.
+[15/Jun/2018 02:12:40] "HEAD / HTTP/1.0" 400 58341
+Invalid HTTP_HOST header: 'iZuf6640ra8ceyqgctyqibZ:8000'. You may need to add 'izuf6640ra8ceyqgctyqibz' to ALLOWED_HOSTS.
+[15/Jun/2018 02:28:05] "HEAD / HTTP/1.0" 400 58338
+Invalid HTTP_HOST header: 'iZuf6640ra8ceyqgctyqibZ:8000'. You may need to add 'izuf6640ra8ceyqgctyqibz' to ALLOWED_HOSTS.
+[15/Jun/2018 02:44:14] "HEAD / HTTP/1.0" 400 58339
+[15/Jun/2018 03:06:29] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00+&à\x00\x00\x00\x00\x00Cookie:')
+[15/Jun/2018 03:06:29] "  +&à     Cookie: mstshash=hello" 400 -
+Not Found: /
+[15/Jun/2018 03:39:44] "GET / HTTP/1.1" 404 2031
+Invalid HTTP_HOST header: 'iZuf6640ra8ceyqgctyqibZ:8000'. You may need to add 'izuf6640ra8ceyqgctyqibz' to ALLOWED_HOSTS.
+[15/Jun/2018 03:41:20] "HEAD / HTTP/1.0" 400 58339
+Invalid HTTP_HOST header: 'www.qq.com'. You may need to add 'www.qq.com' to ALLOWED_HOSTS.
+[15/Jun/2018 04:00:26] "GET http://www.qq.com/404/search_children.js HTTP/1.1" 400 59150
+[15/Jun/2018 04:00:31] code 400, message Bad request syntax ('\x04\x01\x00PpTi4\x00')
+[15/Jun/2018 04:00:31] " PpTi4 " 400 -
+[15/Jun/2018 04:00:31] code 400, message Bad request syntax ('\x05\x01\x00')
+[15/Jun/2018 04:00:31] " " 400 -
+Invalid HTTP_HOST header: 'iZuf6640ra8ceyqgctyqibZ:8000'. You may need to add 'izuf6640ra8ceyqgctyqibz' to ALLOWED_HOSTS.
+Invalid HTTP_HOST header: 'iZuf6640ra8ceyqgctyqibZ:8000'. You may need to add 'izuf6640ra8ceyqgctyqibz' to ALLOWED_HOSTS.
+[15/Jun/2018 04:20:10] "HEAD / HTTP/1.0" 400 58339
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/wsgiref/handlers.py", line 138, in run
+    self.finish_response()
+  File "/usr/local/lib/python3.6/wsgiref/handlers.py", line 180, in finish_response
+    self.write(data)
+  File "/usr/local/lib/python3.6/wsgiref/handlers.py", line 279, in write
+    self._write(data)
+  File "/usr/local/lib/python3.6/wsgiref/handlers.py", line 453, in _write
+    result = self.stdout.write(data)
+  File "/usr/local/lib/python3.6/socketserver.py", line 775, in write
+    self._sock.sendall(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+[15/Jun/2018 04:20:10] "HEAD / HTTP/1.0" 500 59
+----------------------------------------
+Exception happened during processing of request from ('81.248.56.166', 50536)
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/wsgiref/handlers.py", line 138, in run
+    self.finish_response()
+  File "/usr/local/lib/python3.6/wsgiref/handlers.py", line 180, in finish_response
+    self.write(data)
+  File "/usr/local/lib/python3.6/wsgiref/handlers.py", line 279, in write
+    self._write(data)
+  File "/usr/local/lib/python3.6/wsgiref/handlers.py", line 453, in _write
+    result = self.stdout.write(data)
+  File "/usr/local/lib/python3.6/socketserver.py", line 775, in write
+    self._sock.sendall(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/wsgiref/handlers.py", line 141, in run
+    self.handle_error()
+  File "/usr/local/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 86, in handle_error
+    super().handle_error()
+  File "/usr/local/lib/python3.6/wsgiref/handlers.py", line 368, in handle_error
+    self.finish_response()
+  File "/usr/local/lib/python3.6/wsgiref/handlers.py", line 180, in finish_response
+    self.write(data)
+  File "/usr/local/lib/python3.6/wsgiref/handlers.py", line 274, in write
+    self.send_headers()
+  File "/usr/local/lib/python3.6/wsgiref/handlers.py", line 331, in send_headers
+    if not self.origin_server or self.client_is_modern():
+  File "/usr/local/lib/python3.6/wsgiref/handlers.py", line 344, in client_is_modern
+    return self.environ['SERVER_PROTOCOL'].upper() != 'HTTP/0.9'
+TypeError: 'NoneType' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/socketserver.py", line 639, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/local/lib/python3.6/socketserver.py", line 361, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/local/lib/python3.6/socketserver.py", line 696, in __init__
+    self.handle()
+  File "/usr/local/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 154, in handle
+    handler.run(self.server.get_app())
+  File "/usr/local/lib/python3.6/wsgiref/handlers.py", line 144, in run
+    self.close()
+  File "/usr/local/lib/python3.6/wsgiref/simple_server.py", line 35, in close
+    self.status.split(' ',1)[0], self.bytes_sent
+AttributeError: 'NoneType' object has no attribute 'split'
+----------------------------------------
+[15/Jun/2018 04:20:12] "HEAD / HTTP/1.0" 400 58339
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/wsgiref/handlers.py", line 138, in run
+    self.finish_response()
+  File "/usr/local/lib/python3.6/wsgiref/handlers.py", line 180, in finish_response
+    self.write(data)
+  File "/usr/local/lib/python3.6/wsgiref/handlers.py", line 279, in write
+    self._write(data)
+  File "/usr/local/lib/python3.6/wsgiref/handlers.py", line 453, in _write
+    result = self.stdout.write(data)
+  File "/usr/local/lib/python3.6/socketserver.py", line 775, in write
+    self._sock.sendall(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+[15/Jun/2018 04:20:12] "HEAD / HTTP/1.0" 500 59
+----------------------------------------
+Exception happened during processing of request from ('81.248.56.166', 50538)
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/wsgiref/handlers.py", line 138, in run
+    self.finish_response()
+  File "/usr/local/lib/python3.6/wsgiref/handlers.py", line 180, in finish_response
+    self.write(data)
+  File "/usr/local/lib/python3.6/wsgiref/handlers.py", line 279, in write
+    self._write(data)
+  File "/usr/local/lib/python3.6/wsgiref/handlers.py", line 453, in _write
+    result = self.stdout.write(data)
+  File "/usr/local/lib/python3.6/socketserver.py", line 775, in write
+    self._sock.sendall(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/wsgiref/handlers.py", line 141, in run
+    self.handle_error()
+  File "/usr/local/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 86, in handle_error
+    super().handle_error()
+  File "/usr/local/lib/python3.6/wsgiref/handlers.py", line 368, in handle_error
+    self.finish_response()
+  File "/usr/local/lib/python3.6/wsgiref/handlers.py", line 180, in finish_response
+    self.write(data)
+  File "/usr/local/lib/python3.6/wsgiref/handlers.py", line 274, in write
+    self.send_headers()
+  File "/usr/local/lib/python3.6/wsgiref/handlers.py", line 331, in send_headers
+    if not self.origin_server or self.client_is_modern():
+  File "/usr/local/lib/python3.6/wsgiref/handlers.py", line 344, in client_is_modern
+    return self.environ['SERVER_PROTOCOL'].upper() != 'HTTP/0.9'
+TypeError: 'NoneType' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/socketserver.py", line 639, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/local/lib/python3.6/socketserver.py", line 361, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/local/lib/python3.6/socketserver.py", line 696, in __init__
+    self.handle()
+  File "/usr/local/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 154, in handle
+    handler.run(self.server.get_app())
+  File "/usr/local/lib/python3.6/wsgiref/handlers.py", line 144, in run
+    self.close()
+  File "/usr/local/lib/python3.6/wsgiref/simple_server.py", line 35, in close
+    self.status.split(' ',1)[0], self.bytes_sent
+AttributeError: 'NoneType' object has no attribute 'split'
+----------------------------------------
+Invalid HTTP_HOST header: 'iZuf6640ra8ceyqgctyqibZ:8000'. You may need to add 'izuf6640ra8ceyqgctyqibz' to ALLOWED_HOSTS.
+[15/Jun/2018 04:34:37] "HEAD / HTTP/1.0" 400 58339
+Invalid HTTP_HOST header: 'iZuf6640ra8ceyqgctyqibZ:8000'. You may need to add 'izuf6640ra8ceyqgctyqibz' to ALLOWED_HOSTS.
+[15/Jun/2018 04:39:13] "HEAD / HTTP/1.0" 400 58339
+Invalid HTTP_HOST header: 'iZuf6640ra8ceyqgctyqibZ:8000'. You may need to add 'izuf6640ra8ceyqgctyqibz' to ALLOWED_HOSTS.
+[15/Jun/2018 04:48:43] "HEAD / HTTP/1.0" 400 58340
+Invalid HTTP_HOST header: 'iZuf6640ra8ceyqgctyqibZ:8000'. You may need to add 'izuf6640ra8ceyqgctyqibz' to ALLOWED_HOSTS.
+[15/Jun/2018 05:01:06] "HEAD / HTTP/1.0" 400 58341
+[15/Jun/2018 05:14:19] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00+&à\x00\x00\x00\x00\x00Cookie:')
+[15/Jun/2018 05:14:19] "  +&à     Cookie: mstshash=hello" 400 -
+Invalid HTTP_HOST header: 'iZuf6640ra8ceyqgctyqibZ:8000'. You may need to add 'izuf6640ra8ceyqgctyqibz' to ALLOWED_HOSTS.
+[15/Jun/2018 05:19:41] "HEAD / HTTP/1.0" 400 58341
+Invalid HTTP_HOST header: 'iZuf6640ra8ceyqgctyqibZ:8000'. You may need to add 'izuf6640ra8ceyqgctyqibz' to ALLOWED_HOSTS.
+[15/Jun/2018 05:24:00] "HEAD / HTTP/1.0" 400 58340
+Invalid HTTP_HOST header: 'iZuf6640ra8ceyqgctyqibZ:8000'. You may need to add 'izuf6640ra8ceyqgctyqibz' to ALLOWED_HOSTS.
+[15/Jun/2018 05:30:07] "HEAD / HTTP/1.0" 400 58341
+Invalid HTTP_HOST header: 'iZuf6640ra8ceyqgctyqibZ:8000'. You may need to add 'izuf6640ra8ceyqgctyqibz' to ALLOWED_HOSTS.
+[15/Jun/2018 05:31:27] "HEAD / HTTP/1.0" 400 58340
+Invalid HTTP_HOST header: 'iZuf6640ra8ceyqgctyqibZ:8000'. You may need to add 'izuf6640ra8ceyqgctyqibz' to ALLOWED_HOSTS.
+[15/Jun/2018 05:48:10] "HEAD / HTTP/1.0" 400 58338
+Invalid HTTP_HOST header: 'iZuf6640ra8ceyqgctyqibZ:8000'. You may need to add 'izuf6640ra8ceyqgctyqibz' to ALLOWED_HOSTS.
+[15/Jun/2018 05:51:53] "HEAD / HTTP/1.0" 400 58340
+Invalid HTTP_HOST header: 'iZuf6640ra8ceyqgctyqibZ:8000'. You may need to add 'izuf6640ra8ceyqgctyqibz' to ALLOWED_HOSTS.
+[15/Jun/2018 06:38:28] "HEAD / HTTP/1.0" 400 58338
+Invalid HTTP_HOST header: 'iZuf6640ra8ceyqgctyqibZ:8000'. You may need to add 'izuf6640ra8ceyqgctyqibz' to ALLOWED_HOSTS.
+[15/Jun/2018 06:59:22] "HEAD / HTTP/1.0" 400 58339
+Not Found: /
+[15/Jun/2018 07:20:19] "GET / HTTP/1.1" 404 2026
+Not Found: /favicon.ico
+[15/Jun/2018 07:20:20] "GET /favicon.ico HTTP/1.1" 404 2082
+[15/Jun/2018 07:22:27] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00+&à\x00\x00\x00\x00\x00Cookie:')
+[15/Jun/2018 07:22:27] "  +&à     Cookie: mstshash=hello" 400 -
+Invalid HTTP_HOST header: 'iZuf6640ra8ceyqgctyqibZ:8000'. You may need to add 'izuf6640ra8ceyqgctyqibz' to ALLOWED_HOSTS.
+[15/Jun/2018 07:22:28] "HEAD / HTTP/1.0" 400 58339
+Invalid HTTP_HOST header: 'iZuf6640ra8ceyqgctyqibZ:8000'. You may need to add 'izuf6640ra8ceyqgctyqibz' to ALLOWED_HOSTS.
+[15/Jun/2018 07:25:24] "HEAD / HTTP/1.0" 400 58340
+Invalid HTTP_HOST header: 'iZuf6640ra8ceyqgctyqibZ:8000'. You may need to add 'izuf6640ra8ceyqgctyqibz' to ALLOWED_HOSTS.
+[15/Jun/2018 07:31:57] "HEAD / HTTP/1.0" 400 58337
+Invalid HTTP_HOST header: 'iZuf6640ra8ceyqgctyqibZ:8000'. You may need to add 'izuf6640ra8ceyqgctyqibz' to ALLOWED_HOSTS.
+[15/Jun/2018 08:06:45] "HEAD / HTTP/1.0" 400 58339
+Invalid HTTP_HOST header: 'iZuf6640ra8ceyqgctyqibZ:8000'. You may need to add 'izuf6640ra8ceyqgctyqibz' to ALLOWED_HOSTS.
+[15/Jun/2018 08:08:30] "HEAD / HTTP/1.0" 400 58337
+Invalid HTTP_HOST header: 'iZuf6640ra8ceyqgctyqibZ:8000'. You may need to add 'izuf6640ra8ceyqgctyqibz' to ALLOWED_HOSTS.
+[15/Jun/2018 08:14:26] "HEAD / HTTP/1.0" 400 58341
+Invalid HTTP_HOST header: 'iZuf6640ra8ceyqgctyqibZ:8000'. You may need to add 'izuf6640ra8ceyqgctyqibz' to ALLOWED_HOSTS.
+[15/Jun/2018 08:15:38] "HEAD / HTTP/1.0" 400 58340
+Invalid HTTP_HOST header: 'iZuf6640ra8ceyqgctyqibZ:8000'. You may need to add 'izuf6640ra8ceyqgctyqibz' to ALLOWED_HOSTS.
+[15/Jun/2018 08:18:03] "HEAD / HTTP/1.0" 400 58340
+Invalid HTTP_HOST header: 'iZuf6640ra8ceyqgctyqibZ:8000'. You may need to add 'izuf6640ra8ceyqgctyqibz' to ALLOWED_HOSTS.
+[15/Jun/2018 08:23:19] "HEAD / HTTP/1.0" 400 58340
+Invalid HTTP_HOST header: 'iZuf6640ra8ceyqgctyqibZ:8000'. You may need to add 'izuf6640ra8ceyqgctyqibz' to ALLOWED_HOSTS.
+[15/Jun/2018 08:54:44] "HEAD / HTTP/1.0" 400 58339
+Invalid HTTP_HOST header: 'iZuf6640ra8ceyqgctyqibZ:8000'. You may need to add 'izuf6640ra8ceyqgctyqibz' to ALLOWED_HOSTS.
+[15/Jun/2018 08:57:30] "HEAD / HTTP/1.0" 400 58340
+Invalid HTTP_HOST header: '47.93.92.170:8000'. You may need to add '47.93.92.170' to ALLOWED_HOSTS.
+[15/Jun/2018 09:17:25] "GET / HTTP/1.1" 400 58572
+Invalid HTTP_HOST header: 'iZuf6640ra8ceyqgctyqibZ:8000'. You may need to add 'izuf6640ra8ceyqgctyqibz' to ALLOWED_HOSTS.
+[15/Jun/2018 09:32:58] "HEAD / HTTP/1.0" 400 58339
+Invalid HTTP_HOST header: 'iZuf6640ra8ceyqgctyqibZ:8000'. You may need to add 'izuf6640ra8ceyqgctyqibz' to ALLOWED_HOSTS.
+[15/Jun/2018 09:54:48] "HEAD / HTTP/1.0" 400 58339
+Invalid HTTP_HOST header: 'www.baidu.com'. You may need to add 'www.baidu.com' to ALLOWED_HOSTS.
+[15/Jun/2018 10:04:43] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 400 59039
+Invalid HTTP_HOST header: 'iZuf6640ra8ceyqgctyqibZ:8000'. You may need to add 'izuf6640ra8ceyqgctyqibz' to ALLOWED_HOSTS.
+[15/Jun/2018 10:14:21] "HEAD / HTTP/1.0" 400 58340
+Invalid HTTP_HOST header: 'iZuf6640ra8ceyqgctyqibZ:8000'. You may need to add 'izuf6640ra8ceyqgctyqibz' to ALLOWED_HOSTS.
+[15/Jun/2018 10:21:05] "HEAD / HTTP/1.0" 400 58340
+Invalid HTTP_HOST header: 'iZuf6640ra8ceyqgctyqibZ:8000'. You may need to add 'izuf6640ra8ceyqgctyqibz' to ALLOWED_HOSTS.
+[15/Jun/2018 10:21:55] "GET / HTTP/1.0" 400 58333
+Invalid HTTP_HOST header: 'iZuf6640ra8ceyqgctyqibZ:8000'. You may need to add 'izuf6640ra8ceyqgctyqibz' to ALLOWED_HOSTS.
+[15/Jun/2018 10:24:17] "HEAD / HTTP/1.0" 400 58338
+Invalid HTTP_HOST header: 'iZuf6640ra8ceyqgctyqibZ:8000'. You may need to add 'izuf6640ra8ceyqgctyqibz' to ALLOWED_HOSTS.
+[15/Jun/2018 10:24:19] "HEAD / HTTP/1.0" 400 58338
+Invalid HTTP_HOST header: 'iZuf6640ra8ceyqgctyqibZ:8000'. You may need to add 'izuf6640ra8ceyqgctyqibz' to ALLOWED_HOSTS.
+[15/Jun/2018 10:40:14] "HEAD / HTTP/1.0" 400 58341
+Invalid HTTP_HOST header: 'iZuf6640ra8ceyqgctyqibZ:8000'. You may need to add 'izuf6640ra8ceyqgctyqibz' to ALLOWED_HOSTS.
+[15/Jun/2018 10:44:19] "HEAD / HTTP/1.0" 400 58340
+Invalid HTTP_HOST header: 'iZuf6640ra8ceyqgctyqibZ:8000'. You may need to add 'izuf6640ra8ceyqgctyqibz' to ALLOWED_HOSTS.
+[15/Jun/2018 10:53:53] "HEAD / HTTP/1.0" 400 58339
+Invalid HTTP_HOST header: 'iZuf6640ra8ceyqgctyqibZ:8000'. You may need to add 'izuf6640ra8ceyqgctyqibz' to ALLOWED_HOSTS.
+[15/Jun/2018 11:04:28] "HEAD / HTTP/1.0" 400 58340
+Invalid HTTP_HOST header: 'iZuf6640ra8ceyqgctyqibZ:8000'. You may need to add 'izuf6640ra8ceyqgctyqibz' to ALLOWED_HOSTS.
+[15/Jun/2018 11:19:47] "HEAD / HTTP/1.0" 400 58339
+Invalid HTTP_HOST header: 'iZuf6640ra8ceyqgctyqibZ:8000'. You may need to add 'izuf6640ra8ceyqgctyqibz' to ALLOWED_HOSTS.
+[15/Jun/2018 12:06:28] "HEAD / HTTP/1.0" 400 58339
+Invalid HTTP_HOST header: 'iZuf6640ra8ceyqgctyqibZ:8000'. You may need to add 'izuf6640ra8ceyqgctyqibz' to ALLOWED_HOSTS.
+[15/Jun/2018 12:06:58] "HEAD / HTTP/1.0" 400 58340
+Invalid HTTP_HOST header: 'iZuf6640ra8ceyqgctyqibZ:8000'. You may need to add 'izuf6640ra8ceyqgctyqibz' to ALLOWED_HOSTS.
+[15/Jun/2018 12:18:09] "HEAD / HTTP/1.0" 400 58339
+Invalid HTTP_HOST header: 'www.baidu.com'. You may need to add 'www.baidu.com' to ALLOWED_HOSTS.
+[15/Jun/2018 12:55:05] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 400 59038
+Invalid HTTP_HOST header: 'iZuf6640ra8ceyqgctyqibZ:8000'. You may need to add 'izuf6640ra8ceyqgctyqibz' to ALLOWED_HOSTS.
+[15/Jun/2018 12:59:06] "HEAD / HTTP/1.0" 400 58339
+Invalid HTTP_HOST header: 'iZuf6640ra8ceyqgctyqibZ:8000'. You may need to add 'izuf6640ra8ceyqgctyqibz' to ALLOWED_HOSTS.
+[15/Jun/2018 13:02:42] "HEAD / HTTP/1.0" 400 58340
+Invalid HTTP_HOST header: 'iZuf6640ra8ceyqgctyqibZ:8000'. You may need to add 'izuf6640ra8ceyqgctyqibz' to ALLOWED_HOSTS.
+[15/Jun/2018 13:52:44] "HEAD / HTTP/1.0" 400 58338
+Invalid HTTP_HOST header: 'iZuf6640ra8ceyqgctyqibZ:8000'. You may need to add 'izuf6640ra8ceyqgctyqibz' to ALLOWED_HOSTS.
+[15/Jun/2018 13:53:36] "HEAD / HTTP/1.0" 400 58339
+Invalid HTTP_HOST header: 'iZuf6640ra8ceyqgctyqibZ:8000'. You may need to add 'izuf6640ra8ceyqgctyqibz' to ALLOWED_HOSTS.
+[15/Jun/2018 14:52:01] "HEAD / HTTP/1.0" 400 58341
+Invalid HTTP_HOST header: 'iZuf6640ra8ceyqgctyqibZ:8000'. You may need to add 'izuf6640ra8ceyqgctyqibz' to ALLOWED_HOSTS.
+[15/Jun/2018 15:06:53] "GET / HTTP/1.0" 400 58331
+Invalid HTTP_HOST header: 'iZuf6640ra8ceyqgctyqibZ:8000'. You may need to add 'izuf6640ra8ceyqgctyqibz' to ALLOWED_HOSTS.
+[15/Jun/2018 15:16:11] "HEAD / HTTP/1.0" 400 58340
+Invalid HTTP_HOST header: 'iZuf6640ra8ceyqgctyqibZ:8000'. You may need to add 'izuf6640ra8ceyqgctyqibz' to ALLOWED_HOSTS.
+[15/Jun/2018 15:24:41] "HEAD / HTTP/1.0" 400 58340
+Invalid HTTP_HOST header: 'iZuf6640ra8ceyqgctyqibZ:8000'. You may need to add 'izuf6640ra8ceyqgctyqibz' to ALLOWED_HOSTS.
+[15/Jun/2018 15:59:16] "HEAD / HTTP/1.0" 400 58340
+Invalid HTTP_HOST header: 'iZuf6640ra8ceyqgctyqibZ:8000'. You may need to add 'izuf6640ra8ceyqgctyqibz' to ALLOWED_HOSTS.
+[15/Jun/2018 16:10:32] "HEAD / HTTP/1.0" 400 58341
+Invalid HTTP_HOST header: 'iZuf6640ra8ceyqgctyqibZ:8000'. You may need to add 'izuf6640ra8ceyqgctyqibz' to ALLOWED_HOSTS.
+[15/Jun/2018 16:11:11] "HEAD / HTTP/1.0" 400 58340
+Invalid HTTP_HOST header: 'iZuf6640ra8ceyqgctyqibZ:8000'. You may need to add 'izuf6640ra8ceyqgctyqibz' to ALLOWED_HOSTS.
+[15/Jun/2018 16:48:14] "HEAD / HTTP/1.0" 400 58339
+Invalid HTTP_HOST header: 'iZuf6640ra8ceyqgctyqibZ:8000'. You may need to add 'izuf6640ra8ceyqgctyqibz' to ALLOWED_HOSTS.
+[15/Jun/2018 16:57:35] "HEAD / HTTP/1.0" 400 58339
+Invalid HTTP_HOST header: 'iZuf6640ra8ceyqgctyqibZ:8000'. You may need to add 'izuf6640ra8ceyqgctyqibz' to ALLOWED_HOSTS.
+[15/Jun/2018 17:05:20] "HEAD / HTTP/1.0" 400 58341
+Invalid HTTP_HOST header: '47.91.173.232:8000'. You may need to add '47.91.173.232' to ALLOWED_HOSTS.
+[15/Jun/2018 17:07:48] "GET / HTTP/1.1" 400 58592
+Invalid HTTP_HOST header: 'iZuf6640ra8ceyqgctyqibZ:8000'. You may need to add 'izuf6640ra8ceyqgctyqibz' to ALLOWED_HOSTS.
+[15/Jun/2018 17:32:36] "HEAD / HTTP/1.0" 400 58340
+Invalid HTTP_HOST header: 'iZuf6640ra8ceyqgctyqibZ:8000'. You may need to add 'izuf6640ra8ceyqgctyqibz' to ALLOWED_HOSTS.
+[15/Jun/2018 17:41:06] "HEAD / HTTP/1.0" 400 58339
+Invalid HTTP_HOST header: 'iZuf6640ra8ceyqgctyqibZ:8000'. You may need to add 'izuf6640ra8ceyqgctyqibz' to ALLOWED_HOSTS.
+[15/Jun/2018 17:41:43] "HEAD / HTTP/1.0" 400 58339
+Invalid HTTP_HOST header: 'iZuf6640ra8ceyqgctyqibZ:8000'. You may need to add 'izuf6640ra8ceyqgctyqibz' to ALLOWED_HOSTS.
+[15/Jun/2018 17:51:30] "HEAD / HTTP/1.0" 400 58340
+Invalid HTTP_HOST header: 'iZuf6640ra8ceyqgctyqibZ:8000'. You may need to add 'izuf6640ra8ceyqgctyqibz' to ALLOWED_HOSTS.
+[15/Jun/2018 18:11:33] "HEAD / HTTP/1.0" 400 58340
+Invalid HTTP_HOST header: 'iZuf6640ra8ceyqgctyqibZ:8000'. You may need to add 'izuf6640ra8ceyqgctyqibz' to ALLOWED_HOSTS.
+[15/Jun/2018 18:24:18] "HEAD / HTTP/1.0" 400 58338
+Invalid HTTP_HOST header: 'iZuf6640ra8ceyqgctyqibZ:8000'. You may need to add 'izuf6640ra8ceyqgctyqibz' to ALLOWED_HOSTS.
+[15/Jun/2018 18:38:23] "HEAD / HTTP/1.0" 400 58340
+Invalid HTTP_HOST header: 'www.baidu.com'. You may need to add 'www.baidu.com' to ALLOWED_HOSTS.
+[15/Jun/2018 19:11:05] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 400 59039
+Invalid HTTP_HOST header: 'iZuf6640ra8ceyqgctyqibZ:8000'. You may need to add 'izuf6640ra8ceyqgctyqibz' to ALLOWED_HOSTS.
+[15/Jun/2018 19:11:34] "HEAD / HTTP/1.0" 400 58340
+Invalid HTTP_HOST header: 'iZuf6640ra8ceyqgctyqibZ:8000'. You may need to add 'izuf6640ra8ceyqgctyqibz' to ALLOWED_HOSTS.
+[15/Jun/2018 19:43:44] "HEAD / HTTP/1.0" 400 58340
+[15/Jun/2018 19:57:39] "GET /polls/home/ HTTP/1.1" 200 2060
+[15/Jun/2018 19:57:39] "GET /polls/media/back.jpg/ HTTP/1.1" 200 127569
+Not Found: /favicon.ico
+[15/Jun/2018 19:57:39] "GET /favicon.ico HTTP/1.1" 404 2082
+Invalid HTTP_HOST header: 'iZuf6640ra8ceyqgctyqibZ:8000'. You may need to add 'izuf6640ra8ceyqgctyqibz' to ALLOWED_HOSTS.
+[15/Jun/2018 20:03:45] "HEAD / HTTP/1.0" 400 58338
+Not Found: /
+[15/Jun/2018 20:17:48] "GET / HTTP/1.1" 404 2031
+Invalid HTTP_HOST header: 'iZuf6640ra8ceyqgctyqibZ:8000'. You may need to add 'izuf6640ra8ceyqgctyqibz' to ALLOWED_HOSTS.
+[15/Jun/2018 20:31:14] "HEAD / HTTP/1.0" 400 58337
+Invalid HTTP_HOST header: 'iZuf6640ra8ceyqgctyqibZ:8000'. You may need to add 'izuf6640ra8ceyqgctyqibz' to ALLOWED_HOSTS.
+[15/Jun/2018 20:31:24] "HEAD / HTTP/1.0" 400 58340
+Not Found: /favicon.ico
+[15/Jun/2018 21:01:50] "GET /favicon.ico HTTP/1.1" 404 2082
+Invalid HTTP_HOST header: 'iZuf6640ra8ceyqgctyqibZ:8000'. You may need to add 'izuf6640ra8ceyqgctyqibz' to ALLOWED_HOSTS.
+[15/Jun/2018 21:41:58] "HEAD / HTTP/1.0" 400 58338
+[15/Jun/2018 22:17:10] "GET /polls/home/ HTTP/1.1" 200 2060
+[15/Jun/2018 22:17:10] "GET /polls/media/back.jpg/ HTTP/1.1" 200 47923
+[15/Jun/2018 22:17:47] "GET /polls/home/ HTTP/1.1" 200 2062
+[15/Jun/2018 22:17:47] "GET /polls/media/back.jpg/ HTTP/1.1" 200 47923
+[15/Jun/2018 22:17:53] "GET /polls/home/ HTTP/1.1" 200 2062
+[15/Jun/2018 22:17:53] "GET /polls/media/back.jpg/ HTTP/1.1" 200 47923
+[15/Jun/2018 22:18:27] "GET /polls/show5/ HTTP/1.1" 200 3428
+[15/Jun/2018 22:18:28] "GET /polls/show5/ HTTP/1.1" 200 3428
+Not Found: /favicon.ico
+[15/Jun/2018 22:18:28] "GET /favicon.ico HTTP/1.1" 404 2082
+[15/Jun/2018 22:18:29] "GET /polls/media/back.jpg/ HTTP/1.1" 200 47923
+[15/Jun/2018 22:18:36] "GET /polls/media/back.jpg/ HTTP/1.1" 200 47923
+[15/Jun/2018 22:18:58] "GET /polls/home/ HTTP/1.1" 200 2038
+[15/Jun/2018 22:18:58] "GET /polls/media/back.jpg/ HTTP/1.1" 200 47923
+[15/Jun/2018 22:19:34] "GET /polls/home/ HTTP/1.1" 200 2015
+[15/Jun/2018 22:19:34] "GET /polls/media/back.jpg/ HTTP/1.1" 200 47923
+Invalid HTTP_HOST header: 'iZuf6640ra8ceyqgctyqibZ:8000'. You may need to add 'izuf6640ra8ceyqgctyqibz' to ALLOWED_HOSTS.
+[15/Jun/2018 22:38:33] "GET / HTTP/1.0" 400 58331
+Invalid HTTP_HOST header: 'iZuf6640ra8ceyqgctyqibZ:8000'. You may need to add 'izuf6640ra8ceyqgctyqibz' to ALLOWED_HOSTS.
+[15/Jun/2018 22:56:04] "HEAD / HTTP/1.0" 400 58339
+Invalid HTTP_HOST header: 'iZuf6640ra8ceyqgctyqibZ:8000'. You may need to add 'izuf6640ra8ceyqgctyqibz' to ALLOWED_HOSTS.
+[15/Jun/2018 23:13:09] "HEAD / HTTP/1.0" 400 58340
+[15/Jun/2018 23:21:19] "GET /polls/home/ HTTP/1.1" 200 2015
+[15/Jun/2018 23:21:19] "GET /polls/media/back.jpg/ HTTP/1.1" 200 47923
+[15/Jun/2018 23:21:19] "GET /polls/home/ HTTP/1.1" 200 2015
+[15/Jun/2018 23:21:19] "GET /polls/media/back.jpg/ HTTP/1.1" 200 47923
+[15/Jun/2018 23:21:20] "GET /polls/home/ HTTP/1.1" 200 2015
+[15/Jun/2018 23:21:20] "GET /polls/media/back.jpg/ HTTP/1.1" 200 47923
+Invalid HTTP_HOST header: 'iZuf6640ra8ceyqgctyqibZ:8000'. You may need to add 'izuf6640ra8ceyqgctyqibz' to ALLOWED_HOSTS.
+[16/Jun/2018 00:25:25] "HEAD / HTTP/1.0" 400 58339
+Invalid HTTP_HOST header: 'iZuf6640ra8ceyqgctyqibZ:8000'. You may need to add 'izuf6640ra8ceyqgctyqibz' to ALLOWED_HOSTS.
+[16/Jun/2018 00:34:31] "HEAD / HTTP/1.0" 400 58339
+Invalid HTTP_HOST header: '47.90.61.32:8000'. You may need to add '47.90.61.32' to ALLOWED_HOSTS.
+[16/Jun/2018 01:00:27] "GET / HTTP/1.1" 400 58561
+Invalid HTTP_HOST header: 'iZuf6640ra8ceyqgctyqibZ:8000'. You may need to add 'izuf6640ra8ceyqgctyqibz' to ALLOWED_HOSTS.
+[16/Jun/2018 01:04:31] "GET / HTTP/1.0" 400 58333
+Invalid HTTP_HOST header: 'iZuf6640ra8ceyqgctyqibZ:8000'. You may need to add 'izuf6640ra8ceyqgctyqibz' to ALLOWED_HOSTS.
+[16/Jun/2018 02:32:59] "HEAD / HTTP/1.0" 400 58339
+Invalid HTTP_HOST header: 'iZuf6640ra8ceyqgctyqibZ:8000'. You may need to add 'izuf6640ra8ceyqgctyqibz' to ALLOWED_HOSTS.
+[16/Jun/2018 02:47:07] "HEAD / HTTP/1.0" 400 58341
+Invalid HTTP_HOST header: 'iZuf6640ra8ceyqgctyqibZ:8000'. You may need to add 'izuf6640ra8ceyqgctyqibz' to ALLOWED_HOSTS.
+[16/Jun/2018 03:04:33] "HEAD / HTTP/1.0" 400 58339
+Invalid HTTP_HOST header: 'iZuf6640ra8ceyqgctyqibZ:8000'. You may need to add 'izuf6640ra8ceyqgctyqibz' to ALLOWED_HOSTS.
+[16/Jun/2018 03:09:31] "HEAD / HTTP/1.0" 400 58340
+Invalid HTTP_HOST header: 'iZuf6640ra8ceyqgctyqibZ:8000'. You may need to add 'izuf6640ra8ceyqgctyqibz' to ALLOWED_HOSTS.
+[16/Jun/2018 03:24:35] "HEAD / HTTP/1.0" 400 58340
+Invalid HTTP_HOST header: 'www.baidu.com'. You may need to add 'www.baidu.com' to ALLOWED_HOSTS.
+[16/Jun/2018 04:13:33] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 400 59039
+[16/Jun/2018 05:23:36] code 400, message Bad request syntax ('\x00\x00\x00TZ\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x04\x010I\x00\x00\x00\x00\x80\x0b¨À\x00\x0c)t F\x07\x00tsXrcsXYs9\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00bbXcsXctst\x00\x00\x00\x00\x00\x00')
+[16/Jun/2018 05:23:36] "   TZ          0I    ¨À )t F tsXrcsXYs9                      bbXcsXctst      " 400 -
+Invalid HTTP_HOST header: 'iZuf6640ra8ceyqgctyqibZ:8000'. You may need to add 'izuf6640ra8ceyqgctyqibz' to ALLOWED_HOSTS.
+[16/Jun/2018 05:30:05] "HEAD / HTTP/1.0" 400 58340
+Invalid HTTP_HOST header: 'iZuf6640ra8ceyqgctyqibZ:8000'. You may need to add 'izuf6640ra8ceyqgctyqibz' to ALLOWED_HOSTS.
+[16/Jun/2018 05:48:35] "HEAD / HTTP/1.0" 400 58339
+Invalid HTTP_HOST header: 'iZuf6640ra8ceyqgctyqibZ:8000'. You may need to add 'izuf6640ra8ceyqgctyqibz' to ALLOWED_HOSTS.
+[16/Jun/2018 06:39:44] "HEAD / HTTP/1.0" 400 58340
+Invalid HTTP_HOST header: 'iZuf6640ra8ceyqgctyqibZ:8000'. You may need to add 'izuf6640ra8ceyqgctyqibz' to ALLOWED_HOSTS.
+[16/Jun/2018 06:49:15] "HEAD / HTTP/1.0" 400 58339
+Invalid HTTP_HOST header: 'iZuf6640ra8ceyqgctyqibZ:8000'. You may need to add 'izuf6640ra8ceyqgctyqibz' to ALLOWED_HOSTS.
+[16/Jun/2018 07:37:25] "HEAD / HTTP/1.0" 400 58341
+Invalid HTTP_HOST header: 'iZuf6640ra8ceyqgctyqibZ:8000'. You may need to add 'izuf6640ra8ceyqgctyqibz' to ALLOWED_HOSTS.
+[16/Jun/2018 07:37:49] "HEAD / HTTP/1.0" 400 58338
+Invalid HTTP_HOST header: 'iZuf6640ra8ceyqgctyqibZ:8000'. You may need to add 'izuf6640ra8ceyqgctyqibz' to ALLOWED_HOSTS.
+[16/Jun/2018 07:54:06] "HEAD / HTTP/1.0" 400 58339
+Invalid HTTP_HOST header: 'iZuf6640ra8ceyqgctyqibZ:8000'. You may need to add 'izuf6640ra8ceyqgctyqibz' to ALLOWED_HOSTS.
+[16/Jun/2018 08:25:13] "HEAD / HTTP/1.0" 400 58340
+Invalid HTTP_HOST header: 'iZuf6640ra8ceyqgctyqibZ:8000'. You may need to add 'izuf6640ra8ceyqgctyqibz' to ALLOWED_HOSTS.
+[16/Jun/2018 08:52:37] "HEAD / HTTP/1.0" 400 58339
+Invalid HTTP_HOST header: 'iZuf6640ra8ceyqgctyqibZ:8000'. You may need to add 'izuf6640ra8ceyqgctyqibz' to ALLOWED_HOSTS.
+[16/Jun/2018 08:56:07] "HEAD / HTTP/1.0" 400 58340
+Invalid HTTP_HOST header: 'iZuf6640ra8ceyqgctyqibZ:8000'. You may need to add 'izuf6640ra8ceyqgctyqibz' to ALLOWED_HOSTS.
+[16/Jun/2018 09:02:01] "HEAD / HTTP/1.0" 400 58340
+Invalid HTTP_HOST header: 'iZuf6640ra8ceyqgctyqibZ:8000'. You may need to add 'izuf6640ra8ceyqgctyqibz' to ALLOWED_HOSTS.
+[16/Jun/2018 09:18:23] "GET / HTTP/1.0" 400 58333
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/wsgiref/handlers.py", line 138, in run
+    self.finish_response()
+  File "/usr/local/lib/python3.6/wsgiref/handlers.py", line 180, in finish_response
+    self.write(data)
+  File "/usr/local/lib/python3.6/wsgiref/handlers.py", line 279, in write
+    self._write(data)
+  File "/usr/local/lib/python3.6/wsgiref/handlers.py", line 453, in _write
+    result = self.stdout.write(data)
+  File "/usr/local/lib/python3.6/socketserver.py", line 775, in write
+    self._sock.sendall(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+[16/Jun/2018 09:18:23] "GET / HTTP/1.0" 500 59
+----------------------------------------
+Exception happened during processing of request from ('220.142.73.197', 45640)
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/wsgiref/handlers.py", line 138, in run
+    self.finish_response()
+  File "/usr/local/lib/python3.6/wsgiref/handlers.py", line 180, in finish_response
+    self.write(data)
+  File "/usr/local/lib/python3.6/wsgiref/handlers.py", line 279, in write
+    self._write(data)
+  File "/usr/local/lib/python3.6/wsgiref/handlers.py", line 453, in _write
+    result = self.stdout.write(data)
+  File "/usr/local/lib/python3.6/socketserver.py", line 775, in write
+    self._sock.sendall(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/wsgiref/handlers.py", line 141, in run
+    self.handle_error()
+  File "/usr/local/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 86, in handle_error
+    super().handle_error()
+  File "/usr/local/lib/python3.6/wsgiref/handlers.py", line 368, in handle_error
+    self.finish_response()
+  File "/usr/local/lib/python3.6/wsgiref/handlers.py", line 180, in finish_response
+    self.write(data)
+  File "/usr/local/lib/python3.6/wsgiref/handlers.py", line 274, in write
+    self.send_headers()
+  File "/usr/local/lib/python3.6/wsgiref/handlers.py", line 331, in send_headers
+    if not self.origin_server or self.client_is_modern():
+  File "/usr/local/lib/python3.6/wsgiref/handlers.py", line 344, in client_is_modern
+    return self.environ['SERVER_PROTOCOL'].upper() != 'HTTP/0.9'
+TypeError: 'NoneType' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/socketserver.py", line 639, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/local/lib/python3.6/socketserver.py", line 361, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/local/lib/python3.6/socketserver.py", line 696, in __init__
+    self.handle()
+  File "/usr/local/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 154, in handle
+    handler.run(self.server.get_app())
+  File "/usr/local/lib/python3.6/wsgiref/handlers.py", line 144, in run
+    self.close()
+  File "/usr/local/lib/python3.6/wsgiref/simple_server.py", line 35, in close
+    self.status.split(' ',1)[0], self.bytes_sent
+AttributeError: 'NoneType' object has no attribute 'split'
+----------------------------------------
+Invalid HTTP_HOST header: '47.89.6.34:8000'. You may need to add '47.89.6.34' to ALLOWED_HOSTS.
+[16/Jun/2018 09:18:25] "GET / HTTP/1.1" 400 58542
+Invalid HTTP_HOST header: 'iZuf6640ra8ceyqgctyqibZ:8000'. You may need to add 'izuf6640ra8ceyqgctyqibz' to ALLOWED_HOSTS.
+[16/Jun/2018 09:22:46] "HEAD / HTTP/1.0" 400 58340
+Invalid HTTP_HOST header: 'iZuf6640ra8ceyqgctyqibZ:8000'. You may need to add 'izuf6640ra8ceyqgctyqibz' to ALLOWED_HOSTS.
+[16/Jun/2018 09:39:42] "HEAD / HTTP/1.0" 400 58338
+Invalid HTTP_HOST header: 'iZuf6640ra8ceyqgctyqibZ:8000'. You may need to add 'izuf6640ra8ceyqgctyqibz' to ALLOWED_HOSTS.
+[16/Jun/2018 09:42:44] "GET / HTTP/1.0" 400 58333
+Invalid HTTP_HOST header: 'iZuf6640ra8ceyqgctyqibZ:8000'. You may need to add 'izuf6640ra8ceyqgctyqibz' to ALLOWED_HOSTS.
+[16/Jun/2018 09:47:50] "HEAD / HTTP/1.0" 400 58341
+Invalid HTTP_HOST header: 'iZuf6640ra8ceyqgctyqibZ:8000'. You may need to add 'izuf6640ra8ceyqgctyqibz' to ALLOWED_HOSTS.
+[16/Jun/2018 10:07:28] "HEAD / HTTP/1.0" 400 58340
+Invalid HTTP_HOST header: 'www.baidu.com'. You may need to add 'www.baidu.com' to ALLOWED_HOSTS.
+[16/Jun/2018 10:20:37] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 400 59038
+Invalid HTTP_HOST header: 'iZuf6640ra8ceyqgctyqibZ:8000'. You may need to add 'izuf6640ra8ceyqgctyqibz' to ALLOWED_HOSTS.
+[16/Jun/2018 10:34:55] "HEAD / HTTP/1.0" 400 58339
+Invalid HTTP_HOST header: 'iZuf6640ra8ceyqgctyqibZ:8000'. You may need to add 'izuf6640ra8ceyqgctyqibz' to ALLOWED_HOSTS.
+[16/Jun/2018 10:35:00] "HEAD / HTTP/1.0" 400 58340
+Invalid HTTP_HOST header: 'iZuf6640ra8ceyqgctyqibZ:8000'. You may need to add 'izuf6640ra8ceyqgctyqibz' to ALLOWED_HOSTS.
+[16/Jun/2018 10:35:02] "HEAD / HTTP/1.0" 400 58339
+Invalid HTTP_HOST header: 'iZuf6640ra8ceyqgctyqibZ:8000'. You may need to add 'izuf6640ra8ceyqgctyqibz' to ALLOWED_HOSTS.
+[16/Jun/2018 11:19:24] "HEAD / HTTP/1.0" 400 58341
+Performing system checks...
+
+System check identified no issues (0 silenced).
+June 10, 2018 - 16:25:21
+Django version 2.0.4, using settings 'khalid.settings'
+Starting development server at http://0:8000/
+Quit the server with CONTROL-C.
+  File "manage.py", line 14
+    ) from exc
+         ^
+SyntaxError: invalid syntax
