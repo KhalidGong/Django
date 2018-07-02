@@ -1,16 +1,1 @@
-#!/bin/bash
-
-num3=$*
-num1=$1
-num2=$2
-sum=$(($num1+$num2))
-
-
-echo -e "\e[1;34mthe num3 is $num3\e[0m"
-echo -e "\e[1;32mthe num1 is $num1\e[0m"
-echo -e "\e[1;32mthe num2 is $num2\e[0m"
-echo -e "\e[1;32mthe sum is $sum\e[0m"
-
-echo -e centos+mysql+python3\(include solve the yum\'sdenpendent problem\)+django
-echo -e vim+vundle+emmet+nerdtree
-echo -e dump databases file into new database
+echo -e "\e[1;34mThe needed software for minimal installed centos7.4(In other version,you can ignore the software built-in):\n1.git,net-tools\n2.mysql\n3.python3(don't forget modify yum config_file，it use python2),django\n4.vim,vundle,emmet,nerdtree\n5.denyhosts\e[0m"
