@@ -25,7 +25,7 @@ SECRET_KEY = '#)3z))r4%2ws7&7)bm(-yr8cp)&2%&)y^g!0)++r7b)&184+71'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['106.15.179.96',]
+ALLOWED_HOSTS = ['108.61.187.174','inktrickle.com','www.inktrickle.com']
 
 
 # Application definition
@@ -80,7 +80,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'mydjango',
         'USER':'root',
-        'PASSWORD':'Qq111111',
+        'PASSWORD':']R7ext!XYEJ%g89F',
         'HOST':'localhost',
         'PORT':'3306',
     }

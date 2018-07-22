@@ -1,60 +1,48 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
         <meta charset="UTF-8">
-        <title>ZMZ</title>
+        <link rel="shortcut icon" href="{% static 'polls/images/logo.ico' %}">
+        <title>InkTrickle</title>
+        <link rel="stylesheet" type="text/css" href="{% static 'polls/style_home.css' %}">
 </head>
 <body>
       <!--top of the page -->
-      <div>
-              <a href=""> 
-                    <img src="http://106.15.179.96:8000/polls/media/back.jpg/" alt="error" >
+      <div class="top">
+              <a href="">
+                    <img src="{% static 'polls/images/logo.jpg' %}" alt="error" class="logo">
               </a>
-              <a href=""><b>登录</b></a>
+              <a href="" id="login"><b>登录</b></a>
               <form action="">
                       <input type="search" name="searchtext" placeholder="搜索标题和内容">
                       <input type="submit" value="搜索">
               </form>
       </div>
       <!--top of the page -->
-      <!--content_1 of the page -->
-      <div>
-              <div>
-                      <a href="">
-                              <img src="http://106.15.179.96:8000/polls/media/back.jpg/" alt="error">
-                      </a>
-              </div>
-              <div>
-                      <span>user</span><br />
-                      <span>introduction of the user</span>
-              </div>
-              <div>
-                      <p>content of article</p>
-              </div>
+      <!--content of the page -->
+      <div class="content">
+              <h1>title</h1>
+              <a href="">
+                      <img src="{% static 'polls/images/logo.jpg' %}" alt="error" class="avatar">
+              </a>
+              <a href="" id="user">user</a>
+              <p id="intro">introduction</p>
+              <p>content of the article</p>
+              <a href="" id="comment_a1">
+                      <img src="{% static 'polls/images/logo.jpg' %}" alt="error" class="avatar">
+              </a>
+              <form action="">
+                      <input type="text">
+                      <input type="submit" value="提交">
+              </form>
       </div>
-      <!--content_1 of the page -->
-      <!--content_2 of the page -->
-      <div>
-              <div>
-                      <a href="" width="" height="">
-                              <img src="" alt="error">
-                      </a>
-                      <input type="text" name="yourcomment">
-                      <input type="submit" value="评论">
-              </div>
-              <div>
-                      <a href="" width="" height="">
-                              <img src="" alt="error">
-                      </a>
-                      <p>content of history comment</p>
-              </div>
-      </div>
-      <!--content_2 of the page -->
+      <!--content of the page -->
       <!--bottom of the page -->
-      <div>
+      <div class="bottom">
               <footer>
-                      <p>Power by Khalid</p>
-                      <p>Contact me: khalidgong@outlook.com</p>
+                      <p>Powered by KhalidGong</p>
+                      <p>Contact Me: khalidgong@outlook.com</p>
               </footer>
       </div>
       <!--bottom of the page -->

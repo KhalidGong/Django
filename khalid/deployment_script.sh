@@ -1,1 +1,0 @@
-echo -e "\e[1;34mThe needed software for minimal installed centos7.4(In other version,you can ignore the software built-in):\n1.git,net-tools\n2.mysql\n3.python3(don't forget modify yum config_file，it use python2),django\n4.vim,vundle,emmet,nerdtree\n5.denyhosts\e[0m"

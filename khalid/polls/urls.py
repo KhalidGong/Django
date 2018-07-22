@@ -4,7 +4,7 @@ from . import views
 
 app_name='polls'
 urlpatterns=[
-    path('',views.IndexView.as_view(),name='index'),
+    path('index',views.IndexView.as_view(),name='index'),
     path('<int:pk>/',views.DetailView.as_view(),name='detail'),
     path('<int:pk>/results/',views.ResultsView.as_view(),name='results'),
     path('<int:question_id>/vote/',views.vote,name='vote'),
@@ -14,5 +14,6 @@ urlpatterns=[
     path('show4/',views.show4,name="show4"),
     path('show5/',views.show5,name="show5"),
     path('media/<media_id>/',views.media,name="media"),
-    path('home/',views.home,name="home"),
+#    path('home/',views.home,name="home"),
+    path('',views.home,name="home"),
 ]
