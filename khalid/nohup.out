@@ -12737,3 +12737,5 @@ Invalid HTTP_HOST header: 'localhost.localdomain'. You may need to add 'localhos
 [22/Jul/2018 21:46:31] "GET / HTTP/1.1" 200 1767
 [22/Jul/2018 21:53:13] "GET / HTTP/1.1" 200 1767
 [22/Jul/2018 21:53:13] "GET /static/polls/style_home.css HTTP/1.1" 304 0
+Invalid HTTP_HOST header: 'localhost.localdomain'. You may need to add 'localhost.localdomain' to ALLOWED_HOSTS.
+[22/Jul/2018 21:56:58] "GET /x HTTP/1.1" 400 58591
